@@ -11,6 +11,7 @@ Entwurf:
 Keywords:
 Kundenreise: Awareness
 ---
+
 # Checkliste
 - [x] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
 - [x] Brainstorming

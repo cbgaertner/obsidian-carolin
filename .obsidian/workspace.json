@@ -8,7 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "512823e5750e00f7",
+            "id": "082a62eb65c3a229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kalender/2026-01-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-27"
+            }
+          },
+          {
+            "id": "97d8ebb1f7e89036",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__dailyNote",
+              "state": {},
+              "icon": "package",
+              "title": "dailyNote"
+            }
+          },
+          {
+            "id": "fb56d37f1bce38e2",
             "type": "leaf",
             "state": {
               "type": "FileClassView__Blog-Artikel",
@@ -18,7 +42,31 @@
             }
           },
           {
-            "id": "082a62eb65c3a229",
+            "id": "ac2931dc6a6a13ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kalender/2026-01-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-27"
+            }
+          },
+          {
+            "id": "72fb4926e178d84e",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__DailyNote",
+              "state": {},
+              "icon": "package",
+              "title": "DailyNote"
+            }
+          },
+          {
+            "id": "36e1a25526397905",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +79,8 @@
               "title": "So kannst du eine aufregende Schatzsuche vorbereiten"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -63,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"icon\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,6 +243,16 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "5f8163d1feaceeb4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
         "currentTab": 3
@@ -211,15 +270,25 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "bases:Neue Base erstellen": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian-kanban:Erstelle ein neues Board": false
     }
   },
-  "active": "512823e5750e00f7",
+  "active": "36e1a25526397905",
   "lastOpenFiles": [
+    "Kalender/2026-01-27.md",
+    "Atlas/Maps/Tägliche Notizen.base",
+    "Atlas/Maps/Unbenannt.md",
+    "Xtra/Plugins/Metadata Menu/Classes/DailyNote.md",
+    "Xtra/Plugins/Metadata Menu/Classes/dailyNote.md",
+    "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
+    "Xtra/Plugins/Banners/IconTagDienstag.png",
+    "Xtra/Plugins/Banners",
+    "Xtra/Plugins/Banners/WochentagDienstag.png",
+    "Zusatz",
     "Einsatz – Ausgeklügelt/Blog/Artikel/Test-Beitrag.md",
     "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
     "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
-    "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
     "Xtra/Plugins/Meta Menu/Classes/Unbenannt.md",
     "Xtra/Plugins/Metadata Menu/Classes",
     "Xtra/Plugins/Metadata Menu",
@@ -230,9 +299,6 @@
     "Einsatz – Ausgeklügelt/Blog",
     "Einsatz – Ausgeklügelt/Interessensgebiete/Produkterstellung",
     "Einsatz – Ausgeklügelt/Notizen",
-    "Einsatz – Ausgeklügelt/Projekte",
-    "Einsatz – Ausgeklügelt/Interessensgebiete",
-    "Einsatz – Ausgeklügelt/Content",
     "Lebensbereiche/Ausgeklügelt/Unbenannt.md",
     "+/DataCore Test.md",
     "Vorlagen/Quelle Kurs.md",

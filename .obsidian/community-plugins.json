@@ -12,5 +12,18 @@
   "obsidian-auto-link-title",
   "obsidian-meta-bind-plugin",
   "dataview",
-  "metadata-menu"
+  "metadata-menu",
+  "obsidian-tasks-plugin",
+  "obsidian-kanban",
+  "obsidian-icon-folder",
+  "highlightr-plugin",
+  "periodic-notes",
+  "obsidian-hover-editor",
+  "obsidian-checklist-plugin",
+  "obsidian-banners",
+  "obsidian-languagetool-plugin",
+  "text-extractor",
+  "obsidian-tagfolder",
+  "obsidian-plugin-toc",
+  "colored-tags"
 ]

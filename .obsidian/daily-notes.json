@@ -1,3 +1,4 @@
 {
-  "folder": "Kalender"
+  "folder": "Kalender",
+  "template": "Xtra/Plugins/Metadata Menu/Classes/DailyNote"
 }

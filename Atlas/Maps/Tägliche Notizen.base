@@ -1,0 +1,17 @@
+formulas:
+  CoverBild: banner.replace(/^!\[\[(.*?)\]\]/, "$1")
+views:
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - fileClass == "DailyNote"
+  - type: cards
+    name: Sicht
+    filters:
+      and:
+        - fileClass == "DailyNote"
+    order:
+      - file.name
+    image: formula.CoverBild
+    imageAspectRatio: 0.6
