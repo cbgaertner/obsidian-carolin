@@ -1,0 +1,11 @@
+```datacorejsx
+return function View() {
+	const pages = dc.useQuery("@page");
+	return <dc.List type="block" rows={pages} renderer={dc.embed} />;
+}
+```
+
+
+
+
+

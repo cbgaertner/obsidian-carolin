@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "8a23aee50aa73db1",
+    "type": "split",
+    "children": [
+      {
+        "id": "13f81c5da1a75c71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "512823e5750e00f7",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Blog-Artikel",
+              "state": {},
+              "icon": "package",
+              "title": "Blog-Artikel"
+            }
+          },
+          {
+            "id": "082a62eb65c3a229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "So kannst du eine aufregende Schatzsuche vorbereiten"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66f790c8d01937e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7b752a3682a403e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71cddf510a59debb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "caa94b614ab8e5c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "e5b08fa6f5c043ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          },
+          {
+            "id": "95b8e38bda0bbad7",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "09d5c24bdfcf29b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ba6296ff90e5b82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "431695f46e87cfe9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vorlagen/Quelle Kurs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise auf Quelle Kurs"
+            }
+          },
+          {
+            "id": "fdae66d28a934a1d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vorlagen/Quelle Kurs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links von Quelle Kurs öffnen"
+            }
+          },
+          {
+            "id": "fb42b4e343efb968",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7238dc64f27f84ee",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "21199813f1e2c916",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung von Blog-Artikel"
+            }
+          },
+          {
+            "id": "5a3b3836a1639c5b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false,
+      "callout-manager:Insert Callout": false
+    }
+  },
+  "active": "512823e5750e00f7",
+  "lastOpenFiles": [
+    "Einsatz – Ausgeklügelt/Blog/Artikel/Test-Beitrag.md",
+    "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
+    "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
+    "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
+    "Xtra/Plugins/Meta Menu/Classes/Unbenannt.md",
+    "Xtra/Plugins/Metadata Menu/Classes",
+    "Xtra/Plugins/Metadata Menu",
+    "Xtra/Vorlagen/Vorlage, Blog-Artikel.md",
+    "Einsatz – Ausgeklügelt/Blog/Unbenannt.md",
+    "Einsatz – Ausgeklügelt/Blog/Artikel",
+    "Einsatz – Hobbies",
+    "Einsatz – Ausgeklügelt/Blog",
+    "Einsatz – Ausgeklügelt/Interessensgebiete/Produkterstellung",
+    "Einsatz – Ausgeklügelt/Notizen",
+    "Einsatz – Ausgeklügelt/Projekte",
+    "Einsatz – Ausgeklügelt/Interessensgebiete",
+    "Einsatz – Ausgeklügelt/Content",
+    "Lebensbereiche/Ausgeklügelt/Unbenannt.md",
+    "+/DataCore Test.md",
+    "Vorlagen/Quelle Kurs.md",
+    "Canvas/Unbenannt.canvas"
+  ]
+}
