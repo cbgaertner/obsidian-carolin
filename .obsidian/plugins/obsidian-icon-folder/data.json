@@ -34,10 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Kalender/2026-01-27.md": {
-    "iconName": "FasCalendarDay",
-    "iconColor": "#fcc418"
-  },
   "Xtra/Plugins/Metadata Menu/Classes/DailyNote.md": {
     "iconName": "FasCalendarDay",
     "iconColor": "#ffd814"

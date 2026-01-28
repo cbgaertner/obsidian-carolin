@@ -20,10 +20,10 @@
   "periodic-notes",
   "obsidian-hover-editor",
   "obsidian-checklist-plugin",
-  "obsidian-banners",
   "obsidian-languagetool-plugin",
   "text-extractor",
   "obsidian-tagfolder",
   "obsidian-plugin-toc",
-  "colored-tags"
+  "colored-tags",
+  "pretty-properties"
 ]
