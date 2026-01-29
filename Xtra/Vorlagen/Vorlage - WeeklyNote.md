@@ -1,5 +1,6 @@
 ---
 fileClass: WeeklyNote
+tags: Periodic/Weekly
 Von: <% tp.user.periodicNotes.getStartOf(tp.file.title, "week") %>
 Bis: <% tp.user.periodicNotes.getEndOf(tp.file.title, "week") %>
 Tage: <% tp.user.periodicNotes.getNoteList(tp.file.title, "day", "week") %>

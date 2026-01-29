@@ -1,5 +1,6 @@
 ---
 fileClass: DailyNote
+tags: Periodic/Daily
 Datum: <% tp.user.periodicNotes.getDay(tp.file.title, "day") %>
 Wochentag: <% tp.user.periodicNotes.getWeekDay(tp.file.title, "day") %>
 KW: <% tp.user.periodicNotes.getLink(tp.file.title, "week", "day") %>

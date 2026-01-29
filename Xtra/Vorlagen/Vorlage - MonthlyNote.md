@@ -1,5 +1,6 @@
 ---
 fileClass: MonthlyNote
+tags: Periodic/Monthly
 banner: <% tp.user.periodicNotes.getBannerLink(tp.file.title, "month") %>
 icon: <% tp.user.periodicNotes.getIconLink(tp.file.title, "month") %>
 Von: <% tp.user.periodicNotes.getStartOf(tp.file.title, "month") %>
