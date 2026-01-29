@@ -22,23 +22,23 @@
   "enable_file_templates": true,
   "file_templates": [
     {
-      "regex": "\\d{4}-\\d{2}-\\d{2}",
+      "regex": "^\\d{4}-\\d{2}-\\d{2}$",
       "template": "Xtra/Vorlagen/Vorlage - DailyNote.md"
     },
     {
-      "regex": "\\d{4}-KW\\d{2}",
+      "regex": "^\\d{4}-KW\\d{2}$",
       "template": "Xtra/Vorlagen/Vorlage - WeeklyNote.md"
     },
     {
-      "regex": "\\d{4}-\\d{2} (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)",
+      "regex": "^\\d{4}-\\d{2} (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)$",
       "template": "Xtra/Vorlagen/Vorlage - MonthlyNote.md"
     },
     {
-      "regex": "\\d{4}-Q\\d",
+      "regex": "^\\d{4}-Q\\d$",
       "template": "Xtra/Vorlagen/Vorlage - QuarterlyNote.md"
     },
     {
-      "regex": "\\d{4}",
+      "regex": "^\\d{4}$",
       "template": "Xtra/Vorlagen/Vorlage - YearlyNote.md"
     }
   ],
