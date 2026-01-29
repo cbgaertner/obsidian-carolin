@@ -1,0 +1,118 @@
+{
+  "styles": {
+    "Atlas": {
+      "backgroundColor": "#d3a7ab",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Einsatz – Ausgeklügelt": {
+      "backgroundColor": "#df6868",
+      "textColor": "#ffffff",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Einsatz": {
+      "backgroundColor": "#e1b9a8",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Einsatz/Ausgeklügelt": {
+      "backgroundColor": "#e5c48b",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Einsatz/Familie": {
+      "backgroundColor": "#c4d1ad",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Einsatz/Hobbies": {
+      "backgroundColor": "#afc0b5",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Journal": {
+      "backgroundColor": "#9cb6bf",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Xtra": {
+      "backgroundColor": "#a0a7ca",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "+": {
+      "backgroundColor": "#c1b4c5",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    }
+  },
+  "presets": {
+    "Folder 1": {
+      "backgroundColor": "#c1b4c5",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 2": {
+      "backgroundColor": "#d3a7ab",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 3": {
+      "backgroundColor": "#e1b9a8",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 4": {
+      "backgroundColor": "#e5c48b",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 5": {
+      "backgroundColor": "#c4d1ad",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 6": {
+      "backgroundColor": "#afc0b5",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 7": {
+      "backgroundColor": "#9cb6bf",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Folder 8": {
+      "backgroundColor": "#a0a7ca",
+      "textColor": "#39364e",
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    }
+  },
+  "presetOrder": [
+    "Folder 1",
+    "Folder 2",
+    "Folder 3",
+    "Folder 4",
+    "Folder 5",
+    "Folder 6",
+    "Folder 7",
+    "Folder 8"
+  ]
+}

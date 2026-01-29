@@ -1,0 +1,54 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Xtra/Vorlagen",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Xtra/Scripts",
+  "enable_folder_templates": false,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": true,
+  "file_templates": [
+    {
+      "regex": "\\d{4}-\\d{2}-\\d{2}",
+      "template": "Xtra/Vorlagen/Vorlage - DailyNote.md"
+    },
+    {
+      "regex": "\\d{4}-KW\\d{2}",
+      "template": "Xtra/Vorlagen/Vorlage - WeeklyNote.md"
+    },
+    {
+      "regex": "\\d{4}-\\d{2} (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)",
+      "template": "Xtra/Vorlagen/Vorlage - MonthlyNote.md"
+    },
+    {
+      "regex": "\\d{4}-Q\\d",
+      "template": "Xtra/Vorlagen/Vorlage - QuarterlyNote.md"
+    },
+    {
+      "regex": "\\d{4}",
+      "template": "Xtra/Vorlagen/Vorlage - YearlyNote.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "Xtra/Vorlagen/TestUserScript.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

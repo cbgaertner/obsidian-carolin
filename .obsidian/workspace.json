@@ -4,83 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "13f81c5da1a75c71",
+        "id": "716bc25b6cb054cc",
         "type": "tabs",
         "children": [
           {
-            "id": "082a62eb65c3a229",
+            "id": "51c64c20fd5e66c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kalender/2026-01-27.md",
+                "file": "Journal/2026-KW05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-27"
-            }
-          },
-          {
-            "id": "97d8ebb1f7e89036",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__dailyNote",
-              "state": {},
-              "icon": "package",
-              "title": "dailyNote"
-            }
-          },
-          {
-            "id": "fb56d37f1bce38e2",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__Blog-Artikel",
-              "state": {},
-              "icon": "package",
-              "title": "Blog-Artikel"
-            }
-          },
-          {
-            "id": "ac2931dc6a6a13ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kalender/2026-01-27.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-27"
-            }
-          },
-          {
-            "id": "72fb4926e178d84e",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__DailyNote",
-              "state": {},
-              "icon": "package",
-              "title": "DailyNote"
-            }
-          },
-          {
-            "id": "36e1a25526397905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "So kannst du eine aufregende Schatzsuche vorbereiten"
+              "title": "2026-KW05"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"icon\"]",
+                "query": "tag:Tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
+                "file": "Kalender/2026-01-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Blog-Artikel"
+              "title": "Gliederung von 2026-01-28"
             }
           },
           {
@@ -255,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -271,37 +212,60 @@
       "command-palette:Befehlspalette öffnen": false,
       "bases:Neue Base erstellen": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-kanban:Erstelle ein neues Board": false
+      "obsidian-kanban:Erstelle ein neues Board": false,
+      "templater-obsidian:Templater": false,
+      "iconic:Regelbuch öffnen": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "36e1a25526397905",
+  "active": "51c64c20fd5e66c6",
   "lastOpenFiles": [
-    "Kalender/2026-01-27.md",
-    "Atlas/Maps/Tägliche Notizen.base",
-    "Atlas/Maps/Unbenannt.md",
-    "Xtra/Plugins/Metadata Menu/Classes/DailyNote.md",
-    "Xtra/Plugins/Metadata Menu/Classes/dailyNote.md",
-    "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md",
-    "Xtra/Plugins/Banners/IconTagDienstag.png",
-    "Xtra/Plugins/Banners",
-    "Xtra/Plugins/Banners/WochentagDienstag.png",
-    "Zusatz",
-    "Einsatz – Ausgeklügelt/Blog/Artikel/Test-Beitrag.md",
-    "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
-    "Xtra/Plugins/Metadata Menu/Classes/Blog-Artikel.md",
-    "Xtra/Plugins/Meta Menu/Classes/Unbenannt.md",
-    "Xtra/Plugins/Metadata Menu/Classes",
-    "Xtra/Plugins/Metadata Menu",
-    "Xtra/Vorlagen/Vorlage, Blog-Artikel.md",
-    "Einsatz – Ausgeklügelt/Blog/Unbenannt.md",
-    "Einsatz – Ausgeklügelt/Blog/Artikel",
-    "Einsatz – Hobbies",
-    "Einsatz – Ausgeklügelt/Blog",
-    "Einsatz – Ausgeklügelt/Interessensgebiete/Produkterstellung",
-    "Einsatz – Ausgeklügelt/Notizen",
-    "Lebensbereiche/Ausgeklügelt/Unbenannt.md",
-    "+/DataCore Test.md",
-    "Vorlagen/Quelle Kurs.md",
+    "Journal/2026-01 Januar.md",
+    "Journal/2026-01-29.md",
+    "Journal/2026-KW05.md",
+    "Journal/2026.md",
+    "Xtra/Vorlagen/Vorlage - YearlyNote.md",
+    "Journal/2026-Q1.md",
+    "Xtra/Vorlagen/Vorlage - QuarterlyNote.md",
+    "Xtra/Vorlagen/Vorlage - DailyNote.md",
+    "Xtra/Vorlagen/TestUserScript.md",
+    "Journal/Januar 2026.md",
+    "Journal/Q1 2026.md",
+    "Journal/Unbenannt.md",
+    "Xtra/Classes/YearlyNote.md",
+    "Journal/KW 05 - 2026.md",
+    "Xtra/Icons/IconJahr.png",
+    "Xtra/Icons/IconQuartal4.png",
+    "Xtra/Icons/IconQuartal3.png",
+    "Xtra/Icons/IconQuartal2.png",
+    "Xtra/Icons/IconQuartal1.png",
+    "Xtra/Vorlagen/Vorlage - WeeklyNote.md",
+    "Journal/Februar 2026.md",
+    "Xtra/Vorlagen/Vorlage - MonthlyNote.md",
+    "Journal/01.02.2026.md",
+    "Xtra/Classes/QuarterlyNote.md",
+    "Journal/29.01.2026.md",
+    "Journal/27.01.2026.md",
+    "Journal/28.01.2026.md",
+    "Journal/02.02.2026.md",
+    "Xtra/Classes/MonthlyNote.md",
+    "Xtra/Vorlagen/Untitled.md",
+    "Xtra/Scripts/periodicNotes.js.bak",
+    "Xtra/Scripts/periodicNotes.js",
+    "Xtra/Scripts/getPeriodicNotesList.js.bak",
+    "Xtra/Scripts/getPeriodicNotesList.js",
+    "Xtra/Scripts/PeriodicNotes.js",
+    "Xtra/Classes/BlogArtikel.md",
+    "Einsatz",
+    "Xtra/Icons/IconMonat10.png",
+    "Xtra/Icons/IconMonat11.png",
+    "Xtra/Icons/IconMonat03.png",
+    "Xtra/Icons/IconMonat05.png",
+    "Xtra/Icons/IconMonat06.png",
+    "Xtra/Scripts/getDailyNotesList.js.bak",
+    "Xtra/Scripts/getDailyNotesList.js",
+    "Xtra/Scripts/getDaysList.js.bak",
+    "Xtra/Scripts/getDaysList.js",
     "Canvas/Unbenannt.canvas"
   ]
 }

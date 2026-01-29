@@ -15,7 +15,6 @@
   "metadata-menu",
   "obsidian-tasks-plugin",
   "obsidian-kanban",
-  "obsidian-icon-folder",
   "highlightr-plugin",
   "periodic-notes",
   "obsidian-hover-editor",
@@ -24,6 +23,8 @@
   "text-extractor",
   "obsidian-tagfolder",
   "obsidian-plugin-toc",
-  "colored-tags",
-  "pretty-properties"
+  "pretty-properties",
+  "templater-obsidian",
+  "iconic",
+  "color-folders-files"
 ]

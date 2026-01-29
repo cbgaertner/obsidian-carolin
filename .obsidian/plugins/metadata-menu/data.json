@@ -3,7 +3,7 @@
   "fileClassQueries": [],
   "displayFieldsInContextMenu": true,
   "globallyIgnoredFields": [],
-  "classFilesPath": "Xtra/Plugins/Metadata Menu/Classes/",
+  "classFilesPath": "Xtra/Classes/",
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
   "settingsVersion": "5.0",

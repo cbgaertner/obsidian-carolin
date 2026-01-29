@@ -1,24 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-01-27",
-      "path": "Kalender/2026-01-27.md"
+      "basename": "2026-KW05",
+      "path": "Journal/2026-KW05.md"
+    },
+    {
+      "basename": "2026-01 Januar",
+      "path": "Journal/2026-01 Januar.md"
+    },
+    {
+      "basename": "2026-01-29",
+      "path": "Journal/2026-01-29.md"
+    },
+    {
+      "basename": "2026",
+      "path": "Journal/2026.md"
+    },
+    {
+      "basename": "Vorlage - YearlyNote",
+      "path": "Xtra/Vorlagen/Vorlage - YearlyNote.md"
+    },
+    {
+      "basename": "2026-Q1",
+      "path": "Journal/2026-Q1.md"
+    },
+    {
+      "basename": "Vorlage - QuarterlyNote",
+      "path": "Xtra/Vorlagen/Vorlage - QuarterlyNote.md"
+    },
+    {
+      "basename": "Vorlage - DailyNote",
+      "path": "Xtra/Vorlagen/Vorlage - DailyNote.md"
+    },
+    {
+      "basename": "TestUserScript",
+      "path": "Xtra/Vorlagen/TestUserScript.md"
+    },
+    {
+      "basename": "IconQuartal1",
+      "path": "Xtra/Icons/IconQuartal1.png"
+    },
+    {
+      "basename": "Vorlage - WeeklyNote",
+      "path": "Xtra/Vorlagen/Vorlage - WeeklyNote.md"
+    },
+    {
+      "basename": "Vorlage - MonthlyNote",
+      "path": "Xtra/Vorlagen/Vorlage - MonthlyNote.md"
+    },
+    {
+      "basename": "MonthlyNote",
+      "path": "Xtra/Classes/MonthlyNote.md"
+    },
+    {
+      "basename": "BlogArtikel",
+      "path": "Xtra/Classes/BlogArtikel.md"
+    },
+    {
+      "basename": "WeeklyNote",
+      "path": "Xtra/Classes/WeeklyNote.md"
+    },
+    {
+      "basename": "PeriodicNote",
+      "path": "Xtra/Classes/PeriodicNote.md"
+    },
+    {
+      "basename": "So kannst du eine aufregende Schatzsuche vorbereiten",
+      "path": "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "Xtra/Classes/DailyNote.md"
+    },
+    {
+      "basename": "IconWochentagSonntag",
+      "path": "Xtra/Icons/IconWochentagSonntag.png"
+    },
+    {
+      "basename": "IconWochentagDienstag",
+      "path": "Xtra/Icons/IconWochentagDienstag.png"
+    },
+    {
+      "basename": "Vorlage - Blog-Artikel",
+      "path": "Xtra/Vorlagen/Vorlage - Blog-Artikel.md"
+    },
+    {
+      "basename": "IconWoche",
+      "path": "Xtra/Icons/IconWoche.png"
     },
     {
       "basename": "Tägliche Notizen",
       "path": "Atlas/Maps/Tägliche Notizen.base"
-    },
-    {
-      "basename": "So kannst du eine aufregende Schatzsuche vorbereiten",
-      "path": "Einsatz – Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md"
-    },
-    {
-      "basename": "WochentagDienstag",
-      "path": "Xtra/Plugins/Banners/WochentagDienstag.png"
-    },
-    {
-      "basename": "Vorlage, Blog-Artikel",
-      "path": "Xtra/Vorlagen/Vorlage, Blog-Artikel.md"
     }
   ],
   "omittedPaths": [],

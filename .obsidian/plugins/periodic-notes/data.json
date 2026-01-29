@@ -3,29 +3,33 @@
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "folder": "Kalender",
-    "template": "Xtra/Plugins/Metadata Menu/Classes/DailyNote",
-    "enabled": true
+    "folder": "Journal",
+    "template": "",
+    "enabled": true,
+    "format": "YYYY-MM-DD"
   },
   "weekly": {
-    "format": "",
+    "format": "GGGG-[KW]WW",
     "template": "",
-    "folder": "",
-    "enabled": false
+    "folder": "Journal",
+    "enabled": true
   },
   "monthly": {
-    "format": "",
+    "format": "YYYY-MM MMMM",
     "template": "",
-    "folder": ""
+    "folder": "Journal",
+    "enabled": true
   },
   "quarterly": {
-    "format": "",
+    "format": "YYYY-[Q]Q",
     "template": "",
-    "folder": ""
+    "folder": "Journal",
+    "enabled": true
   },
   "yearly": {
-    "format": "",
+    "format": "YYYY",
     "template": "",
-    "folder": ""
+    "folder": "Journal",
+    "enabled": true
   }
 }

@@ -1,7 +1,40 @@
 {
-  "hiddenProperties": [],
+  "hiddenProperties": [
+    "fileclass",
+    "icon",
+    "banner"
+  ],
   "propertyPillColors": {},
-  "propertyLongtextColors": {},
+  "propertyLongtextColors": {
+    "Dienstag": {
+      "pillColor": "blue",
+      "textColor": "default"
+    },
+    "Montag": {
+      "pillColor": "purple",
+      "textColor": "default"
+    },
+    "Mittwoch": {
+      "pillColor": "cyan",
+      "textColor": "default"
+    },
+    "Donnerstag": {
+      "pillColor": "green",
+      "textColor": "default"
+    },
+    "Freitag": {
+      "pillColor": "yellow",
+      "textColor": "default"
+    },
+    "Samstag": {
+      "pillColor": "orange",
+      "textColor": "default"
+    },
+    "Sonntag": {
+      "pillColor": "red",
+      "textColor": "default"
+    }
+  },
   "tagColors": {},
   "enableBanner": true,
   "enableIcon": true,
@@ -10,7 +43,7 @@
   "iconProperty": "icon",
   "coverProperty": "cover",
   "extraCoverProperties": [],
-  "bannerHeight": 150,
+  "bannerHeight": 200,
   "bannerHeightMobile": 100,
   "bannerHeightPopover": 100,
   "bannerMargin": -20,
@@ -35,12 +68,12 @@
   "uncompletedTasksStatuses": [
     " "
   ],
-  "bannersFolder": "",
+  "bannersFolder": "Xtra/Banners",
   "coversFolder": "",
   "showColorSettings": false,
-  "showTextColorSettings": false,
+  "showTextColorSettings": true,
   "showHiddenSettings": false,
-  "iconsFolder": "",
+  "iconsFolder": "Xtra/Icons",
   "iconSize": 70,
   "iconTopMargin": 70,
   "iconTopMarginMobile": 44,
@@ -62,7 +95,7 @@
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "BANNERS",
+  "settingsTab": "PROPERTY_SETTINGS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",
@@ -77,7 +110,7 @@
   "completedTNAndCheckboxTasksCount": "tn_and_checkbox_tasks_completed",
   "uncompletedTNAndCheckboxTasksCount": "tn_and_checkbox_tasks_uncompleted",
   "enableColoredProperties": true,
-  "enableColoredInlineTags": false,
+  "enableColoredInlineTags": true,
   "nonLatinTagsSupport": false,
   "enableColorButton": true,
   "propertySearchKey": "Ctrl",
@@ -86,31 +119,31 @@
   "iconSizePopover": 50,
   "hidePropertiesInPropTab": false,
   "autoTasksCount": true,
-  "enableColoredTagsInTagPane": false,
+  "enableColoredTagsInTagPane": true,
   "mathProperties": [],
   "enableMath": false,
   "dataVersion": 0,
   "dateColors": {
     "past": {
-      "pillColor": "default",
+      "pillColor": "red",
       "textColor": "default"
     },
     "present": {
-      "pillColor": "default",
+      "pillColor": "cyan",
       "textColor": "default"
     },
     "future": {
-      "pillColor": "default",
+      "pillColor": "purple",
       "textColor": "default"
     }
   },
   "coverPosition": "left",
   "enableBannersInPopover": true,
-  "enableIconsInPopover": false,
+  "enableIconsInPopover": true,
   "enableCoversInPopover": false,
   "hideAllEmptyProperties": false,
   "hiddenWhenEmptyProperties": [],
-  "iconInTitle": false,
+  "iconInTitle": true,
   "titleIconSize": 30,
   "titleTextIconMatchTitleSize": true,
   "imageLinkFormat": "link",

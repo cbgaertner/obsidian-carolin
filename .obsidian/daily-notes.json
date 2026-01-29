@@ -1,4 +1,5 @@
 {
   "folder": "Kalender",
-  "template": "Xtra/Plugins/Metadata Menu/Classes/DailyNote"
+  "template": "Xtra/Plugins/Metadata Menu/Classes/DailyNote",
+  "format": "DD.MM.YYYY"
 }

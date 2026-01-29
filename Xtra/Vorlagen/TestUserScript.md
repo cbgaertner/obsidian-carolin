@@ -1,0 +1,1 @@
+<% tp.user.periodicNotes.getDay(tp.file.title, "day") %>
