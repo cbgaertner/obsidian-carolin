@@ -13,15 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notizen/Obsidian installieren.md",
+                "file": "Journal/2026-01-30.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian installieren"
+              "title": "2026-01-30"
+            }
+          },
+          {
+            "id": "d40c0a0861a95b76",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "+/Test-Base.base",
+                "viewName": "Tabelle"
+              },
+              "icon": "lucide-table",
+              "title": "Test-Base"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,8 +112,7 @@
               "title": "2026-01-30"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vorlagen/Quelle Kurs.md",
+                "file": "+/Test-Base.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von Quelle Kurs öffnen"
+              "title": "Ausgehende Links von Test-Base öffnen"
             }
           },
           {
@@ -181,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2026.md",
+                "file": "+/Test-Base.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 2026"
+              "title": "Gliederung von Test-Base"
             }
           },
           {
@@ -209,9 +222,21 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "ca4c1b6726f3eaba",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "+/Test-Base.base"
+              },
+              "icon": "lucide-info",
+              "title": "Dateieigenschaften von Test-Base"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -232,14 +257,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a4d56a20e3004b7a",
+  "active": "d40c0a0861a95b76",
   "lastOpenFiles": [
-    "+/Test-Kanban.md",
-    "Atlas/Notizen/Obsidian installieren.md",
-    "Atlas/Notizen",
-    "+/Test-Base.base",
     "Journal/2026-01-30.md",
     "Journal/2026-KW05.md",
+    "+/10er-Karte 2026-01-30.md",
+    "+/Reiten.md",
+    "+/Test-Base.base",
+    "Atlas/Notizen/Alt-Codes für Sonderzeichen.md",
+    "Atlas/Notizen/Obsidian installieren.md",
+    "+/Test-Kanban.md",
+    "Atlas/Notizen",
     "Xtra/Vorlagen/Vorlage - YearlyNote.md",
     "Journal/2026.md",
     "Xtra/Vorlagen/Vorlage - QuarterlyNote.md",
@@ -258,10 +286,6 @@
     "Journal/2026-01-29.md",
     "Xtra/Classes/MonthlyNote.md",
     "Journal/2026-01-28.md",
-    "Xtra/Classes/WeeklyNote.md",
-    "Journal/2026-01-31.md",
-    "Xtra/Vorlagen/TestUserScript.md",
-    "Journal/2026-01-27.md",
     "Journal/2026/KW",
     "Journal/2025/09 September",
     "Journal/2026/01 Januar",

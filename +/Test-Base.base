@@ -1,5 +1,15 @@
+formulas:
+  Unbenannt: ""
 views:
   - type: table
     name: Tabelle
+    filters:
+      or:
+        - "!reitenLukas.isEmpty()"
+        - "!reitenRosalie.isEmpty()"
+    order:
+      - file.name
+      - reitenLukas
+      - reitenRosalie
   - type: table
     name: Sicht

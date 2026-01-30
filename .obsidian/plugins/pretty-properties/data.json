@@ -2,7 +2,9 @@
   "hiddenProperties": [
     "fileclass",
     "icon",
-    "banner"
+    "banner",
+    "reitenlukas",
+    "reitenrosalie"
   ],
   "propertyPillColors": {},
   "propertyLongtextColors": {
