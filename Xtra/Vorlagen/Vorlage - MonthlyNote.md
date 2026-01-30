@@ -1,13 +1,50 @@
+<%*
+const monthString = tp.file.title;
+const date = moment(monthString, "YYYY-MM MMMM");
+const monthStringLong = date.format("MMMM YYYY");
+const monthStringNumber = date.format("MM");
+const monthStringName = date.format("MMMM");
+const dateStart = date.clone().startOf("month");
+const dateStringStart = dateStart.format("YYYY-MM-DD");
+const dateEnd = date.clone().endOf("month");
+const dateStringEnd = dateEnd.format("YYYY-MM-DD");
+const monthPrevious = date.clone().subtract(1, 'months');
+const monthStringPrevious = monthPrevious.format("YYYY-MM MMMM");
+const monthNext = date.clone().add(1, 'months');
+const monthStringNext = monthNext.format("YYYY-MM MMMM");
+const quarterString = date.format("YYYY-[Q]Q");
+const yearString = date.format("YYYY");
+
+let dayList = "[";
+let currentDay = dateStart.clone();
+while(currentDay <= dateEnd) {
+	if (dayList.length > 1) dayList += ", ";
+	dayList += "'[[" + currentDay.format("YYYY-MM-DD") + "]]'";
+	currentDay.add(1, "days");
+}
+dayList += "]";
+
+let weekList = "[";
+let currentWeek = dateStart.clone();
+while(currentWeek <= dateEnd) {
+	if (weekList.length > 1) weekList += ", ";
+	weekList += "'[[" + currentWeek.format("GGGG-[KW]WW") + "]]'";
+	currentWeek.add(1, "weeks");
+}
+weekList += "]";
+-%>
 ---
 fileClass: MonthlyNote
 tags: Periodic/Monthly
-banner: <% tp.user.periodicNotes.getBannerLink(tp.file.title, "month") %>
-icon: <% tp.user.periodicNotes.getIconLink(tp.file.title, "month") %>
-Von: <% tp.user.periodicNotes.getStartOf(tp.file.title, "month") %>
-Bis: <% tp.user.periodicNotes.getEndOf(tp.file.title, "month") %>
-Monat: <%tp.user.periodicNotes.getMonthName(tp.file.title, "month") %>
-Tage: <% tp.user.periodicNotes.getNoteList(tp.file.title, "day", "month") %>
-KWs: <% tp.user.periodicNotes.getNoteList(tp.file.title, "week", "month") %>
-Quartal: <% tp.user.periodicNotes.getLink(tp.file.title, "quarter", "month") %>
-Jahr: <% tp.user.periodicNotes.getLink(tp.file.title, "year", "month") %>
+banner: '[[BannerMonat<% monthStringNumber %>.jpg]]'
+icon: '[[IconMonat<% monthStringNumber %>.png]]'
+Von: '[[<% dateStringStart %>]]'
+Bis: '[[<% dateStringEnd %>]]'
+Monat: <% monthStringName %>
+Tage: <% dayList %>
+KWs: <% weekList %>
+Quartal: '[[<% quarterString %>]]'
+Jahr: '[[<% yearString %>]]'
 ---
+# <% monthStringLong %>
+« [[<% monthStringPrevious %>|Vorheriger Monat]] | [[<% monthStringNext %>|Nächster Monat]] »

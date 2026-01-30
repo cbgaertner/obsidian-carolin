@@ -2,9 +2,10 @@
   "styles": {
     "Atlas": {
       "backgroundColor": "#d3a7ab",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Einsatz – Ausgeklügelt": {
       "backgroundColor": "#df6868",
@@ -14,21 +15,24 @@
     },
     "Einsatz": {
       "backgroundColor": "#e1b9a8",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Einsatz/Ausgeklügelt": {
       "backgroundColor": "#e5c48b",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Einsatz/Familie": {
       "backgroundColor": "#c4d1ad",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Einsatz/Hobbies": {
       "backgroundColor": "#afc0b5",
@@ -38,53 +42,61 @@
     },
     "Journal": {
       "backgroundColor": "#9cb6bf",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Xtra": {
       "backgroundColor": "#a0a7ca",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "+": {
       "backgroundColor": "#c1b4c5",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     }
   },
   "presets": {
     "Folder 1": {
       "backgroundColor": "#c1b4c5",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 2": {
       "backgroundColor": "#d3a7ab",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 3": {
       "backgroundColor": "#e1b9a8",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 4": {
       "backgroundColor": "#e5c48b",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 5": {
       "backgroundColor": "#c4d1ad",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 6": {
       "backgroundColor": "#afc0b5",
@@ -94,15 +106,17 @@
     },
     "Folder 7": {
       "backgroundColor": "#9cb6bf",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     },
     "Folder 8": {
       "backgroundColor": "#a0a7ca",
-      "textColor": "#39364e",
+      "textColor": "#1d1b27",
       "applyToSubfolders": true,
-      "applyToFiles": true
+      "applyToFiles": true,
+      "opacity": 0.7
     }
   },
   "presetOrder": [

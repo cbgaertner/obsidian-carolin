@@ -1,1 +1,1 @@
-<% tp.user.periodicNotes.getDay(tp.file.title, "day") %>
+<% tp.user.periodicNotes.getLinkToNext(tp.file.title, "week") %>

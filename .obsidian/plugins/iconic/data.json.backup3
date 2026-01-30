@@ -48,7 +48,7 @@
         {
           "source": "name",
           "operator": "matches",
-          "value": "KW \\d{2} - \\d{4}"
+          "value": "\\d{4}-KW\\d{2}"
         }
       ],
       "enabled": true,
@@ -63,7 +63,7 @@
         {
           "source": "name",
           "operator": "matches",
-          "value": "\\d{2}\\.\\d{2}\\.\\d{4}"
+          "value": "\\d{4}-\\d{2}-\\d{2}"
         }
       ],
       "enabled": true,
@@ -78,7 +78,7 @@
         {
           "source": "name",
           "operator": "matches",
-          "value": "(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember) \\d{4}"
+          "value": "\\d{4}-\\d{2} (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)"
         }
       ],
       "enabled": true,
@@ -93,7 +93,7 @@
         {
           "source": "name",
           "operator": "matches",
-          "value": "Q\\d \\d{4}"
+          "value": "\\d{4}-Q\\d"
         }
       ],
       "enabled": true,
