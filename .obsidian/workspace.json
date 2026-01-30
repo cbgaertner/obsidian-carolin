@@ -15,7 +15,7 @@
               "state": {
                 "file": "Atlas/Notizen/Obsidian installieren.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Obsidian installieren"
