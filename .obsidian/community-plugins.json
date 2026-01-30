@@ -27,5 +27,6 @@
   "templater-obsidian",
   "iconic",
   "color-folders-files",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "kanban-status-updater"
 ]

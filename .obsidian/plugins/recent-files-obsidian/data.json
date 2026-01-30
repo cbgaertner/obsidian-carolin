@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2026",
-      "path": "Journal/2026.md"
+      "basename": "Test-Kanban",
+      "path": "+/Test-Kanban.md"
+    },
+    {
+      "basename": "Test-Base",
+      "path": "+/Test-Base.base"
+    },
+    {
+      "basename": "2026-01-30",
+      "path": "Journal/2026-01-30.md"
+    },
+    {
+      "basename": "2026-KW05",
+      "path": "Journal/2026-KW05.md"
     },
     {
       "basename": "Vorlage - YearlyNote",
       "path": "Xtra/Vorlagen/Vorlage - YearlyNote.md"
     },
     {
-      "basename": "2026-KW05",
-      "path": "Journal/2026-KW05.md"
+      "basename": "2026",
+      "path": "Journal/2026.md"
     },
     {
       "basename": "Vorlage - QuarterlyNote",
@@ -63,10 +75,6 @@
     {
       "basename": "2026-01-23",
       "path": "Journal/2026/01 Januar/2026-01-23.md"
-    },
-    {
-      "basename": "2026-01-30",
-      "path": "Journal/2026-01-30.md"
     },
     {
       "basename": "2026-01-29",
@@ -191,10 +199,6 @@
     {
       "basename": "IconWoche",
       "path": "Xtra/Icons/IconWoche.png"
-    },
-    {
-      "basename": "Tägliche Notizen",
-      "path": "Atlas/Maps/Tägliche Notizen.base"
     }
   ],
   "omittedPaths": [],

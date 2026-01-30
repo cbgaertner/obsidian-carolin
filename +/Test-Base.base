@@ -1,0 +1,5 @@
+views:
+  - type: table
+    name: Tabelle
+  - type: table
+    name: Sicht
