@@ -11,16 +11,14 @@
             "id": "a4d56a20e3004b7a",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "+/Test-Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "Atlas/Notizen/Obsidian installieren.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Test-Kanban"
+              "icon": "lucide-file",
+              "title": "Obsidian installieren"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Reiten/Lukas",
+                "query": "tag:Obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +98,8 @@
               "title": "2026-01-30"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -235,8 +234,10 @@
   },
   "active": "a4d56a20e3004b7a",
   "lastOpenFiles": [
-    "+/Test-Base.base",
     "+/Test-Kanban.md",
+    "Atlas/Notizen/Obsidian installieren.md",
+    "Atlas/Notizen",
+    "+/Test-Base.base",
     "Journal/2026-01-30.md",
     "Journal/2026-KW05.md",
     "Xtra/Vorlagen/Vorlage - YearlyNote.md",
@@ -269,7 +270,6 @@
     "Journal/2025/11 November",
     "Journal/2025/12 Dezember",
     "Journal/2025",
-    "Journal/2025/10 Oktober",
     "Xtra/Icons/IconJahr.png",
     "Xtra/Icons/IconQuartal4.png",
     "Xtra/Icons/IconQuartal3.png",

@@ -63,7 +63,7 @@
         {
           "source": "name",
           "operator": "matches",
-          "value": "\\d{4}-\\d{2}-\\d{2}"
+          "value": "^\\d{4}-\\d{2}-\\d{2}$"
         }
       ],
       "enabled": true,

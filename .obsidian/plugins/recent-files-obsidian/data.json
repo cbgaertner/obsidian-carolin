@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian installieren",
+      "path": "Atlas/Notizen/Obsidian installieren.md"
+    },
+    {
       "basename": "Test-Kanban",
       "path": "+/Test-Kanban.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Vorlage - Blog-Artikel",
       "path": "Xtra/Vorlagen/Vorlage - Blog-Artikel.md"
-    },
-    {
-      "basename": "IconWoche",
-      "path": "Xtra/Icons/IconWoche.png"
     }
   ],
   "omittedPaths": [],
