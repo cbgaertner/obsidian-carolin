@@ -4,12 +4,10 @@ views:
   - type: table
     name: Tabelle
     filters:
-      or:
-        - "!reitenLukas.isEmpty()"
-        - "!reitenRosalie.isEmpty()"
+      and:
+        - file.tags.containsAny("Periodic")
     order:
       - file.name
-      - reitenLukas
-      - reitenRosalie
+      - KWs
   - type: table
     name: Sicht
