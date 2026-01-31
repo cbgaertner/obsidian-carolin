@@ -6,7 +6,26 @@
     "reitenlukas",
     "reitenrosalie"
   ],
-  "propertyPillColors": {},
+  "propertyPillColors": {
+    "Fertig": {
+      "pillColor": "green"
+    },
+    "In Bearbeitung": {
+      "pillColor": "blue"
+    },
+    "Pausiert": {
+      "pillColor": "red"
+    },
+    "Als Nächstes": {
+      "pillColor": "orange"
+    },
+    "Vielleicht/Irgendwann": {
+      "pillColor": "yellow"
+    },
+    "Nicht begonnen": {
+      "pillColor": "yellow"
+    }
+  },
   "propertyLongtextColors": {
     "Dienstag": {
       "pillColor": "blue",
@@ -72,7 +91,7 @@
   ],
   "bannersFolder": "Xtra/Banners",
   "coversFolder": "",
-  "showColorSettings": false,
+  "showColorSettings": true,
   "showTextColorSettings": true,
   "showHiddenSettings": false,
   "iconsFolder": "Xtra/Icons",
@@ -97,7 +116,7 @@
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "OTHER",
+  "settingsTab": "PROPERTY_SETTINGS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",

@@ -1,13 +1,21 @@
 formulas:
   Unbenannt: ""
+  Monat: Monat.slice(8) + " " + Monat.slice(0, 4)
 views:
-  - type: table
-    name: Tabelle
+  - type: cards
+    name: Tage als Karten nach KW
     filters:
       and:
-        - file.tags.containsAny("Periodic")
+        - file.tags.contains("Periodic/Daily")
+    groupBy:
+      property: KW
+      direction: DESC
     order:
       - file.name
-      - KWs
-  - type: table
-    name: Sicht
+      - formula.Monat
+    sort:
+      - property: Datum
+        direction: ASC
+    image: note.banner
+    cardSize: 130
+    imageAspectRatio: 0.55
