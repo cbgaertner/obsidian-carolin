@@ -25,14 +25,13 @@
             "id": "efc6eab61ed8bac6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "+/10er-Karte 2026-01-30.md",
-                "mode": "source",
-                "source": false
+                "file": "+/Test-Base.base",
+                "viewName": "Tage als Karten nach KW"
               },
-              "icon": "lucide-file",
-              "title": "10er-Karte 2026-01-30"
+              "icon": "lucide-layout-grid",
+              "title": "Test-Base"
             }
           }
         ],
@@ -209,8 +208,8 @@
   },
   "active": "efc6eab61ed8bac6",
   "lastOpenFiles": [
-    "+/Test-Base.base",
     "+/10er-Karte 2026-01-30.md",
+    "+/Test-Base.base",
     "Journal/2026-01-30.md",
     "Journal/2026/01 Januar/2026-01-23.md",
     "+/10er-Karte 2025-12-12.md",
