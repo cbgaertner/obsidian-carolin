@@ -76,5 +76,14 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "templater-obsidian:Xtra/Vorlagen/Vorlage - iFrame für Video.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
+    }
   ]
 }
