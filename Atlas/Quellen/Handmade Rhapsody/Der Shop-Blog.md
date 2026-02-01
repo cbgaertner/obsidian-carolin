@@ -5,6 +5,8 @@ Kurs: "[[Handmade Rhapsody]]"
 Typ: Lektion
 Status: Nicht begonnen
 Reihenfolge: HR 4-2
+banner: HR 4-2.jpg
+banner_position: 63
 ---
 # **Was du in diesem Video findest:**
 
