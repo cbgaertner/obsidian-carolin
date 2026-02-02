@@ -1,5 +1,14 @@
-# to exclude Obsidian's settings (including plugin and hotkey configurations)
-.obsidian/
+# Themes ausschließen
+.obsidian/themes
+
+# Einzelne Plugins ausschliessen
+.obsidian/recent-files-obsidian
+
+# sonstige Konfigurationsdateien ausschliessen
+.obsidian/appearance
+.obsidian/graph
+.obsidian/hotkeys
+.obsidian/page-preview
 
 # Add below lines to exclude OS settings and caches
 .trash/
