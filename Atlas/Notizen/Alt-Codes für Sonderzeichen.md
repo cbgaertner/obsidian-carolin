@@ -1,6 +1,6 @@
 ---
 tags:
-  - IT
+  - "IT"
 ---
 
 # Pfeile

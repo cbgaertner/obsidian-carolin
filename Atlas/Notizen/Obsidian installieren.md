@@ -1,8 +1,8 @@
 ---
 tags:
-  - Knowledge-Management
-  - IT/Obsidian
-  - IT/Android
+  - "Knowledge-Management"
+  - "IT/Obsidian"
+  - "IT/Android"
 ---
 # Android
 

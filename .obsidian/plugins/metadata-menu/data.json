@@ -1,12 +1,47 @@
 {
-  "presetFields": [],
+  "presetFields": [
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "10er-Karte 2026-01-30",
+          "2": "10er-Karte 2025-12-12",
+          "3": "10er-Karte 2025-11-07",
+          "4": "10er-Karte 2025-10-10"
+        }
+      },
+      "name": "reitenLukas",
+      "id": "X74Pqm",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesFromDVQuery",
+        "valuesList": {},
+        "valuesFromDVQuery": "dv.pages('#Reiten')"
+      },
+      "name": "reitenRosalie",
+      "id": "IYYkdk",
+      "path": ""
+    }
+  ],
   "fileClassQueries": [],
   "displayFieldsInContextMenu": true,
   "globallyIgnoredFields": [],
   "classFilesPath": "Xtra/Classes/",
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.0",
+  "settingsVersion": "5.6",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

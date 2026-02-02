@@ -26,7 +26,7 @@ dayList += "]";
 -%>
 ---
 fileClass: WeeklyNote
-tags: Periodic/Weekly
+tags: "Periodic/Weekly"
 Von: '[[<% dateStringStart %>]]'
 Bis: '[[<% dateStringEnd %>]]'
 Tage: <% dayList %>

@@ -1,7 +1,18 @@
 {
   "callouts": {
-    "custom": [],
-    "settings": {}
+    "custom": [
+      "reiten"
+    ],
+    "settings": {
+      "reiten": [
+        {
+          "changes": {
+            "icon": "lucide-biceps-flexed",
+            "color": "158, 158, 158"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

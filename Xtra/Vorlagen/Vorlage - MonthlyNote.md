@@ -35,7 +35,7 @@ weekList += "]";
 -%>
 ---
 fileClass: MonthlyNote
-tags: Periodic/Monthly
+tags: "Periodic/Monthly"
 banner: '[[BannerMonat<% monthStringNumber %>.jpg]]'
 icon: '[[IconMonat<% monthStringNumber %>.png]]'
 Von: '[[<% dateStringStart %>]]'

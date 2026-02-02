@@ -14,7 +14,7 @@ const yearString = date.format("YYYY");
 -%>
 ---
 fileClass: DailyNote
-tags: Periodic/Daily
+tags: "Periodic/Daily"
 Datum: <% dateString %>
 Wochentag: <% weekDayString %>
 KW: '[[<% weekString %>]]'

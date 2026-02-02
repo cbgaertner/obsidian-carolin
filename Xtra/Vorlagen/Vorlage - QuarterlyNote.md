@@ -34,7 +34,7 @@ weekList += "]";
 -%>
 ---
 fileClass: QuarterlyNote
-tags: Periodic/Quarterly
+tags: "Periodic/Quarterly"
 banner: '[[BannerQuartal<% quarterStringNumber %>.jpg]]'
 icon: '[[IconQuartal<% quarterStringNumber %>.png]]'
 Quartal: <% quarterStringShort %>

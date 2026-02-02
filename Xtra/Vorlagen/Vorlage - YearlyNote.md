@@ -30,7 +30,7 @@ quarterList += "]";
 -%>
 ---
 fileClass: YearlyNote
-tags: Periodic/Yearly
+tags: "Periodic/Yearly"
 banner: '[[BannerJahr<% yearString %>.jpg]]'
 icon: '[[IconJahr.png]]'
 Monate: <% monthList %>
