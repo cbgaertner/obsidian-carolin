@@ -1,0 +1,120 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": false,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": false,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "maxBackups": 5,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
+      "icon": "lucide-pen-tool",
+      "color": "blue"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "55BLe",
+      "name": "WeeklyNote",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "^\\d{4}-KW\\d{2}$"
+        }
+      ],
+      "enabled": true,
+      "icon": "calendar-week",
+      "color": "yellow"
+    },
+    {
+      "id": "TfFxE",
+      "name": "DailyNote",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-calendar",
+      "color": "yellow"
+    },
+    {
+      "id": "7qq5E",
+      "name": "MonthlyNote",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "^\\d{4}-\\d{2} (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)$"
+        }
+      ],
+      "enabled": true,
+      "icon": "calendar-month",
+      "color": "yellow"
+    },
+    {
+      "id": "lSufz",
+      "name": "QuarterlyNote",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "^\\d{4}-Q\\d$"
+        }
+      ],
+      "enabled": true,
+      "icon": "calendar-quarter",
+      "color": "yellow"
+    },
+    {
+      "id": "fPx97",
+      "name": "YearlyNote",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "matches",
+          "value": "^\\d{4}$"
+        }
+      ],
+      "enabled": true,
+      "icon": "calendar-year",
+      "color": "yellow"
+    }
+  ],
+  "folderRules": []
+}
