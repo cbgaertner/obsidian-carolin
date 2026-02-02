@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   "obsidian-style-settings",
   "tag-wrangler",
   "calendar",
@@ -28,7 +29,5 @@
   "kanban-status-updater",
   "obsidian-link-embed",
   "obsidian-git",
-  "multi-column-markdown",
-  "color-folders-files",
-  "recent-files-obsidian"
+  "folder-notes"
 ]
