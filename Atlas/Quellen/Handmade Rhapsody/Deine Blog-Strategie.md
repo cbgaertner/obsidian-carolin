@@ -8,22 +8,7 @@ Reihenfolge: HR 4-3
 banner: HR 4-3.jpg
 banner_position: 63
 ---
-> --- start-multi-column: ExampleRegion1  
-```column-settings  
-number of columns: 2  
-largest column: left  
-Border: off
-Shadow: off
-Alignment: [left, right]
-```
-
 > Dein Fokus sollte nicht darin liegen, den perfekten Blogbeitrag für dein Unternehmen zu schreiben. Viel wichtiger ist es, den perfekten Blogbeitrag für deine Leser zu schreiben!
-
---- end-column ---
-
-![[Celine mit verschränkten Armen.jpg|100]]
-
---- end-multi-column
 
 # **1. Wer ist deine Zielgruppe?**
 
@@ -50,9 +35,6 @@ Bloggen ist ein bisschen wie Etsy, oder Pinterest: Aktuelle Inhalte werden bevor
 Einmal einen Blogartikel geschrieben, und die Leute finden ihn von alleine - so einfach ist es leider nicht. Stattdessen kreierst du für jeden deiner Blogartikel mindestens 5 Pins, je mehr, desto besser, die du dann terminiert bei Pinterest einstellst. Außerdem kannst du auch bei Instagram über sie sprechen, und in deinem Newsletter sowieso. Mache dir das zur Gewohnheit, dann hast du auch immer Ideen für Content für Social Media!
 
 > Die Kunst: Wir schreiben für den Menschen UND die Suchmaschine!
-> 
-> ![[Celine zeigt nach oben.jpg|200]]
-
 
 # **Der Blog-Planer hilft dir mit deiner Strategie**
 
