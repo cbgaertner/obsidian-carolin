@@ -1,17 +1,18 @@
 .gitignore.bak
-!.gitignore
 
 # Themes ausschließen
 .obsidian/themes
 
 # Einzelne Plugins ausschliessen
-.obsidian/recent-files-obsidian
+.obsidian/plugins/recent-files-obsidian
 
 # sonstige Konfigurationsdateien ausschliessen
-.obsidian/appearance
-.obsidian/graph
-.obsidian/hotkeys
-.obsidian/page-preview
+.obsidian/appearance.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/page-preview.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
 
 # Add below lines to exclude OS settings and caches
 .trash/
