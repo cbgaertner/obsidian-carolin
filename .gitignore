@@ -1,3 +1,6 @@
+.gitignore.bak
+!.gitignore
+
 # Themes ausschließen
 .obsidian/themes
 
