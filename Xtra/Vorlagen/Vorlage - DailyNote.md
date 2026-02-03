@@ -25,4 +25,9 @@ banner: '[[BannerWochentag<% weekDayString %>.jpg]]'
 icon: '[[IconWochentag<% weekDayString %>.png]]'
 ---
 # <% dateStringLong %>
+
 « [[<% dateStringPrevious %>|Vorheriger Tag]] | [[<% dateStringNext %>|Nächster Tag]] »
+
+## Ereignisse
+
+- 

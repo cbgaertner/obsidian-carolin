@@ -1,17 +1,28 @@
 ---
-fileClass: BlogArtikel
 Status:
+  - Plan
 Workflow:
 tags:
   - "#Blog"
-Datum: 
+Datum: 2026-02-16
 URL:
-Entwurf: 
+Entwurf: "- Flaschen\r
+
+  - Verschließbare Kisten\r
+
+  - Zahlenschlösser\r
+
+  - Vorhängeschlösser\r
+
+  - Schlüsselsafe\r
+
+  - Flaschenschloss"
 Keywords:
 Kundenreise:
+fileClass: BlogArtikel
 ---
-# Checkliste
 
+# Checkliste
 - [ ] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
 - [ ] Brainstorming
 - [ ] Blogbeitrag schreiben
@@ -27,10 +38,6 @@ Kundenreise:
 - [ ] Pins erstellen für Pinterest und vorplanen    
 - [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
 - [ ] Blogbeitrag in Newsletter teilen
-
 # Brainstorming
-
 - 
-
 # Artikel
-

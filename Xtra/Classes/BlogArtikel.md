@@ -10,25 +10,11 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
-  - xRRvUZ
+  - ShYtXm
   - wooEGv
   - TOvKfy
-version: "2.11"
+version: "2.17"
 fields:
-  - name: Status
-    type: Select
-    options:
-      sourceType: ValuesList
-      valuesList:
-        "1": Idee
-        "2": Plan
-        "3": In Bearbeitung
-        "4": Genehmigt
-        "5": Vorausgeplant
-        "6": Veröffentlicht
-        "7": Archiv
-    path: ""
-    id: xRRvUZ
   - name: Workflow
     type: Select
     options:
@@ -54,4 +40,18 @@ fields:
         "5": Advocacy
     path: ""
     id: TOvKfy
+  - name: Status
+    type: Select
+    options:
+      sourceType: ValuesList
+      valuesList:
+        "1": Idee
+        "2": Plan
+        "3": In Bearbeitung
+        "4": Genehmigt
+        "5": Vorausgeplant
+        "6": Veröffentlicht
+        "7": Archiv
+    path: ""
+    id: ShYtXm
 ---

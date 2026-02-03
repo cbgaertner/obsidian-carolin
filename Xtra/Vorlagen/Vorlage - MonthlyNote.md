@@ -47,4 +47,6 @@ Quartal: '[[<% quarterString %>]]'
 Jahr: '[[<% yearString %>]]'
 ---
 # <% monthStringLong %>
+
 « [[<% monthStringPrevious %>|Vorheriger Monat]] | [[<% monthStringNext %>|Nächster Monat]] »
+

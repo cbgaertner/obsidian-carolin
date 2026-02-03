@@ -30,6 +30,18 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "Atlas/Maps/Orte (mit Karte).base": {
+      "icon": "lucide-map",
+      "unsynced": [
+        "a74ae51894a058fd"
+      ]
+    },
+    "Atlas/Maps/Tägliche Notizen.base": {
+      "icon": "calendar-day",
+      "unsynced": [
+        "a74ae51894a058fd"
+      ]
+    },
     "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
       "icon": "lucide-pen-tool",
       "color": "blue"

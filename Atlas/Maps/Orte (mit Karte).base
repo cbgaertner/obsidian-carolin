@@ -1,0 +1,33 @@
+formulas:
+  type-icon: list(Typ)[0].asFile().properties.icon
+properties:
+  formula.type-icon:
+    displayName: typ-icon
+views:
+  - type: map
+    name: Karte
+    filters:
+      and:
+        - file.tags.contains("Ort")
+    order:
+      - file.name
+      - formula.type-icon
+    center: "[48.6357, 8.09002]"
+    defaultZoom: 4
+    coordinates: note.Koordinaten
+    markerIcon: formula.type-icon
+    markerColor: note.icon-color
+    mapTilesDark:
+      - https://tiles.openfreemap.org/styles/liberty
+    mapTiles:
+      - https://tiles.openfreemap.org/styles/liberty
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - file.tags.contains("Ort")
+    order:
+      - file.name
+      - formula.type-icon
+    columnSize:
+      file.name: 331

@@ -1,17 +1,21 @@
 formulas:
-  CoverBild: banner.replace(/^!\[\[(.*?)\]\]/, "$1")
+  Unbenannt: ""
+  Monat: Monat.slice(8) + " " + Monat.slice(0, 4)
 views:
-  - type: table
-    name: Tabelle
-    filters:
-      and:
-        - fileClass == "DailyNote"
   - type: cards
-    name: Sicht
+    name: Tage als Karten nach KW
     filters:
       and:
-        - fileClass == "DailyNote"
+        - file.tags.contains("Periodic/Daily")
+    groupBy:
+      property: KW
+      direction: DESC
     order:
       - file.name
-    image: formula.CoverBild
-    imageAspectRatio: 0.6
+      - formula.Monat
+    sort:
+      - property: Datum
+        direction: ASC
+    image: note.banner
+    cardSize: 130
+    imageAspectRatio: 0.55

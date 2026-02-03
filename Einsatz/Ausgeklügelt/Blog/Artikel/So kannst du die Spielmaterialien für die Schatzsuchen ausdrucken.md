@@ -1,17 +1,20 @@
 ---
-fileClass: BlogArtikel
 Status:
+  - Plan
 Workflow:
 tags:
   - "#Blog"
-Datum: 
+Datum:
 URL:
-Entwurf: 
+Entwurf: |-
+  - Farbdrucker
+  - Copyshop
+  - Fotoservice
 Keywords:
 Kundenreise:
+fileClass: BlogArtikel
 ---
 # Checkliste
-
 - [ ] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
 - [ ] Brainstorming
 - [ ] Blogbeitrag schreiben
@@ -27,10 +30,6 @@ Kundenreise:
 - [ ] Pins erstellen für Pinterest und vorplanen    
 - [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
 - [ ] Blogbeitrag in Newsletter teilen
-
 # Brainstorming
-
 - 
-
 # Artikel
-

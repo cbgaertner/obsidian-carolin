@@ -1,40 +1,45 @@
 ---
-Status:
-  - In Bearbeitung
-Workflow: Text
+Status: Veröffentlicht
+Workflow:
+  - SEO
 tags:
   - "#Blog"
 Datum: 2026-01-30
-URL:
+URL: https://ausgekluegelt.com/schatzsuche-fuer-kinder-vorbereiten/
 Entwurf:
 Keywords: Schatzsuche für Kinder vorbereiten
 Kundenreise: Awareness
+fileClass: BlogArtikel
 ---
 # Checkliste
+
 - [x] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
 - [x] Brainstorming
-- [ ] Blogbeitrag schreiben
-- [ ] Grafiken für Blogartikel erstellen und optimieren
+- [x] Blogbeitrag schreiben ✅ 2026-02-02
+- [x] Grafiken für Blogartikel erstellen und optimieren ✅ 2026-02-02
     _→ ggf. Link zur Canva-Datei unter `Canva-URL` einpflegen
     _→ unter `Dateien` einpflegen    
 - [ ] interne Verlinkungen    
 - [ ] Suchmaschinenoptimierung    
 - [ ] Korrektur    
-- [ ] Blogartikel veröffentlichen    
-    - [ ] `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen
-    - [ ] Blogartikel zur Archivierung mit dem Webclipper in Notion importieren
+- [x] Blogartikel veröffentlichen ✅ 2026-02-02
+    - [x] `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen ✅ 2026-02-02
 - [ ] Blogbeitrag in Google Search Console zur Indexierung beantragen    
 - [ ] Pins erstellen für Pinterest und vorplanen    
 - [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
 - [ ] Blogbeitrag in Newsletter teilen
+
 # Brainstorming
+
 - Soll die Schatzsuche zu einem Motto stattfinden?
 - Das A&O: eine spannende Rahmengeschichte
 - Den Ort und den Weg auswählen
 - Verstecke aussuchen und Wegweiser für die Schatzsuche vorbereiten
 - Bereite spannende Aufgaben vor
 - Rätsel für die Schatzsuche verstecken
+
 # Artikel
+
 Eine Schatzsuche ist ein absolutes Highlight für Kinder! Ob beim Kindergeburtstag, auf einer Party oder einfach an einem Nachmittag mit Freunden – die Suche nach einem verborgenen Schatz sorgt für Spannung, Abenteuer und jede Menge Spaß.
 
 Damit die Schatzsuche zu einem unvergesslichen Erlebnis wird, ist eine gute Vorbereitung wichtig. Mit den richtigen Ideen, einer spannenden Geschichte und kreativen Aufgaben wird aus einer einfachen Schnitzeljagd ein echtes Abenteuer, das die Kinder noch lange in Erinnerung behalten werden.

@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.path.startsWith("Einsatz/Ausgeklügelt/Blog/Artikel")
+views:
+  - type: table
+    name: Tabelle
+    groupBy:
+      property: Status
+      direction: ASC
+    order:
+      - file.name
+      - Status
+      - Workflow
+    sort:
+      - property: Status
+        direction: ASC
+    columnSize:
+      file.name: 469

@@ -37,4 +37,6 @@ banner: '[[BannerKW<% weekStringNumber %>.jpg]]'
 icon: "[[IconWoche.png]]"
 ---
 # <% weekStringLong %>
+
 « [[<% weekStringPrevious %>|Vorherige Woche]] | [[<% weekStringNext %>|Nächste Woche]] »
+
