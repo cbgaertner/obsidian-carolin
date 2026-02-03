@@ -6,6 +6,9 @@
 # Einzelne Plugins ausschliessen
 .obsidian/plugins/recent-files-obsidian
 
+# Backup-Dateien von Plugins ausschliessen
+.obsidian/iconic/data.json.backup*
+
 # sonstige Konfigurationsdateien ausschliessen
 .obsidian/appearance.json
 .obsidian/graph.json
