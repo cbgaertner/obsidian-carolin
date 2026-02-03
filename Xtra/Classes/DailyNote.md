@@ -16,10 +16,7 @@ fieldsOrder:
   - 3Bg4jW
   - CBS1rN
   - utVFws
-  - LFEgCs
-  - G37r6d
-  - V7R8at
-version: "2.75"
+version: "2.78"
 fields:
   - name: Datum
     type: Date
@@ -55,31 +52,4 @@ fields:
     options: {}
     path: ""
     id: 3Bg4jW
-  - name: reitenLukas
-    type: Select
-    options:
-      sourceType: ValuesList
-      valuesList:
-        "1": 10er-Karte 2025-10-10
-        "2": 10er-Karte 2025-11-07
-        "3": 10er-Karte 2025-12-12
-        "4": 10er-Karte 2026-01-30
-    path: ""
-    id: LFEgCs
-    style:
-      bold: false
-  - name: reitenRosalie
-    type: Select
-    options:
-      sourceType: ValuesFromDVQuery
-      valuesList:
-        "1": ""
-      valuesFromDVQuery: dv.pages('"Journal"')
-    path: ""
-    id: G37r6d
-  - name: ZehnerKarte
-    type: Boolean
-    options: {}
-    path: ""
-    id: V7R8at
 ---
