@@ -1,8 +1,9 @@
 
 .theme-light.nord-bright {
-	/**************************/
-	/* Farben des Nord-Themes */
-	/**************************/
+	/******************************************************/
+	/* Farben des Nord-Themes                             */
+	/* https://www.nordtheme.com/docs/colors-and-palettes */
+	/******************************************************/
 	/* Polar Night */
 	--nord0: #2e3440;  /* dunkelgrau dunkel */
 	--nord1: #3b4252;  /* dunkelgrau mitteldunkel */
@@ -86,6 +87,7 @@
 	--base: var(--nord5); /*nord5*/
 	--surface-rgb: var(--nord6-rgb); /*nord6*/
 	--overlay: var(--nord4); /*nord4*/
+	--container: var(--nord4);
 
 	--muted: var(--nord3); /*nord3*/
 	--subtle: var(--nord3);  /*nord3*/
@@ -104,6 +106,8 @@
 	
 	--tag-background: rgba(var(--nord15-rgb), 0.1);
     --tag-background-hover: rgba(var(--nord15-rgb), 0.2);
+	
+	--text-selection: var(--nord13);
 
 
 	--uw-background: var(--nord3);
@@ -141,4 +145,6 @@
 	color: var(--workspace-icon-color);
 }
 
-
+.nav-buttons-container {
+	background-color: var(--container);
+}
