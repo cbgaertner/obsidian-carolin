@@ -286,7 +286,7 @@
   "dailyNotePath": "",
   "preferMetadataFormat": "tasks",
   "projectTagPrefix": {
-    "tasks": "project",
+    "tasks": "Projekt",
     "dataview": "project"
   },
   "contextTagPrefix": {
@@ -303,26 +303,15 @@
     "inheritFromFrontmatterForSubtasks": false
   },
   "projectConfig": {
-    "enableEnhancedProject": false,
+    "enableEnhancedProject": true,
     "pathMappings": [],
     "metadataConfig": {
       "metadataKey": "project",
-      "enabled": false,
+      "enabled": true,
       "detectionMethods": [
         {
-          "type": "metadata",
-          "propertyKey": "project",
-          "enabled": false
-        },
-        {
           "type": "tag",
-          "propertyKey": "project",
-          "enabled": false
-        },
-        {
-          "type": "link",
-          "propertyKey": "category",
-          "linkFilter": "",
+          "propertyKey": "Blog",
           "enabled": false
         }
       ]
@@ -371,6 +360,30 @@
   "globalFilterRules": {},
   "viewConfiguration": [
     {
+      "id": "today",
+      "name": "Heute",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "region": "top",
+      "hideCompletedAndAbandonedTasks": true,
+      "filterBlanks": false,
+      "filterRules": {},
+      "sortCriteria": []
+    },
+    {
+      "id": "upcoming",
+      "name": "Anstehend",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "region": "top",
+      "hideCompletedAndAbandonedTasks": true,
+      "filterBlanks": false,
+      "filterRules": {},
+      "sortCriteria": []
+    },
+    {
       "id": "inbox",
       "name": "Inbox",
       "icon": "inbox",
@@ -378,21 +391,24 @@
       "visible": true,
       "hideCompletedAndAbandonedTasks": true,
       "filterRules": {},
-      "filterBlanks": false
+      "filterBlanks": false,
+      "region": "top"
     },
     {
       "id": "working-on",
-      "name": "Working On",
+      "name": "In Bearbeitung",
       "icon": "timer",
       "type": "default",
       "visible": true,
       "hideCompletedAndAbandonedTasks": true,
       "filterRules": {},
-      "filterBlanks": false
+      "filterBlanks": false,
+      "sortCriteria": [],
+      "region": "top"
     },
     {
       "id": "forecast",
-      "name": "Forecast",
+      "name": "Ausblick",
       "icon": "calendar-days",
       "type": "default",
       "visible": true,
@@ -402,17 +418,21 @@
       "specificConfig": {
         "viewType": "forecast",
         "hideWeekends": false
-      }
+      },
+      "sortCriteria": [],
+      "region": "top"
     },
     {
       "id": "projects",
-      "name": "Projects",
+      "name": "Projekte",
       "icon": "folders",
       "type": "default",
       "visible": true,
       "hideCompletedAndAbandonedTasks": false,
       "filterRules": {},
-      "filterBlanks": false
+      "filterBlanks": false,
+      "sortCriteria": [],
+      "region": "top"
     },
     {
       "id": "tags",
@@ -432,7 +452,8 @@
       "visible": true,
       "hideCompletedAndAbandonedTasks": true,
       "filterRules": {},
-      "filterBlanks": false
+      "filterBlanks": false,
+      "region": "top"
     },
     {
       "id": "review",
@@ -510,7 +531,7 @@
     },
     {
       "id": "table",
-      "name": "Table",
+      "name": "Tabelle",
       "icon": "table",
       "type": "default",
       "visible": true,
@@ -559,7 +580,9 @@
         "enableMultiSelect": true,
         "defaultSortField": "",
         "defaultSortOrder": "asc"
-      }
+      },
+      "sortCriteria": [],
+      "region": "top"
     },
     {
       "id": "quadrant",
@@ -643,7 +666,7 @@
     "showRewardType": "modal"
   },
   "habit": {
-    "enableHabits": false,
+    "enableHabits": true,
     "habits": []
   },
   "filterConfig": {
@@ -939,8 +962,47 @@
       "ws_1770198806381_ihsqyzyxu": {
         "id": "ws_1770198806381_ihsqyzyxu",
         "name": "Default",
-        "updatedAt": 1770198806381,
-        "settings": {}
+        "updatedAt": 1770220115958,
+        "settings": {
+          "fluentFilterState": {
+            "inbox": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "projects": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "today": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "upcoming": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "working-on": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "gantt": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "kanban": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            }
+          },
+          "fluentActiveViewId": "upcoming"
+        }
       }
     }
   }

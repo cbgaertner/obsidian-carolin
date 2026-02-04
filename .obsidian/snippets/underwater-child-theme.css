@@ -108,10 +108,14 @@
     --tag-background-hover: rgba(var(--nord15-rgb), 0.2);
 	
 	--text-selection: var(--nord13);
+	
+	--background-modifier-form-field: var(--nord5);
+	--background-modifier-form-field-hover: var(--nord6);
 
 
 	--uw-background: var(--nord3);
 
+	--tab-text-color: var(--nord5);
 	--tab-text-color-focused: var(--nord5);
 	--tab-text-color-focused-active: var(--nord13);
 
