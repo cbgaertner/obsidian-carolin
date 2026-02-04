@@ -92,6 +92,7 @@
 	--muted: var(--nord3); /*nord3*/
 	--subtle: var(--nord3);  /*nord3*/
 	--text: var(--nord2); /*nord2*/
+	--text-light: rgb(var(--nord3-rgb), 0.4);
 
 	--highlight-low: var(--nord5); /*nord5*/
 	--highlight-med-rgb: var(--nord4-rgb); /*nord4*/ 
@@ -123,6 +124,8 @@
 	--titlebar-text-color-focused: var(--nord5);
 
 	--workspace-icon-color: var(--nord5);
+	
+
 
 }
 
@@ -145,4 +148,17 @@
 
 .nav-buttons-container {
 	background-color: var(--container);
+}
+
+textarea::placeholder,
+.multi-select-container::placeholder,
+input.metadata-input-text::placeholder,
+input[type='date']::placeholder,
+input[type='datetime-local']::placeholder,
+input[type='text']::placeholder,
+input[type='search']::placeholder,
+input[type='email']::placeholder,
+input[type='password']::placeholder,
+input[type='number']::placeholder {
+	color: var(--text-light);
 }

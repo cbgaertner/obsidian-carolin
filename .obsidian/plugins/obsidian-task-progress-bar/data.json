@@ -307,14 +307,8 @@
     "pathMappings": [],
     "metadataConfig": {
       "metadataKey": "project",
-      "enabled": true,
-      "detectionMethods": [
-        {
-          "type": "tag",
-          "propertyKey": "Blog",
-          "enabled": false
-        }
-      ]
+      "enabled": false,
+      "detectionMethods": []
     },
     "configFile": {
       "fileName": "project.md",
@@ -731,12 +725,18 @@
     "quickInputShowQuickActions": true
   },
   "fileFilter": {
-    "enabled": false,
+    "enabled": true,
     "mode": "blacklist",
-    "rules": [],
+    "rules": [
+      {
+        "type": "folder",
+        "path": "Xtra",
+        "enabled": true
+      }
+    ],
     "scopeControls": {
       "inlineTasksEnabled": true,
-      "fileTasksEnabled": true
+      "fileTasksEnabled": false
     }
   },
   "onCompletion": {
@@ -912,7 +912,7 @@
         "completed": "x",
         "done": "x",
         "finished": "x",
-        "in-progress": "/",
+        "in-progress": ">",
         "in progress": "/",
         "doing": "/",
         "planned": "?",
@@ -962,46 +962,128 @@
       "ws_1770198806381_ihsqyzyxu": {
         "id": "ws_1770198806381_ihsqyzyxu",
         "name": "Default",
-        "updatedAt": 1770220115958,
+        "updatedAt": 1770240800394,
         "settings": {
           "fluentFilterState": {
             "inbox": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "projects": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "today": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "upcoming": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "working-on": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "gantt": {
               "filters": {},
-              "advancedFilter": null,
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             },
             "kanban": {
               "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "forecast": {
+              "filters": {},
               "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "tags": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "flagged": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "review": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "table": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "quadrant": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "calendar": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
+              "viewMode": "list"
+            },
+            "habit": {
+              "filters": {},
+              "advancedFilter": {
+                "rootCondition": "all",
+                "filterGroups": []
+              },
               "viewMode": "list"
             }
           },
-          "fluentActiveViewId": "upcoming"
+          "fluentActiveViewId": "habit"
         }
       }
     }
