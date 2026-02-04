@@ -120,12 +120,6 @@
 
 	--workspace-icon-color: var(--nord5);
 
-/*	
-	--tab-text-color: var(--nord5);
-	--tab-background-active: var(--nord6);
-	--icon-color: var(--nord5);
-	--icon-color-focused: var(--nord13);
-*/
 }
 
 .workspace-ribbon .clickable-icon {
