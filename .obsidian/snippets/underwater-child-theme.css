@@ -1,0 +1,144 @@
+
+.theme-light.nord-bright {
+	/**************************/
+	/* Farben des Nord-Themes */
+	/**************************/
+	/* Polar Night */
+	--nord0: #2e3440;  /* dunkelgrau dunkel */
+	--nord1: #3b4252;  /* dunkelgrau mitteldunkel */
+	--nord2: #434c5e;  /* dunkelgrau mittelhell */
+	--nord3: #4c566a;  /* dunkelgrau hell */
+	/* Snow Storm */
+	--nord4: #d8dee9;  /* hellgrau dunkel */
+	--nord5: #e5e9f0;  /* hellgrau mittel */
+	--nord6: #eceff4;  /* hellgrau hell */
+	/* Frost */
+	--nord7: #8fbcbb;  /* aqua */
+	--nord8: #88c0d0;  /* hellblau */
+	--nord9: #81a1c1;  /* graublau */
+	--nord10: #5e81ac; /* dunkelblau */
+	/* Aurora */
+	--nord11: #bf616a; /* rot */
+	--nord12: #d08770; /* orange */
+	--nord13: #ebcb8b; /* gelb */
+	--nord14: #a3be8c; /* grün */
+	--nord15: #b48ead; /* lila */
+
+		/* Nord RGB */
+	--nord0-rgb: 46, 52, 64;
+	--nord1-rgb: 59, 66, 82;
+	--nord2-rgb: 67, 76, 94;
+	--nord3-rgb: 76, 86, 106;
+	--nord4-rgb: 216, 222, 233;
+	--nord5-rgb: 229, 233, 240;
+	--nord6-rgb: 236, 239, 244;
+	--nord7-rgb: 143, 188, 187;
+	--nord8-rgb: 136, 192, 208;
+	--nord9-rgb: 129, 161, 193;
+	--nord10-rgb: 94, 129, 172;
+	--nord11-rgb: 191, 97, 106;
+	--nord12-rgb: 208, 135, 112;
+	--nord13-rgb: 235, 203, 139;
+	--nord14-rgb: 163, 190, 140;
+	--nord15-rgb: 180, 142, 173;
+
+	/* Nord HSL */
+	--nord0-hsl: 220, 16%, 22%;
+	--nord1-hsl: 222, 16%, 28%;
+	--nord2-hsl: 220, 17%, 32%;
+	--nord3-hsl: 220, 16%, 36%;
+	--nord4-hsl: 219, 28%, 88%;
+	--nord5-hsl: 218, 27%, 92%;
+	--nord6-hsl: 218, 27%, 94%;
+	--nord7-hsl: 179, 25%, 65%;
+	--nord8-hsl: 193, 43%, 67%;
+	--nord9-hsl: 210, 34%, 63%;
+	--nord10-hsl: 213, 32%, 52%;
+	--nord11-hsl: 354, 42%, 56%;
+	--nord12-hsl: 14, 51%, 63%;
+	--nord13-hsl: 40, 71%, 73%;
+	--nord14-hsl: 92, 28%, 65%;
+	--nord15-hsl: 311, 20%, 63%;
+
+	--color-red: var(--nord11);
+	--color-orange: var(--nord12);
+	--color-yellow: var(--nord13);
+	--color-green: var(--nord14);
+	--color-cyan: var(--nord7);
+	--color-blue: var(--nord10);
+	--color-purple: var(--nord15);
+	--color-pink: var(--nord8);
+	--color-red-rgb: var(--nord11-rgb);
+	--color-orange-rgb: var(--nord12-rgb);
+	--color-yellow-rgb: var(--nord12-rgb);
+	--color-green-rgb: var(--nord14-rgb);
+	--color-cyan-rgb: var(--nord7-rgb);
+	--color-blue-rgb: var(--nord10-rgb);
+	--color-purple-rgb: var(--nord15-rgb);
+	--color-pink-rgb: var(--nord8-rgb);
+	--love-rgb: var(--nord8-rgb); /*nord11*/
+	--gold-rgb: var(--nord13-rgb); /*nord12*/
+	--rose-rgb: var(--nord11-rgb);/*nord15*/
+	--pine-rgb: var(--nord10-rgb); /*nord9*/
+	--foam-rgb: var(--nord7-rgb); /*nord7*/
+	--iris-rgb: var(--nord15-rgb); /*nord10*/
+
+	--base: var(--nord5); /*nord5*/
+	--surface-rgb: var(--nord6-rgb); /*nord6*/
+	--overlay: var(--nord4); /*nord4*/
+
+	--muted: var(--nord3); /*nord3*/
+	--subtle: var(--nord3);  /*nord3*/
+	--text: var(--nord2); /*nord2*/
+
+	--highlight-low: var(--nord5); /*nord5*/
+	--highlight-med-rgb: var(--nord4-rgb); /*nord4*/ 
+	--highlight-high: var(--nord4); /*nord4*/
+
+	--accent-h: 210;
+	--accent-s: 34%;
+	--accent-l: 63%;
+	--color-accent-hsl: var(--nord9-hsl); /*nord9*/
+	
+	--link-color: var(--nord15);
+	
+	--tag-background: rgba(var(--nord15-rgb), 0.1);
+    --tag-background-hover: rgba(var(--nord15-rgb), 0.2);
+
+
+	--uw-background: var(--nord3);
+
+	--tab-text-color-focused: var(--nord5);
+	--tab-text-color-focused-active: var(--nord13);
+
+	--titlebar-text-color: var(--nord5);
+	--titlebar-text-color-focused: var(--nord5);
+
+	--workspace-icon-color: var(--nord5);
+
+/*	
+	--tab-text-color: var(--nord5);
+	--tab-background-active: var(--nord6);
+	--icon-color: var(--nord5);
+	--icon-color-focused: var(--nord13);
+*/
+}
+
+.workspace-ribbon .clickable-icon {
+	color: var(--workspace-icon-color);
+}
+.workspace-tab-header-inner .workspace-tab-header-inner-icon,
+.mod-left-split .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.mod-right-split .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+	color: var(--workspace-icon-color);
+}
+.workspace-tab-header-tab-list .clickable-icon,
+.workspace-tab-header-new-tab .clickable-icon,
+.sidebar-toggle-button .clickable-icon {
+	color: var(--workspace-icon-color);
+}
+.workspace-tab-header-container::after {
+	color: var(--workspace-icon-color);
+}
+
+

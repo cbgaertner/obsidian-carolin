@@ -264,5 +264,9 @@
   "primary-theme@@h1-border-width": "3px",
   "primary-theme@@h1-border-top-color@@light": "#FFFFFF00",
   "primary-theme@@h1-border-right-color@@light": "#FFFFFF00",
-  "primary-theme@@h1-border-left-color@@light": "#FFFFFF00"
+  "primary-theme@@h1-border-left-color@@light": "#FFFFFF00",
+  "primary-theme@@ribbon-background@@light": "#8D7ABD00",
+  "underwater-theme@@underwater-colors-light": "nord-bright",
+  "underwater-theme@@underwater-colors-dark": "uw-deep",
+  "underwater-theme@@vault-icon": "vault-school"
 }
