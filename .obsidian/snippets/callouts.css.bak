@@ -1,4 +1,0 @@
-.callout[data-callout="reitstunde"] {
-	--callout-color: 84, 45, 13;
-	--callout-icon: lucide-biceps-flexed;
-}
