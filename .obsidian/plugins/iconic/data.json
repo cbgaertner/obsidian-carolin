@@ -43,9 +43,9 @@
       ],
       "color": "yellow"
     },
-    "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
-      "icon": "lucide-pen-tool",
-      "color": "blue"
+    "Einsatz/Aufgaben.md": {
+      "icon": "lucide-list-todo",
+      "color": "cyan"
     }
   },
   "bookmarkIcons": {},

@@ -54,6 +54,14 @@
     "Sonntag": {
       "pillColor": "red",
       "textColor": "default"
+    },
+    "cyan": {
+      "pillColor": "default",
+      "textColor": "blue"
+    },
+    "b": {
+      "pillColor": "default",
+      "textColor": "blue"
     }
   },
   "tagColors": {},
@@ -116,7 +124,7 @@
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "PROPERTY_SETTINGS",
+  "settingsTab": "ICONS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",

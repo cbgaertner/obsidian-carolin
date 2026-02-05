@@ -15,5 +15,7 @@
   "obsidian-git",
   "recent-files-obsidian",
   "maps",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-plugin-toc",
+  "obsidian-icon-folder"
 ]

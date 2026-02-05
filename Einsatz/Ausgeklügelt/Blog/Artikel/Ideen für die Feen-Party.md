@@ -24,66 +24,75 @@ Kundenreise:
 fileClass: BlogArtikel
 ---
 # Checkliste
-- [ ] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
-- [ ] Brainstorming
-- [ ] Blogbeitrag schreiben
-- [ ] Grafiken für Blogartikel erstellen und optimieren
+
+- [ ] #task Keywords recherchieren und in `Keywords/Hashtags` einpflegen
+- [ ] #task Brainstorming
+- [ ] #task Blogbeitrag schreiben
+- [ ] #task Grafiken für Blogartikel erstellen und optimieren
     _→ ggf. Link zur Canva-Datei unter `Canva-URL` einpflegen
     _→ unter `Dateien` einpflegen    
-- [ ] interne Verlinkungen    
-- [ ] Suchmaschinenoptimierung    
-- [ ] Korrektur    
-- [ ] Blogartikel veröffentlichen    
-    - [ ] `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen
-- [ ] Blogbeitrag in Google Search Console zur Indexierung beantragen    
-- [ ] Pins erstellen für Pinterest und vorplanen    
-- [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
-- [ ] Blogbeitrag in Newsletter teilen
+- [ ] #task interne Verlinkungen    
+- [ ] #task Suchmaschinenoptimierung    
+- [ ] #task Korrektur    
+- [ ] #task Blogartikel veröffentlichen [id:: 1770299144804]
+    - [ ] #task `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen [dependsOn:: 1770299144804]
+- [ ] #task Blogbeitrag in Google Search Console zur Indexierung beantragen [dependsOn:: 1770299144804]
+- [ ] #task Pins erstellen für Pinterest und vorplanen [dependsOn:: 1770299144804]
+- [ ] #task Blogbeitrag für Social Media aufbereiten und vorplanen [dependsOn:: 1770299144804]
+- [ ] #task Blogbeitrag in Newsletter teilen [dependsOn:: 1770299144804]
+
 # Brainstorming
+
 - Einladung für die Feen-Party
+- Basteln
+	- Bastelideen:
+		- Feen-Zauberstäbe basteln
+		    - Stanzform Stern: B09471N8NX
+			- Glitzerpapier: B09Z351JW5
+	- Einladung:
+		- Stanzform “Einladung”: B0886F6QTP
+	    - Stanzformen Feen:
+		    - B0919KZFY8
+		    - B0CDKPNH99
 - Deko
 - Kuchen / Muffins mit Feen-Toppern
 - Essen / Rezepte für Feen-Snacks
 - Spielideen / Schatzsuche
-- Bastelideen (Feen-Zauberstäbe basteln)
 - Mitgebsel
+	- Bunte Geschenktüten aus Papier: B0BBRKJZRP
+	- Feen-Tattoos: B09QYFSGY6
+    - Glasfläschchen mit Korken: B082FN1LKS
+
 # Artikel
+
 ## Märchenhafte Einladungen für den Feen-Kindergeburtstag
 
-- Stanzform “Einladung”: B0886F6QTP
+- 
 
 ## Magische Dekoration für die Feen-Party
+
 
 ## Feenhafte Beschäftigungen für die Kinder
 
 - Schatzsuche
 - Feen-Zauberstab basteln
-    - Glitzerpapier: B09Z351JW5
-    - Stanzform Stern: B09471N8NX
 
 ## Rezeptideen für Feen-Party
 
 - Muffins mit Cupcake-Topper
-    - Stanzformen Feen: B07GBYXGM4
 
 ![[Feen-Muffin-Topper.jpg]]
 
 ## Ideen für feenhafte Mitgebsel
 
-- Bunte Geschenktüten aus Papier: B0BBRKJZRP
-    
-- Feen-Tattoos: B09QYFSGY6
-    
-- Feenstaub im Glasfläschchen:
-    
-    - Glasfläschchen mit Korken: B082FN1LKS
-    - Bunter Badestaub
-- Schatzsuche
-    
-- Bastelideen
-    
-- Deko
-    
-- Spielideen
-    
+- Feenstaub im Glasfläschchen:    
+    - Buntes Badesalz
+
+
+
+
+- Schatzsuche    
+- Bastelideen    
+- Deko    
+- Spielideen    
 - Rezepte

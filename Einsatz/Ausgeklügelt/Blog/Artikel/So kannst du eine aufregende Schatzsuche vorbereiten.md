@@ -13,21 +13,21 @@ fileClass: BlogArtikel
 ---
 # Checkliste
 
-- [x] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
-- [x] Brainstorming
-- [x] Blogbeitrag schreiben ✅ 2026-02-02
-- [x] Grafiken für Blogartikel erstellen und optimieren ✅ 2026-02-02
+- [x] #task Keywords recherchieren und in `Keywords/Hashtags` einpflegen
+- [x] #task Brainstorming
+- [x] #task Blogbeitrag schreiben  [completion:: 2026-02-02]
+- [x] #task Grafiken für Blogartikel erstellen und optimieren [completion:: 2026-02-02]
     _→ ggf. Link zur Canva-Datei unter `Canva-URL` einpflegen
     _→ unter `Dateien` einpflegen    
-- [ ] interne Verlinkungen    
-- [ ] Suchmaschinenoptimierung    
-- [ ] Korrektur    
-- [x] Blogartikel veröffentlichen ✅ 2026-02-02
-    - [x] `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen ✅ 2026-02-02
-- [ ] Blogbeitrag in Google Search Console zur Indexierung beantragen    
-- [ ] Pins erstellen für Pinterest und vorplanen    
-- [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
-- [ ] Blogbeitrag in Newsletter teilen
+- [ ] #task interne Verlinkungen    
+- [ ] #task Suchmaschinenoptimierung    
+- [ ] #task Korrektur    
+- [x] #task Blogartikel veröffentlichen [completion:: 2026-02-02]
+    - [x] #task `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen [completion:: 2026-02-02]
+- [ ] #task Blogbeitrag in Google Search Console zur Indexierung beantragen
+- [ ] #task Pins erstellen für Pinterest und vorplanen    
+- [ ] #task Blogbeitrag für Social Media aufbereiten und vorplanen    
+- [ ] #task Blogbeitrag in Newsletter teilen
 
 # Brainstorming
 

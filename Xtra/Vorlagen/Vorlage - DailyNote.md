@@ -1,33 +1,46 @@
-<%*
-const dateString = tp.file.title;
-const date = moment(dateString, "YYYY-MM-DD");
-const dateStringLong = date.format("dddd, D. MMMM YYYY");
-const datePrevious = date.clone().subtract(1, 'days');
-const dateStringPrevious = datePrevious.format("YYYY-MM-DD");
-const dateNext = date.clone().add(1, 'days');
-const dateStringNext = dateNext.format("YYYY-MM-DD");
-const weekDayString = date.format("dddd");
-const weekString = date.format("YYYY-[KW]WW");
-const monthString = date.format("YYYY-MM MMMM");
-const quarterString = date.format("YYYY-[Q]Q");
-const yearString = date.format("YYYY");
--%>
 ---
 fileClass: DailyNote
-tags: "Periodic/Daily"
-Datum: <% dateString %>
-Wochentag: <% weekDayString %>
-KW: '[[<% weekString %>]]'
-Monat: '[[<% monthString %>]]'
-Quartal: '[[<% quarterString %>]]'
-Jahr: '[[<% yearString %>]]'
-banner: '[[BannerWochentag<% weekDayString %>.jpg]]'
-icon: '[[IconWochentag<% weekDayString %>.png]]'
+tags: Periodic/Daily
+Datum: <% tp.file.title %>
+Wochentag: <% tp.date.now("dddd", 0, tp.file.title) %>
+KW: '[[<% tp.date.now("YYYY-[KW]WW", 0, tp.file.title) %>]]'
+Monat: '[[<% tp.date.now("YYYY-MM MMMM", 0, tp.file.title) %>]]'
+Quartal: '[[<% tp.date.now("YYYY-[Q]Q", 0, tp.file.title) %>]]'
+Jahr: '[[<% tp.date.now("YYYY", 0, tp.file.title) %>]]'
+banner: '[[BannerWochentag<% tp.date.now("dddd", 0, tp.file.title) %>.jpg]]'
+icon: '[[IconWochentag<% tp.date.now("dddd", 0, tp.file.title) %>.png]]'
 ---
-# <% dateStringLong %>
+# <% tp.date.now("dddd, D. MMMM YYYY", 0, tp.file.title) %>
 
-« [[<% dateStringPrevious %>|Vorheriger Tag]] | [[<% dateStringNext %>|Nächster Tag]] »
+« [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title) %>|Vorheriger Tag]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title) %>|Nächster Tag]] »
 
 ## Ereignisse
 
 - 
+
+# Agenda
+
+## Aufgaben
+### Überfällig
+```tasks
+not done
+due before <% tp.date.now("YYYY-MM-DD", 0, tp.file.title) %>
+```
+
+### Heute fällig
+```tasks
+not done
+due on <% tp.date.now("YYYY-MM-DD", 0, tp.file.title) %>
+```
+
+### Fällig in den nächsten 2 Wochen
+```tasks
+not done
+due after <% tp.date.now("YYYY-MM-DD", 0, tp.file.title) %>
+due before <% tp.date.now("YYYY-MM-DD", 14, tp.file.title) %>
+```
+
+### Heute erledigt
+```tasks
+done on <% tp.date.now("YYYY-MM-DD", 0, tp.file.title) %>
+```

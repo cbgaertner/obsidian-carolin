@@ -1,5 +1,5 @@
 
-.theme-light.nord-bright {
+.theme-light.nord-light {
 	/******************************************************/
 	/* Farben des Nord-Themes                             */
 	/* https://www.nordtheme.com/docs/colors-and-palettes */
@@ -77,59 +77,27 @@
 	--color-blue-rgb: var(--nord10-rgb);
 	--color-purple-rgb: var(--nord15-rgb);
 	--color-pink-rgb: var(--nord8-rgb);
-	--love-rgb: var(--nord8-rgb); /*nord11*/
-	--gold-rgb: var(--nord13-rgb); /*nord12*/
-	--rose-rgb: var(--nord11-rgb);/*nord15*/
-	--pine-rgb: var(--nord10-rgb); /*nord9*/
-	--foam-rgb: var(--nord7-rgb); /*nord7*/
-	--iris-rgb: var(--nord15-rgb); /*nord10*/
-
-	--base: var(--nord5); /*nord5*/
-	--surface-rgb: var(--nord6-rgb); /*nord6*/
-	--overlay: var(--nord4); /*nord4*/
-	--container: var(--nord4);
-
-	--muted: var(--nord3); /*nord3*/
-	--subtle: var(--nord3);  /*nord3*/
-	--text: var(--nord2); /*nord2*/
-	--text-light: rgb(var(--nord3-rgb), 0.4);
-
-	--highlight-low: var(--nord5); /*nord5*/
-	--highlight-med-rgb: var(--nord4-rgb); /*nord4*/ 
-	--highlight-high: var(--nord4); /*nord4*/
-
-	--accent-h: 210;
-	--accent-s: 34%;
-	--accent-l: 63%;
-	--color-accent-hsl: var(--nord9-hsl); /*nord9*/
-	
-	--link-color: var(--nord15);
-	
-	--tag-background: rgba(var(--nord15-rgb), 0.1);
-    --tag-background-hover: rgba(var(--nord15-rgb), 0.2);
-	
-	--text-selection: var(--nord13);
-	
-	--background-modifier-form-field: var(--nord5);
-	--background-modifier-form-field-hover: var(--nord6);
 
 
-	--uw-background: var(--nord3);
-
-	--tab-text-color: var(--nord5);
-	--tab-text-color-focused: var(--nord5);
-	--tab-text-color-focused-active: var(--nord15);
-	--tab-text-color-focused-active-current: var(--nord7);
-
-	--titlebar-text-color: var(--nord5);
-	--titlebar-text-color-focused: var(--nord5);
-
-	--workspace-icon-color: var(--nord5);
-	
-
-
+	--background-workspace: var(--nord3);
+	--tab-container-background: var(--background-secondary);
 }
 
+body:not(.is-mobile):not(.is-translucent) .workspace {
+	background: var(--background-workspace);
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile,
+.workspace-sidedock-empty-state,
+body:not(.is-mobile) .mod-sidedock .workspace-leaf {
+	background: var(--background-secondary);
+}
+
+
+
+
+
+/*
 .workspace-ribbon .clickable-icon {
 	color: var(--workspace-icon-color);
 }
@@ -163,3 +131,4 @@ input[type='password']::placeholder,
 input[type='number']::placeholder {
 	color: var(--text-light);
 }
+*/

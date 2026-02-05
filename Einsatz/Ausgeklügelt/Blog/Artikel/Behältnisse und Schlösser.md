@@ -21,23 +21,27 @@ Keywords:
 Kundenreise:
 fileClass: BlogArtikel
 ---
-
 # Checkliste
-- [ ] Keywords recherchieren und in `Keywords/Hashtags` einpflegen
-- [ ] Brainstorming
-- [ ] Blogbeitrag schreiben
-- [ ] Grafiken für Blogartikel erstellen und optimieren
+
+- [ ] #task Keywords recherchieren und in `Keywords/Hashtags` einpflegen
+- [ ] #task Brainstorming
+- [ ] #task Blogbeitrag schreiben
+- [ ] #task Grafiken für Blogartikel erstellen und optimieren
     _→ ggf. Link zur Canva-Datei unter `Canva-URL` einpflegen
     _→ unter `Dateien` einpflegen    
-- [ ] interne Verlinkungen    
-- [ ] Suchmaschinenoptimierung    
-- [ ] Korrektur    
-- [ ] Blogartikel veröffentlichen    
-    - [ ] `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen
-- [ ] Blogbeitrag in Google Search Console zur Indexierung beantragen    
-- [ ] Pins erstellen für Pinterest und vorplanen    
-- [ ] Blogbeitrag für Social Media aufbereiten und vorplanen    
-- [ ] Blogbeitrag in Newsletter teilen
+- [ ] #task interne Verlinkungen    
+- [ ] #task Suchmaschinenoptimierung    
+- [ ] #task Korrektur    
+- [ ] #task Blogartikel veröffentlichen [id:: 1770305392656]
+    - [ ] #task `URL` in Property einpflegen und Status auf `Veröffentlicht` setzen [dependsOn:: 1770305392656]
+- [ ] #task Blogbeitrag in Google Search Console zur Indexierung beantragen [dependsOn:: 1770305392656]
+- [ ] #task Pins erstellen für Pinterest und vorplanen [dependsOn:: 1770305392656]
+- [ ] #task Blogbeitrag für Social Media aufbereiten und vorplanen [dependsOn:: 1770305392656]
+- [ ] #task Blogbeitrag in Newsletter teilen [dependsOn:: 1770305392656]
+
 # Brainstorming
+
 - 
+
 # Artikel
+
