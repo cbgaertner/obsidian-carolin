@@ -4,7 +4,9 @@
     "icon",
     "banner",
     "reitenlukas",
-    "reitenrosalie"
+    "reitenrosalie",
+    "cssclasses",
+    "iconize-color"
   ],
   "propertyPillColors": {
     "Fertig": {
@@ -62,11 +64,15 @@
     "b": {
       "pillColor": "default",
       "textColor": "blue"
+    },
+    "red": {
+      "textColor": "none",
+      "pillColor": "none"
     }
   },
   "tagColors": {},
   "enableBanner": true,
-  "enableIcon": true,
+  "enableIcon": false,
   "enableCover": true,
   "bannerProperty": "banner",
   "iconProperty": "icon",

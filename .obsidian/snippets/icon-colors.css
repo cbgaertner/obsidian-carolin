@@ -1,0 +1,15 @@
+
+.icon-color-yellow {
+	--iconize-color: var(--color-yellow);
+}
+
+
+.workspace-tab-header-inner-icon {
+	color: red:
+}
+
+body.is-focused .mod-active .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.iconize-title-icon,
+.iconize-icon {
+	color: var(--iconize-color);
+}

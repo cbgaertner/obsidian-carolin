@@ -1,7 +1,8 @@
 **Inhalt**
 
 - [[#Aufgaben aus den DailyNotes|Aufgaben aus den DailyNotes]]
-- [[#Aufgaben für den Blog|Aufgaben für den Blog]]
+- [[#Produkterstellung|Produkterstellung]]
+- [[#Blog|Blog]]
 - [[#Alle sonstigen Aufgaben|Alle sonstigen Aufgaben]]
 
 # Aufgaben aus den DailyNotes
