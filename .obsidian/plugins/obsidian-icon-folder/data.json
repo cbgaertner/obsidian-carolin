@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgKalenderWochentagFreitag",
       "LiPenTool",
       "LiLandmark",
       "CgKalenderQuartal1",
-      "CgKalenderWoche",
-      "CgKalenderJahr"
+      "CgKalenderWoche"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -186,10 +186,6 @@
     "iconName": "LiLandmark",
     "iconColor": "var(--color-red)"
   },
-  "Xtra/Vorlagen/Vorlage - Blog-Artikel.md": {
-    "iconName": "LiPenTool",
-    "iconColor": "var(--color-blue)"
-  },
   "Einsatz/Ausgeklügelt/Blog/Artikel/Behältnisse und Schlösser.md": {
     "iconName": "LiPenTool",
     "iconColor": "var(--color-blue)"
@@ -199,6 +195,10 @@
     "iconColor": "var(--color-blue)"
   },
   "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Xtra/Vorlagen/Ausgeklügelt/Vorlage - Blog-Artikel.md": {
     "iconName": "LiPenTool",
     "iconColor": "var(--color-blue)"
   }

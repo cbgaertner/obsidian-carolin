@@ -7,7 +7,7 @@ cssclasses:
   - icon-color-blue
 tags:
   - "#Blog"
-Status:
+Status: In Bearbeitung
   - Plan
 Workflow:
 Datum:
@@ -31,7 +31,7 @@ Kundenreise:
 # Checkliste
 
 - [ ] #task Keywords recherchieren und in `Keywords/Hashtags` einpflegen
-- [ ] #task Brainstorming
+- [x] #task Brainstorming
 - [ ] #task Blogbeitrag schreiben
 - [ ] #task Grafiken für Blogartikel erstellen und optimieren
     _→ ggf. Link zur Canva-Datei unter `Canva-URL` einpflegen
