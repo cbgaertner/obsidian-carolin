@@ -1,9 +1,15 @@
 ---
+fileClass: BlogArtikel
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
+tags:
+  - "#Blog"
 Status:
   - Plan
 Workflow:
-tags:
-  - "#Blog"
 Datum:
 URL:
 Entwurf: |-
@@ -12,12 +18,6 @@ Entwurf: |-
   - Fotoservice
 Keywords:
 Kundenreise:
-fileClass: BlogArtikel
-icon: LiPenTool
-icon-color: blue
-iconize-color-css: var(--color-blue)
-cssclasses:
-  - icon-color-blue
 ---
 # Checkliste
 

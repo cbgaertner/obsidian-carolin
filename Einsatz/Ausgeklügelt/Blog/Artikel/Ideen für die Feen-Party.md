@@ -1,9 +1,15 @@
 ---
+fileClass: BlogArtikel
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
+tags:
+  - "#Blog"
 Status:
   - Plan
 Workflow:
-tags:
-  - "#Blog"
 Datum:
 URL:
 Entwurf: "- Einladung für die Feen-Party
@@ -21,7 +27,6 @@ Entwurf: "- Einladung für die Feen-Party
   - Mitgebsel"
 Keywords:
 Kundenreise:
-fileClass: BlogArtikel
 ---
 # Checkliste
 

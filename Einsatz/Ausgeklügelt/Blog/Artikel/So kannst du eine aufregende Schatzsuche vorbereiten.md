@@ -1,15 +1,20 @@
 ---
+fileClass: BlogArtikel
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
+tags:
+  - "#Blog"
 Status: Veröffentlicht
 Workflow:
   - SEO
-tags:
-  - "#Blog"
 Datum: 2026-01-30
 URL: https://ausgekluegelt.com/schatzsuche-fuer-kinder-vorbereiten/
 Entwurf:
 Keywords: Schatzsuche für Kinder vorbereiten
 Kundenreise: Awareness
-fileClass: BlogArtikel
 ---
 # Checkliste
 

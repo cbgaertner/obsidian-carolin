@@ -1,9 +1,15 @@
 ---
+fileClass: BlogArtikel
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
+tags:
+  - "#Blog"
 Status:
   - Plan
 Workflow:
-tags:
-  - "#Blog"
 Datum: 2026-02-16
 URL:
 Entwurf: "- Flaschen\r
@@ -19,7 +25,6 @@ Entwurf: "- Flaschen\r
   - Flaschenschloss"
 Keywords:
 Kundenreise:
-fileClass: BlogArtikel
 ---
 # Checkliste
 

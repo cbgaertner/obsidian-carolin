@@ -185,5 +185,21 @@
   "Atlas/Notizen/Orte/Lindesnes Fyr.md": {
     "iconName": "LiLandmark",
     "iconColor": "var(--color-red)"
+  },
+  "Xtra/Vorlagen/Vorlage - Blog-Artikel.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Einsatz/Ausgeklügelt/Blog/Artikel/Behältnisse und Schlösser.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Einsatz/Ausgeklügelt/Blog/Artikel/Ideen für die Feen-Party.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
   }
 }

@@ -1,9 +1,14 @@
 ---
 fileClass: BlogArtikel
-Status:
-Workflow:
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
 tags:
   - "#Blog"
+Status:
+Workflow:
 Datum: 
 URL:
 Entwurf: 
