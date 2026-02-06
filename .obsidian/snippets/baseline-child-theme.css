@@ -81,6 +81,9 @@
 
 	--background-workspace: var(--nord3);
 	--tab-container-background: var(--background-secondary);
+	
+	--workspace-icon-color: var(--nord5);
+	--icon-color-focused: var(--nord12);
 }
 
 body:not(.is-mobile):not(.is-translucent) .workspace {
@@ -93,7 +96,38 @@ body:not(.is-mobile) .mod-sidedock .workspace-leaf {
 	background: var(--background-secondary);
 }
 
+body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspace-sidedock-vault-profile {
+	margin-left: 0;
+	background: var(--background-secondary);
+}
 
+/*
+.workspace-split .workspace-tab-container {
+	margin-bottom: 15px;
+}
+.workspace-split.mod-root .workspace-tab-container {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.workspace-split.mod-sidedock .workspace-tab-container {
+	border-radius: var(--tab-radius);
+}
+.workspace-split.mod-right-split .workspace-tab-container {
+	margin-right: 15px;
+}
+.workspace-sidedock-vault-profile {
+	margin-bottom: 15px;
+	border-radius: var(--tab-radius);
+}
+
+
+
+.cm-scroller:has(.banner-image:not(:empty)) > .cm-sizer, .markdown-preview-view:has(.banner-image:not(:empty)) > .markdown-preview-sizer {
+    --pp-banner-top-spacing-phone: calc(var(--banner-height) + var(--banner-margin) - var(--view-top-spacing-markdown));
+    --pp-banner-top-spacing: calc(var(--banner-height) + var(--banner-margin));
+    margin-top: var(--pp-banner-top-spacing);
+}
+*/
 
 
 

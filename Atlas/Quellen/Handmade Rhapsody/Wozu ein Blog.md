@@ -6,9 +6,13 @@ Modul: "[[4. Dein Blog]]"
 Reihenfolge: HR 4-1
 Status:
   - Fertig
+cssclasses:
+  - banner
+  - banner-fade
+  - y85
 banner: "[[HR 4-1.jpg]]"
-banner_position: 65
 ---
+![[HR 4-1.jpg|banner]]
 > [!Zusammenfassung]
 > Ein Blog ist ein unverzichtbares Werkzeug für deinen Online-Shop, das deine Reichweite erheblich vergrößert. Unternehmen mit Blog generieren durchschnittlich 67% mehr Leads pro Monat.
 > 

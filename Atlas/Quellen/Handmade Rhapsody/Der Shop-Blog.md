@@ -5,9 +5,13 @@ Kurs: "[[Handmade Rhapsody]]"
 Typ: Lektion
 Status: Nicht begonnen
 Reihenfolge: HR 4-2
-banner: HR 4-2.jpg
-banner_position: 63
+cssclasses:
+  - banner
+  - banner-fade
+  - y85
+banner: "[[HR 4-2.jpg]]"
 ---
+![[HR 4-2.jpg|banner]]
 # **Was du in diesem Video findest:**
 
 - Was kann ein Blog

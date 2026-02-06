@@ -273,8 +273,8 @@
   "baseline-style@@color-scheme-light": "nord-light",
   "baseline-style@@color-scheme-dark": "nord-dark",
   "baseline-style@@color-scheme-accent": true,
-  "baseline-style@@radius-modifier": 1.5,
-  "baseline-style@@element-style": "input-fluent",
+  "baseline-style@@radius-modifier": 1.25,
+  "baseline-style@@element-style": "input-tactile",
   "baseline-style@@tab-top-left-style": "tab-top-left-icon",
   "baseline-style@@nav-action": "nav-action-center",
   "baseline-style@@tab-left-style": "tab-left-icon",
@@ -312,5 +312,13 @@
   "baseline-style@@bold-folders": true,
   "baseline-style@@nav-indentation-guide-color": "rgba(var(--mono-rgb-100), 0.12)",
   "baseline-style@@banner-off": false,
-  "underwater-theme@@no-justify": true
+  "underwater-theme@@no-justify": true,
+  "baseline-style@@layout-style": "layout-cards",
+  "baseline-style@@status-bar-style": "status-bar-baseline",
+  "baseline-style@@density-modifier": 1,
+  "baseline-style@@reduce-contrast-change": false,
+  "baseline-style@@nav-item-active-style": "nav-item-subtle",
+  "baseline-style@@full-item-name": false,
+  "baseline-style@@large-new-note": true,
+  "baseline-style@@metadata-style": "metadata-block"
 }

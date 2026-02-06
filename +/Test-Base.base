@@ -3,7 +3,8 @@ views:
     name: Tabelle
     filters:
       and:
-        - "!icon.isEmpty()"
+        - "!banner.isEmpty()"
     order:
       - file.name
-      - icon
+      - cssclasses
+      - banner

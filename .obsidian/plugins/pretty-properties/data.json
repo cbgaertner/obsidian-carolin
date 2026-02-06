@@ -80,7 +80,7 @@
     }
   },
   "tagColors": {},
-  "enableBanner": true,
+  "enableBanner": false,
   "enableIcon": false,
   "enableCover": true,
   "bannerProperty": "banner",
@@ -139,7 +139,7 @@
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "ICONS",
+  "settingsTab": "BANNERS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",

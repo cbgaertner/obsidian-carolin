@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgKalenderWochentagFreitag",
-      "LiPenTool",
-      "LiLandmark",
       "CgKalenderQuartal1",
-      "CgKalenderWoche"
+      "CgKalenderWoche",
+      "CgKalenderWochentagMittwoch",
+      "CgKalenderWochentagDienstag",
+      "CgKalenderWochentagMontag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],

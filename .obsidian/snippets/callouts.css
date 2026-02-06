@@ -16,6 +16,7 @@
 	--callout-color: none;
 	--callout-icon: none;
 	padding: 0;
+	border-style: none;
 }
 .callout[data-callout="journal-nav"] .metadata-menu.fileclass-icon {
 	display: none;

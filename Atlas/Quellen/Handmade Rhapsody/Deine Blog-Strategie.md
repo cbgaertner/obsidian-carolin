@@ -5,9 +5,13 @@ Status:
   - Nicht begonnen
 Typ: Lektion
 Reihenfolge: HR 4-3
-banner: HR 4-3.jpg
-banner_position: 63
+cssclasses:
+  - banner
+  - banner-fade
+  - y85
+banner: "[[HR 4-3.jpg]]"
 ---
+![[HR 4-3.jpg|banner]]
 > Dein Fokus sollte nicht darin liegen, den perfekten Blogbeitrag für dein Unternehmen zu schreiben. Viel wichtiger ist es, den perfekten Blogbeitrag für deine Leser zu schreiben!
 
 # **1. Wer ist deine Zielgruppe?**
