@@ -43,6 +43,7 @@ KWs: <% weekList %>
 Monate: <% monthList %>
 Jahr: '[[<% year %>]]'
 ---
+![[BannerQuartal<% quarterNumber %>.jpg]]
 # <% quarterTitle %>
 
 > [!journal-nav] « [[<% previousQuarter %>|Vorheriges Quartal]] | [[<% year %>]] | [[<% nextQuarter %>|Nächstes Quartal]] »

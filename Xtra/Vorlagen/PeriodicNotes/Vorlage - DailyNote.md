@@ -24,7 +24,7 @@ icon: 'CgKalenderWochentag<% weekday %>'
 iconize-color-css: var(--color-yellow)
 cssclasses: icon-color-yellow
 ---
-
+![[BannerWochentag<% weekday %>.jpg|banner]]
 # <% tp.date.now("dddd, D. MMMM YYYY", 0, tp.file.title) %>
 
 > [!journal-nav] « [[<% previousDay %>|Vorheriger Tag]] | [[<% week %>|KW <% weekNumber %>]] | [[<% month %>|<% monthName %>]] | [[<% quarter %>|Quartal <% quarterNumber %>]] | [[<% year %>]] | [[<% nextDay %>|Nächster Tag]] »

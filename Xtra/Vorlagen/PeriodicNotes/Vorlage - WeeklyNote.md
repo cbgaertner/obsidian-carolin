@@ -39,6 +39,7 @@ Monat: '[[<% month %>]]'
 Quartal: '[[<% quarter %>]]'
 Jahr: '[[<% year %>]]'
 ---
+![[BannerKW<% weekNumber %>.jpg]]
 # <% weekTitle %>
 
 > [!journal-nav] « [[<% previousWeek %>|Vorherige Woche]] | [[<% month %>|<% monthName %>]] | [[<% quarter %>|Quartal <% quarterNumber %>]] | [[<% year %>]] | [[<% nextWeek %>|Nächste Woche]] »
