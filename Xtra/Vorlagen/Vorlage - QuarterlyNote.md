@@ -1,22 +1,20 @@
 <%*
-const quarterString = tp.file.title;
-const date = moment(quarterString, "YYYY-[Q]Q");
-const quarterStringLong = date.format("[Quartal] Q [/] YYYY");
-const quarterStringShort = date.format("[Q]Q");
-const quarterStringNumber = date.format("Q");
-const dateStart = date.clone().startOf("quarter");
-const dateStringStart = dateStart.format("YYYY-MM-DD");
-const dateEnd = date.clone().endOf("quarter");
-const dateStringEnd = dateEnd.format("YYYY-MM-DD");
-const quarterPrevious = date.clone().subtract(1, 'quarters');
-const quarterStringPrevious = quarterPrevious.format("YYYY-[Q]Q");
-const quarterNext = date.clone().add(1, 'quarters');
-const quarterStringNext = quarterNext.format("YYYY-[Q]Q");
-const yearString = date.format("YYYY");
+const firstOfQuarter = moment(tp.file.title, "YYYY-[Q]Q");
+const lastOfQuarter = firstOfQuarter.clone().endOf("quarter");
+const quarterTitle = tp.date.now("[Quartal] Q [/] YYYY", 0, tp.file.title, "YYYY-[Q]Q");
+const quarterNumber = tp.date.now("Q", 0, tp.file.title, "YYYY-[Q]Q");
+const quarterName = tp.date.now("[Q]Q", 0, tp.file.title, "YYYY-[Q]Q");
+const quarterStart = firstOfQuarter.format("YYYY-MM-DD");
+const quarterEnd = lastOfQuarter.format("YYYY-MM-DD");
+
+const year = tp.date.now("YYYY", 0, tp.file.title, "YYYY-[Q]Q");
+
+const previousQuarter = firstOfQuarter.clone().subtract(1, "quarters").format("YYYY-[Q]Q");
+const nextQuarter = firstOfQuarter.clone().add(1, "quarters").format("YYYY-[Q]Q");
 
 let monthList = "[";
-let currentMonth = dateStart.clone();
-while(currentMonth <= dateEnd) {
+let currentMonth = firstOfQuarter.clone();
+while(currentMonth <= lastOfQuarter) {
 	if (monthList.length > 1) monthList += ", ";
 	monthList += "'[[" + currentMonth.format("YYYY-MM MMMM") + "]]'";
 	currentMonth.add(1, "months");
@@ -24,8 +22,8 @@ while(currentMonth <= dateEnd) {
 monthList += "]";
 
 let weekList = "[";
-let currentWeek = dateStart.clone();
-while(currentWeek <= dateEnd) {
+let currentWeek = firstOfQuarter.clone();
+while(currentWeek <= lastOfQuarter) {
 	if (weekList.length > 1) weekList += ", ";
 	weekList += "'[[" + currentWeek.format("GGGG-[KW]WW") + "]]'";
 	currentWeek.add(1, "weeks");
@@ -35,14 +33,16 @@ weekList += "]";
 ---
 fileClass: QuarterlyNote
 tags: "Periodic/Quarterly"
-banner: '[[BannerQuartal<% quarterStringNumber %>.jpg]]'
-icon: '[[IconQuartal<% quarterStringNumber %>.png]]'
-Quartal: <% quarterStringShort %>
+banner: '[[BannerQuartal<% quarterNumber %>.jpg]]'
+icon: CgKalenderQuartal<% quarterNumber %>
+iconize-color-css: var(--color-yellow)
+cssclasses:
+  - icon-color-yellow
+Quartal: <% quarterName %>
 KWs: <% weekList %>
 Monate: <% monthList %>
-Jahr: '[[<% yearString %>]]'
+Jahr: '[[<% year %>]]'
 ---
-# <% quarterStringLong %>
+# <% quarterTitle %>
 
-« [[<% quarterStringPrevious %>|Vorheriges Quartal]] | [[<% quarterStringNext %>|Nächstes Quartal]] »
-
+> [!journal-nav] « [[<% previousQuarter %>|Vorheriges Quartal]] | [[<% year %>]] | [[<% nextQuarter %>|Nächstes Quartal]] »

@@ -6,7 +6,16 @@
     "reitenlukas",
     "reitenrosalie",
     "cssclasses",
-    "iconize-color"
+    "iconize-color",
+    "iconize-color-css",
+    "nächster tag",
+    "vorheriger tag",
+    "jahr",
+    "quartal",
+    "monat",
+    "kw",
+    "datum",
+    "icon-color"
   ],
   "propertyPillColors": {
     "Fertig": {

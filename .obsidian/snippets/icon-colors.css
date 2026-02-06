@@ -2,6 +2,12 @@
 .icon-color-yellow {
 	--iconize-color: var(--color-yellow);
 }
+.icon-color-red {
+	--iconize-color: var(--color-red);
+}
+.icon-color-blue {
+	--iconize-color: var(--color-blue);
+}
 
 
 .workspace-tab-header-inner-icon {

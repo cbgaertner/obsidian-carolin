@@ -13,8 +13,11 @@ Entwurf: |-
 Keywords:
 Kundenreise:
 fileClass: BlogArtikel
-icon: pen-tool
-icon-color: red
+icon: LiPenTool
+icon-color: blue
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
 ---
 # Checkliste
 

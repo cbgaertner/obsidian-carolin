@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiStar",
-      "CgKalenderWochentagDonnerstag",
-      "CgKalenderWochentagDienstag"
+      "LiPenTool",
+      "LiLandmark",
+      "CgKalenderQuartal1",
+      "CgKalenderWoche",
+      "CgKalenderJahr"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,7 +25,7 @@
     "iconInTitlePosition": "inline",
     "iconInFrontmatterEnabled": true,
     "iconInFrontmatterFieldName": "icon",
-    "iconColorInFrontmatterFieldName": "iconize-color",
+    "iconColorInFrontmatterFieldName": "iconize-color-css",
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
@@ -35,5 +37,153 @@
   "Journal/2026-02-05.md": {
     "iconName": "CgKalenderWochentagDonnerstag",
     "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-02-04.md": {
+    "iconName": "CgKalenderWochentagMittwoch",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-02-03.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-02-02.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-01.md": {
+    "iconName": "CgKalenderWochentagSonntag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-31.md": {
+    "iconName": "CgKalenderWochentagSamstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-30.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-29.md": {
+    "iconName": "CgKalenderWochentagDonnerstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-28.md": {
+    "iconName": "CgKalenderWochentagMittwoch",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-27.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-26.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-23.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-16.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-09.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Xtra/Types/Orte/Sehenswürdigkeit.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
+  },
+  "Journal/2026.md": {
+    "iconName": "CgKalenderJahr",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-Q1.md": {
+    "iconName": "CgKalenderQuartal1",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-KW06.md": {
+    "iconName": "CgKalenderWoche",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-02 Februar.md": {
+    "iconName": "CgKalenderMonat02",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-01 Januar.md": {
+    "iconName": "CgKalenderMonat01",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/KW/2026-KW05.md": {
+    "iconName": "CgKalenderWoche",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/KW/2026-KW04.md": {
+    "iconName": "CgKalenderWoche",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01-02.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/12 Dezember/2025-12-19.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/12 Dezember/2025-12-12.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/12 Dezember/2025-12-05.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/11 November/2025-11-28.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/11 November/2025-11-21.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/11 November/2025-11-14.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/11 November/2025-11-07.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/10 Oktober/2025-10-31.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/10 Oktober/2025-10-24.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/10 Oktober/2025-10-17.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/10 Oktober/2025-10-10.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2025/09 September/2025-09-26.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du die Spielmaterialien für die Schatzsuchen ausdrucken.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Journal/2026-02-06.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Atlas/Notizen/Orte/Lindesnes Fyr.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
   }
 }

@@ -2,7 +2,10 @@
 fileClass: MonthlyNote
 tags: Periodic/Monthly
 banner: "[[BannerMonat02.jpg]]"
-icon: "[[IconMonat02.png]]"
+icon: CgKalenderMonat02
+iconize-color-css: var(--color-yellow)
+cssclasses:
+  - icon-color-yellow
 Von: "[[2026-02-01]]"
 Bis: "[[2026-02-28]]"
 Monat: Februar
@@ -44,4 +47,6 @@ Quartal: "[[2026-Q1]]"
 Jahr: "[[2026]]"
 ---
 # Februar 2026
-« [[2026-01 Januar|Vorheriger Monat]] | [[2026-03 März|Nächster Monat]] »
+
+> [!journal-nav] « [[2026-01 Januar|Vorheriger Monat]] | [[2026-Q1|Quartal 1]] | [[2026]] | [[2026-03 März|Nächster Monat]] »
+

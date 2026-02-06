@@ -1,23 +1,23 @@
 <%*
-const weekString = tp.file.title;
-const date = moment(weekString, "GGGG-[KW]WW");
-const weekStringLong = date.format("[Kalenderwoche] W [/] GGGG");
-const weekStringNumber = date.format("WW");
-const dateStart = date.clone().startOf("week");
-const dateStringStart = dateStart.format("YYYY-MM-DD");
-const dateEnd = date.clone().endOf("week");
-const dateStringEnd = dateEnd.format("YYYY-MM-DD");
-const weekPrevious = date.clone().subtract(1, 'weeks');
-const weekStringPrevious = weekPrevious.format("GGGG-[KW]WW");
-const weekNext = date.clone().add(1, 'weeks');
-const weekStringNext = weekNext.format("GGGG-[KW]WW");
-const monthString = date.format("YYYY-MM MMMM");
-const quarterString = date.format("YYYY-[Q]Q");
-const yearString = date.format("YYYY");
+const firstOfWeek = moment(tp.file.title, "YYYY-[KW]WW").startOf("week");
+const lastOfWeek = firstOfWeek.clone().endOf("week");
+const weekTitle = tp.date.now("[Kalenderwoche] W [/] YYYY", 0, tp.file.title, "YYYY-[KW]WW");
+const weekNumber = tp.date.now("WW", 0, tp.file.title, "YYYY-[KW]WW");
+const weekStart = firstOfWeek.format("YYYY-MM-DD");
+const weekEnd = lastOfWeek.format("YYYY-MM-DD");
+
+const month = tp.date.now("YYYY-MM MMMM", 0, tp.file.title, "YYYY-[KW]WW");
+const monthName = tp.date.now("MMMM", 0 , tp.file.title, "YYYY-[KW]WW");
+const quarter = tp.date.now("YYYY-[Q]Q", 0, tp.file.title, "YYYY-[KW]WW");
+const quarterNumber = tp.date.now("Q", 0, tp.file.title, "YYYY-[KW]WW");
+const year = tp.date.now("YYYY", 0, tp.file.title, "YYYY-[KW]WW");
+
+const previousWeek = firstOfWeek.clone().subtract(1, "weeks").format("YYYY-MM MMMM");
+const nextWeek = firstOfWeek.clone().add(1, "weeks").format("YYYY-MM MMMM");
 
 let dayList = "[";
-let current = dateStart.clone();
-while(current <= dateEnd) {
+let current = firstOfWeek.clone();
+while(current <= lastOfWeek) {
 	if (dayList.length > 1) dayList += ", ";
 	dayList += "'[[" + current.format("YYYY-MM-DD") + "]]'";
 	current.add(1, "days");
@@ -27,16 +27,18 @@ dayList += "]";
 ---
 fileClass: WeeklyNote
 tags: "Periodic/Weekly"
-Von: '[[<% dateStringStart %>]]'
-Bis: '[[<% dateStringEnd %>]]'
+banner: '[[BannerKW<% weekNumber %>.jpg]]'
+icon: CgKalenderWoche
+iconize-color-css: var(--color-yellow)
+cssclasses:
+  - icon-color-yellow
+Von: '[[<% weekStart %>]]'
+Bis: '[[<% weekEnd %>]]'
 Tage: <% dayList %>
-Monat: '[[<% monthString %>]]'
-Quartal: '[[<% quarterString %>]]'
-Jahr: '[[<% yearString %>]]'
-banner: '[[BannerKW<% weekStringNumber %>.jpg]]'
-icon: "[[IconWoche.png]]"
+Monat: '[[<% month %>]]'
+Quartal: '[[<% quarter %>]]'
+Jahr: '[[<% year %>]]'
 ---
-# <% weekStringLong %>
+# <% weekTitle %>
 
-« [[<% weekStringPrevious %>|Vorherige Woche]] | [[<% weekStringNext %>|Nächste Woche]] »
-
+> [!journal-nav] « [[<% previousWeek %>|Vorherige Woche]] | [[<% month %>|<% monthName %>]] | [[<% quarter %>|Quartal <% quarterNumber %>]] | [[<% year %>]] | [[<% nextWeek %>|Nächste Woche]] »

@@ -1,23 +1,24 @@
 <%*
-const monthString = tp.file.title;
-const date = moment(monthString, "YYYY-MM MMMM");
-const monthStringLong = date.format("MMMM YYYY");
-const monthStringNumber = date.format("MM");
-const monthStringName = date.format("MMMM");
-const dateStart = date.clone().startOf("month");
-const dateStringStart = dateStart.format("YYYY-MM-DD");
-const dateEnd = date.clone().endOf("month");
-const dateStringEnd = dateEnd.format("YYYY-MM-DD");
-const monthPrevious = date.clone().subtract(1, 'months');
-const monthStringPrevious = monthPrevious.format("YYYY-MM MMMM");
-const monthNext = date.clone().add(1, 'months');
-const monthStringNext = monthNext.format("YYYY-MM MMMM");
-const quarterString = date.format("YYYY-[Q]Q");
-const yearString = date.format("YYYY");
+const firstOfMonth = moment(tp.file.title, "YYYY-MM MMMM");
+const lastOfMonth = firstOfMonth.clone().endOf("month");
+const monthTitle = tp.date.now("MMMM YYYY", 0, tp.file.title);
+const monthNumber = tp.date.now("MM", 0, tp.file.title);
+const monthName = tp.date.now("MMMM", 0 , tp.file.title);
+const monthStart = firstOfMonth.format("YYYY-MM-DD");
+const monthEnd = lastOfMonth.format("YYYY-MM-DD");
+
+const week = tp.date.now("YYYY-[KW]WW", 0, tp.file.title);
+const weekNumber = tp.date.now("WW", 0, tp.file.title);
+const quarter = tp.date.now("YYYY-[Q]Q", 0, tp.file.title);
+const quarterNumber = tp.date.now("Q", 0, tp.file.title);
+const year = tp.date.now("YYYY", 0, tp.file.title);
+
+const previousMonth = firstOfMonth.clone().subtract(1, "months").format("YYYY-MM MMMM");
+const nextMonth = firstOfMonth.clone().add(1, "months").format("YYYY-MM MMMM");
 
 let dayList = "[";
-let currentDay = dateStart.clone();
-while(currentDay <= dateEnd) {
+let currentDay = firstOfMonth.clone();
+while(currentDay <= lastOfMonth) {
 	if (dayList.length > 1) dayList += ", ";
 	dayList += "'[[" + currentDay.format("YYYY-MM-DD") + "]]'";
 	currentDay.add(1, "days");
@@ -25,8 +26,8 @@ while(currentDay <= dateEnd) {
 dayList += "]";
 
 let weekList = "[";
-let currentWeek = dateStart.clone();
-while(currentWeek <= dateEnd) {
+let currentWeek = firstOfMonth.clone();
+while(currentWeek <= lastOfMonth) {
 	if (weekList.length > 1) weekList += ", ";
 	weekList += "'[[" + currentWeek.format("GGGG-[KW]WW") + "]]'";
 	currentWeek.add(1, "weeks");
@@ -36,17 +37,20 @@ weekList += "]";
 ---
 fileClass: MonthlyNote
 tags: "Periodic/Monthly"
-banner: '[[BannerMonat<% monthStringNumber %>.jpg]]'
-icon: '[[IconMonat<% monthStringNumber %>.png]]'
-Von: '[[<% dateStringStart %>]]'
-Bis: '[[<% dateStringEnd %>]]'
-Monat: <% monthStringName %>
+banner: '[[BannerMonat<% monthNumber %>.jpg]]'
+icon: CgKalenderMonat<% monthNumber %>
+iconize-color-css: var(--color-yellow)
+cssclasses:
+  - icon-color-yellow
+Von: '[[<% monthStart %>]]'
+Bis: '[[<% monthEnd %>]]'
+Monat: <% monthName %>
 Tage: <% dayList %>
 KWs: <% weekList %>
-Quartal: '[[<% quarterString %>]]'
-Jahr: '[[<% yearString %>]]'
+Quartal: '[[<% quarter %>]]'
+Jahr: '[[<% year %>]]'
 ---
-# <% monthStringLong %>
+# <% monthTitle %>
 
-« [[<% monthStringPrevious %>|Vorheriger Monat]] | [[<% monthStringNext %>|Nächster Monat]] »
+> [!journal-nav] « [[<% previousMonth %>|Vorheriger Monat]] | [[<% quarter %>|Quartal <% quarterNumber %>]] | [[<% year %>]] | [[<% nextMonth %>|Nächster Monat]] »
 

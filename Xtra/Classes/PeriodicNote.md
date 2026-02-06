@@ -21,7 +21,7 @@ fields:
 version: "2.5"
 limit: 20
 mapWithTag: false
-icon: package
+icon:
 tagNames:
 filesPaths:
 bookmarksGroups:

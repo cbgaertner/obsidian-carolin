@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - "!icon.isEmpty()"
+    order:
+      - file.name
+      - icon
