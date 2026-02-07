@@ -10,7 +10,7 @@
 	--callout-title-weight: 680;
 	--callout-icon: dumbbell;
 }
-.callout[data-callout="sport"] a[data-tag-value^="Sport/Reiten/"],
+.callout[data-callout="sport"] a[data-tag-value^="Sport/Fußball/"],
 .callout[data-callout="sport"] a[data-tag-value^="Sport/Reiten/"] {
 	display: inline-block;
 }
