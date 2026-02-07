@@ -12,6 +12,13 @@ const year = tp.date.now("YYYY", 0, tp.file.title);
 -%>
 ---
 fileClass: DailyNote
+banner: '[[BannerWochentag<% weekday %>.jpg]]'
+icon: 'CgKalenderWochentag<% weekday %>'
+iconize-color-css: var(--color-yellow)
+cssclasses: 
+  - icon-color-yellow
+  - banner
+  - banner-fade
 tags: Periodic/Daily
 Datum: <% tp.file.title %>
 Wochentag: <% tp.date.now("dddd", 0, tp.file.title) %>
@@ -19,10 +26,6 @@ KW: '[[<% week %>]]'
 Monat: '[[<% month %>]]'
 Quartal: '[[<% quarter %>]]'
 Jahr: '[[<% year %>]]'
-banner: '[[BannerWochentag<% weekday %>.jpg]]'
-icon: 'CgKalenderWochentag<% weekday %>'
-iconize-color-css: var(--color-yellow)
-cssclasses: icon-color-yellow
 ---
 ![[BannerWochentag<% weekday %>.jpg|banner]]
 # <% tp.date.now("dddd, D. MMMM YYYY", 0, tp.file.title) %>

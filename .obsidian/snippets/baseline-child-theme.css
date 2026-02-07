@@ -25,6 +25,14 @@
 	--nord14: #a3be8c; /* grün */
 	--nord15: #b48ead; /* lila */
 
+	--h1-color: var(--nord10) !important;
+	--h2-color: var(--nord11) !important;
+	--h3-color: var(--nord12) !important;
+	--h4-color: var(--nord7) !important;
+	--h5-color: var(--nord15) !important;
+	--h6-color: var(--nord3) !important;
+
+
 		/* Nord RGB */
 	--nord0-rgb: 46, 52, 64;
 	--nord1-rgb: 59, 66, 82;
@@ -71,12 +79,14 @@
 	--color-pink: var(--nord8);
 	--color-red-rgb: var(--nord11-rgb);
 	--color-orange-rgb: var(--nord12-rgb);
-	--color-yellow-rgb: var(--nord12-rgb);
+	--color-yellow-rgb: var(--nord13-rgb);
 	--color-green-rgb: var(--nord14-rgb);
 	--color-cyan-rgb: var(--nord7-rgb);
 	--color-blue-rgb: var(--nord10-rgb);
 	--color-purple-rgb: var(--nord15-rgb);
 	--color-pink-rgb: var(--nord8-rgb);
+	
+	
 
 
 	--background-workspace: var(--nord3);
@@ -84,8 +94,20 @@
 	
 	--workspace-icon-color: var(--nord5);
 	--icon-color-focused: var(--nord12);
+	
+	--rainbowcolor1: var(--color-red-rgb);
+	--rainbowcolor2: var(--color-orange-rgb);
+	--rainbowcolor3: var(--color-yellow-rgb);
+	--rainbowcolor4: var(--color-green-rgb);
+	--rainbowcolor5: var(--color-cyan-rgb);
+	--rainbowcolor6: var(--color-blue-rgb);
+	--rainbowcolor7: var(--color-purple-rgb);
+	--rainbowcolor8: var(--color-pink-rgb);
 }
 
+
+
+/* Background anpassen (dunkler Hintergrund, linke und rechte Sidebar etwas dunkler als Editor) */
 body:not(.is-mobile):not(.is-translucent) .workspace {
 	background: var(--background-workspace);
 }
@@ -101,68 +123,35 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 	background: var(--background-secondary);
 }
 
-/*
-.workspace-split .workspace-tab-container {
-	margin-bottom: 15px;
+
+/* Rainbow-Folders sollen beim Scrollen nicht die Farbe wechseln (benötigt das Plugin "Rainbow Folders Fixer") */
+.nav-folder[data-foldernumber] {
+	background-color: rgba(var(--rainbowcolor-rgb), 0.15) !important;
 }
-.workspace-split.mod-root .workspace-tab-container {
-	margin-left: 15px;
-	margin-right: 15px;
+.nav-folder[data-foldernumber="1"] {
+  --rainbowcolor-rgb: var(--rainbowcolor1);
 }
-.workspace-split.mod-sidedock .workspace-tab-container {
-	border-radius: var(--tab-radius);
+.nav-folder[data-foldernumber="2"] {
+  --rainbowcolor-rgb: var(--rainbowcolor2);
 }
-.workspace-split.mod-right-split .workspace-tab-container {
-	margin-right: 15px;
+.nav-folder[data-foldernumber="3"] {
+  --rainbowcolor-rgb: var(--rainbowcolor3);
 }
-.workspace-sidedock-vault-profile {
-	margin-bottom: 15px;
-	border-radius: var(--tab-radius);
+.nav-folder[data-foldernumber="4"] {
+  --rainbowcolor-rgb: var(--rainbowcolor4);
+}
+.nav-folder[data-foldernumber="5"] {
+  --rainbowcolor-rgb: var(--rainbowcolor5);
+}
+.nav-folder[data-foldernumber="6"] {
+  --rainbowcolor-rgb: var(--rainbowcolor6);
+}
+.nav-folder[data-foldernumber="7"] {
+  --rainbowcolor-rgb: var(--rainbowcolor7);
+}
+.nav-folder[data-foldernumber="8"] {
+  --rainbowcolor-rgb: var(--rainbowcolor8);
 }
 
 
 
-.cm-scroller:has(.banner-image:not(:empty)) > .cm-sizer, .markdown-preview-view:has(.banner-image:not(:empty)) > .markdown-preview-sizer {
-    --pp-banner-top-spacing-phone: calc(var(--banner-height) + var(--banner-margin) - var(--view-top-spacing-markdown));
-    --pp-banner-top-spacing: calc(var(--banner-height) + var(--banner-margin));
-    margin-top: var(--pp-banner-top-spacing);
-}
-*/
-
-
-
-/*
-.workspace-ribbon .clickable-icon {
-	color: var(--workspace-icon-color);
-}
-.workspace-tab-header-inner .workspace-tab-header-inner-icon,
-.mod-left-split .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-.mod-right-split .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
-	color: var(--workspace-icon-color);
-}
-.workspace-tab-header-tab-list .clickable-icon,
-.workspace-tab-header-new-tab .clickable-icon,
-.sidebar-toggle-button .clickable-icon {
-	color: var(--workspace-icon-color);
-}
-.workspace-tab-header-container::after {
-	color: var(--workspace-icon-color);
-}
-
-.nav-buttons-container {
-	background-color: var(--container);
-}
-
-textarea::placeholder,
-.multi-select-container::placeholder,
-input.metadata-input-text::placeholder,
-input[type='date']::placeholder,
-input[type='datetime-local']::placeholder,
-input[type='text']::placeholder,
-input[type='search']::placeholder,
-input[type='email']::placeholder,
-input[type='password']::placeholder,
-input[type='number']::placeholder {
-	color: var(--text-light);
-}
-*/

@@ -34,6 +34,8 @@ icon: CgKalenderJahr
 iconize-color-css: var(--color-yellow)
 cssclasses:
   - icon-color-yellow
+  - banner
+  - banner-fade
 Von: '[[<% yearStart %>]]'
 Bis: '[[<% yearEnd %>]]'
 Monate: <% monthList %>

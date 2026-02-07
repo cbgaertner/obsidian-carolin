@@ -320,5 +320,7 @@
   "baseline-style@@nav-item-active-style": "nav-item-subtle",
   "baseline-style@@full-item-name": false,
   "baseline-style@@large-new-note": true,
-  "baseline-style@@metadata-style": "metadata-block"
+  "baseline-style@@metadata-style": "metadata-block",
+  "baseline-style@@callouts-style": "callouts-tactile",
+  "baseline-style@@row-alt": true
 }

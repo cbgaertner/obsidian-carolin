@@ -5,7 +5,6 @@
   "obsidian-auto-link-title",
   "obsidian-meta-bind-plugin",
   "dataview",
-  "metadata-menu",
   "periodic-notes",
   "obsidian-hover-editor",
   "obsidian-tagfolder",
@@ -16,5 +15,8 @@
   "maps",
   "obsidian-tasks-plugin",
   "obsidian-plugin-toc",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "rainbow-folders-fixer",
+  "metadata-menu",
+  "tag-wrangler"
 ]

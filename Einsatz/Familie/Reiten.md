@@ -1,17 +1,17 @@
-#Reiten
+#Sport/Reiten
 # 10er-Karten
 ```dataviewjs
 // Alle DailyNotes mit dem Tag '#Reiten/10erKarte'
-const zehnerkarten = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/10erKarte')).sort(c => c.Datum);
+const zehnerkarten = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/10erKarte')).sort(c => c.Datum);
 
 // Alle DailyNotes mit dem Tag '#Reiten/Lukas'
-const reitstundenLukas = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/Lukas'));
+const reitstundenLukas = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/Lukas'));
 for (const element of reitstundenLukas) {
 	element["typ"] = "Lukas";
 }
 
 // Alle DailyNotes mit dem Tag '#Reiten/Rosalie'
-const reitstundenRosalie = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/Rosalie'));
+const reitstundenRosalie = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/Rosalie'));
 for (const element of reitstundenRosalie) {
 	element["typ"] = "Rosalie";
 }
@@ -86,14 +86,14 @@ dv.table([
 
 # Liste 10er-Karten
 ```dataviewjs
-const cards = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/10erKarte')).sort(c => c.Datum);
+const cards = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/10erKarte')).sort(c => c.Datum);
 
-let lukas = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/Lukas'));
+let lukas = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/Lukas'));
 for (const element of lukas) {
 	element["type"] = "Lukas";
 }
 
-let rosalie = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Reiten/Rosalie'));
+let rosalie = dv.pages('#Periodic/Daily').where(page => page.file.tags.includes('#Sport/Reiten/Rosalie'));
 for (const element of rosalie) {
 	element["type"] = "Rosalie";
 }

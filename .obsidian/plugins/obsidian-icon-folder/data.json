@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgKalenderWochentagSamstag",
+      "CgKalenderMonat02",
+      "CgKalenderWochentagFreitag",
       "CgKalenderQuartal1",
-      "CgKalenderWoche",
-      "CgKalenderWochentagMittwoch",
-      "CgKalenderWochentagDienstag",
-      "CgKalenderWochentagMontag"
+      "CgKalenderWoche"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -201,5 +201,9 @@
   "Xtra/Vorlagen/Ausgeklügelt/Vorlage - Blog-Artikel.md": {
     "iconName": "LiPenTool",
     "iconColor": "var(--color-blue)"
+  },
+  "Journal/2026-02-07.md": {
+    "iconName": "CgKalenderWochentagSamstag",
+    "iconColor": "var(--color-yellow)"
   }
 }

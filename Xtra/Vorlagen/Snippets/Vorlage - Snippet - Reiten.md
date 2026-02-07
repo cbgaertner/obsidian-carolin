@@ -1,2 +1,2 @@
 > [!reitstunde]
-> #Reiten/Lukas #Reiten/Rosalie #Reiten/10erKarte 
+> #Sport/Reiten/Lukas #Sport/Reiten/Rosalie #Sport/Reiten/10erKarte 

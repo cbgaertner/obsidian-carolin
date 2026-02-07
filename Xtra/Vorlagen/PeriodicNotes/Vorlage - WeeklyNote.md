@@ -32,6 +32,8 @@ icon: CgKalenderWoche
 iconize-color-css: var(--color-yellow)
 cssclasses:
   - icon-color-yellow
+  - banner
+  - banner-fade
 Von: '[[<% weekStart %>]]'
 Bis: '[[<% weekEnd %>]]'
 Tage: <% dayList %>

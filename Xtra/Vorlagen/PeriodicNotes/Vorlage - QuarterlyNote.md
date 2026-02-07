@@ -38,6 +38,8 @@ icon: CgKalenderQuartal<% quarterNumber %>
 iconize-color-css: var(--color-yellow)
 cssclasses:
   - icon-color-yellow
+  - banner
+  - banner-fade
 Quartal: <% quarterName %>
 KWs: <% weekList %>
 Monate: <% monthList %>
