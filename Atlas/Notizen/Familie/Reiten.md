@@ -1,3 +1,9 @@
+---
+icon: CgReiten
+iconize-color-css: var(--color-blue)
+cssclasses:
+  - icon-color-blue
+---
 #Sport/Reiten
 # 10er-Karten
 ```dataviewjs

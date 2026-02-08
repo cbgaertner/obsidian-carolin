@@ -95,6 +95,13 @@
 	--workspace-icon-color: var(--nord5);
 	--icon-color-focused: var(--nord12);
 	
+	--table-header-background: var(--nord7);
+	--table-header-radius: 0;
+	--table-header-border-color: var(--nord4);
+	
+	--list-padding-inline-end: 5px;
+	
+	
 	--rainbowcolor1: var(--color-red-rgb);
 	--rainbowcolor2: var(--color-orange-rgb);
 	--rainbowcolor3: var(--color-yellow-rgb);
@@ -154,4 +161,24 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 }
 
 
+/* Tabellen-Header */
+.cm-table-widget table>thead>tr>th:not(:last-child),
+.cm-table-widget table>:is(thead,tbody)>tr:last-child>:is(th,td):first-child,
+.cm-table-widget table>:is(thead,tbody)>tr:last-child>:is(th,td):last-child,
+.block-language-dataviewjs table>thead:not(:only-child)>tr>th,
+.block-language-dataviewjs table>:is(thead,tbody)>tr:last-child>:is(th,td):first-child,
+.block-language-dataviewjs table>:is(thead,tbody)>tr:last-child>:is(th,td):last-child {
+	border-radius: var(--table-header-radius);
+}
+.table-view-table > thead > tr > th {
+	border-left-style: solid;
+	border-left-width: var(--table-border-width);
+	border-left-color: var(--table-header-border-color);
+}
+
+
+/* Listen */
+.cm-formatting-list-ul, .cm-formatting-list-ol {
+	padding-inline-end: var(--list-padding-inline-end);
+}
 

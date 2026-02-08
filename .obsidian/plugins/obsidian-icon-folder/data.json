@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgReiten",
       "CgKalenderWochentagSamstag",
       "CgKalenderMonat02",
       "CgKalenderWochentagFreitag",
-      "CgKalenderQuartal1",
-      "CgKalenderWoche"
+      "CgKalenderQuartal1"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -205,5 +205,9 @@
   "Journal/2026-02-07.md": {
     "iconName": "CgKalenderWochentagSamstag",
     "iconColor": "var(--color-yellow)"
+  },
+  "Atlas/Notizen/Familie/Reiten.md": {
+    "iconName": "CgReiten",
+    "iconColor": "var(--color-blue)"
   }
 }
