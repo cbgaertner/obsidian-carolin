@@ -102,14 +102,14 @@
 	--list-padding-inline-end: 5px;
 	
 	
-	--rainbowcolor1: var(--color-red-rgb);
-	--rainbowcolor2: var(--color-orange-rgb);
-	--rainbowcolor3: var(--color-yellow-rgb);
-	--rainbowcolor4: var(--color-green-rgb);
-	--rainbowcolor5: var(--color-cyan-rgb);
-	--rainbowcolor6: var(--color-blue-rgb);
-	--rainbowcolor7: var(--color-purple-rgb);
-	--rainbowcolor8: var(--color-pink-rgb);
+	--rainbowcolor1: var(--nord11-rgb);
+	--rainbowcolor2: var(--nord12-rgb);
+	--rainbowcolor3: var(--nord13-rgb);
+	--rainbowcolor4: var(--nord14-rgb);
+	--rainbowcolor5: var(--nord7-rgb);
+	--rainbowcolor6: var(--nord8-rgb);
+	--rainbowcolor7: var(--nord10-rgb);
+	--rainbowcolor8: var(--nord15-rgb);
 }
 
 
@@ -133,7 +133,7 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 
 /* Rainbow-Folders sollen beim Scrollen nicht die Farbe wechseln (benötigt das Plugin "Rainbow Folders Fixer") */
 .nav-folder[data-foldernumber] {
-	background-color: rgba(var(--rainbowcolor-rgb), 0.15) !important;
+	background-color: rgba(var(--rainbowcolor-rgb), 0.3) !important;
 }
 .nav-folder[data-foldernumber="1"] {
   --rainbowcolor-rgb: var(--rainbowcolor1);
