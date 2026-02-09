@@ -20,7 +20,7 @@ not done
 is not blocked
 filter by function !task.file.folder.includes('Journal')
 filter by function !task.file.folder.includes('Ausgeklügelt/Blog')
-filter by function !task.file.folder.includes('Ausgeklügelt/Party-Mottos')
+filter by function !task.file.folder.includes('Ausgeklügelt/Produkte/Party-Mottos')
 
 sort by due reverse
 
@@ -32,7 +32,7 @@ hide task count
 not done
 is not blocked
 filter by function !task.file.folder.includes('Journal')
-filter by function task.file.folder.includes('Ausgeklügelt/Party-Mottos')
+filter by function task.file.folder.includes('Ausgeklügelt/Produkte/Party-Mottos')
 
 group by filename
 sort by due reverse
