@@ -15,7 +15,9 @@
     "monat",
     "kw",
     "datum",
-    "icon-color"
+    "icon-color",
+    "journal-date",
+    "journal"
   ],
   "propertyPillColors": {
     "Fertig": {
@@ -65,18 +67,6 @@
     "Sonntag": {
       "pillColor": "red",
       "textColor": "default"
-    },
-    "cyan": {
-      "pillColor": "default",
-      "textColor": "blue"
-    },
-    "b": {
-      "pillColor": "default",
-      "textColor": "blue"
-    },
-    "red": {
-      "textColor": "none",
-      "pillColor": "none"
     }
   },
   "tagColors": {},
@@ -132,14 +122,14 @@
   "bannerPositionProperty": "banner_position",
   "addPillPadding": "all",
   "addBaseTagColor": true,
-  "enableTasksCount": true,
+  "enableTasksCount": false,
   "enableColorButtonInBases": false,
   "customDateFormat": "",
   "customDateTimeFormat": "",
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "BANNERS",
+  "settingsTab": "PROPERTY_SETTINGS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",
@@ -191,7 +181,7 @@
   "titleIconSize": 30,
   "titleTextIconMatchTitleSize": true,
   "imageLinkFormat": "link",
-  "hideMetadataContainerIfAllPropertiesHiddenEditing": false,
-  "hideMetadataContainerIfAllPropertiesHiddenReading": false,
+  "hideMetadataContainerIfAllPropertiesHiddenEditing": true,
+  "hideMetadataContainerIfAllPropertiesHiddenReading": true,
   "autoHidePropertiesWithBanner": false
 }

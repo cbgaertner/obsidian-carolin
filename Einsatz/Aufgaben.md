@@ -6,7 +6,6 @@
 - [[#Alle sonstigen Aufgaben|Alle sonstigen Aufgaben]]
 
 # Aufgaben aus den DailyNotes
-
 ```tasks
 not done
 is not blocked
@@ -15,9 +14,20 @@ filter by function task.file.folder.includes('Journal')
 sort by due reverse
 hide task count
 ```
+# Alle sonstigen Aufgaben
+```tasks
+not done
+is not blocked
+filter by function !task.file.folder.includes('Journal')
+filter by function !task.file.folder.includes('Ausgeklügelt/Blog')
+filter by function !task.file.folder.includes('Ausgeklügelt/Party-Mottos')
+
+sort by due reverse
+
+hide task count
+```
 
 # Produkterstellung
-
 ```tasks
 not done
 is not blocked
@@ -45,14 +55,3 @@ hide backlink
 hide task count
 ```
 
-# Alle sonstigen Aufgaben
-```tasks
-not done
-is not blocked
-filter by function !task.file.folder.includes('Journal')
-filter by function !task.file.folder.includes('Ausgeklügelt/Blog')
-
-sort by due reverse
-
-hide task count
-```

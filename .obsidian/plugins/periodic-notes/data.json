@@ -4,31 +4,31 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "folder": "Journal",
-    "template": "Xtra/Vorlagen/Vorlage - DailyNote.md",
+    "template": "Xtra/Vorlagen/PeriodicNotes/Vorlage - DailyNote.md",
     "enabled": true,
     "format": "YYYY-MM-DD"
   },
   "weekly": {
     "format": "GGGG-[KW]WW",
-    "template": "Xtra/Vorlagen/Vorlage - WeeklyNote.md",
+    "template": "Xtra/Vorlagen/PeriodicNotes/Vorlage - WeeklyNote.md",
     "folder": "Journal",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM MMMM",
-    "template": "Xtra/Vorlagen/Vorlage - MonthlyNote.md",
+    "template": "Xtra/Vorlagen/PeriodicNotes/Vorlage - MonthlyNote.md",
     "folder": "Journal",
     "enabled": true
   },
   "quarterly": {
     "format": "YYYY-[Q]Q",
-    "template": "Xtra/Vorlagen/Vorlage - QuarterlyNote.md",
+    "template": "Xtra/Vorlagen/PeriodicNotes/Vorlage - QuarterlyNote.md",
     "folder": "Journal",
     "enabled": true
   },
   "yearly": {
     "format": "YYYY",
-    "template": "Xtra/Vorlagen/Vorlage - YearlyNote.md",
+    "template": "Xtra/Vorlagen/PeriodicNotes/Vorlage - YearlyNote.md",
     "folder": "Journal",
     "enabled": true
   }

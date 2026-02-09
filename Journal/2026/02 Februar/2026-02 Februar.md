@@ -47,6 +47,8 @@ KWs:
 Quartal: "[[2026-Q1]]"
 Jahr: "[[2026]]"
 banner: "[[BannerMonat02.jpg]]"
+journal: Monate
+journal-date: 2026-02-01
 ---
 ![[BannerMonat02.jpg|banner]]
 # Februar 2026

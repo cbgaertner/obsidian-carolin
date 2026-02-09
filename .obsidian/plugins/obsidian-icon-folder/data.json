@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgReiten",
-      "CgKalenderWochentagSamstag",
+      "CgKalenderWochentagMontag",
+      "CgKalenderWochentagSonntag",
       "CgKalenderMonat02",
-      "CgKalenderWochentagFreitag",
-      "CgKalenderQuartal1"
+      "CgKalenderMonat01",
+      "CgKalenderJahr"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -104,14 +104,6 @@
   },
   "Journal/2026-KW06.md": {
     "iconName": "CgKalenderWoche",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02 Februar.md": {
-    "iconName": "CgKalenderMonat02",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-01 Januar.md": {
-    "iconName": "CgKalenderMonat01",
     "iconColor": "var(--color-yellow)"
   },
   "Journal/2026/KW/2026-KW05.md": {
@@ -209,5 +201,21 @@
   "Atlas/Notizen/Familie/Reiten.md": {
     "iconName": "CgReiten",
     "iconColor": "var(--color-blue)"
+  },
+  "Journal/2026-02-08.md": {
+    "iconName": "CgKalenderWochentagSonntag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026-02-09.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/01 Januar/2026-01 Januar.md": {
+    "iconName": "CgKalenderMonat01",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02 Februar.md": {
+    "iconName": "CgKalenderMonat02",
+    "iconColor": "var(--color-yellow)"
   }
 }
