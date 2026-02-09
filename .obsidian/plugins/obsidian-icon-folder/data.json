@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgKalenderWochentagDonnerstag",
+      "LiPenTool",
       "CgKalenderWochentagMontag",
       "CgKalenderWochentagSonntag",
-      "CgKalenderMonat02",
-      "CgKalenderMonat01",
-      "CgKalenderJahr"
+      "CgKalenderMonat02"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -166,29 +166,9 @@
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
   },
-  "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du die Spielmaterialien für die Schatzsuchen ausdrucken.md": {
-    "iconName": "LiPenTool",
-    "iconColor": "var(--color-blue)"
-  },
   "Journal/2026-02-06.md": {
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
-  },
-  "Atlas/Notizen/Orte/Lindesnes Fyr.md": {
-    "iconName": "LiLandmark",
-    "iconColor": "var(--color-red)"
-  },
-  "Einsatz/Ausgeklügelt/Blog/Artikel/Behältnisse und Schlösser.md": {
-    "iconName": "LiPenTool",
-    "iconColor": "var(--color-blue)"
-  },
-  "Einsatz/Ausgeklügelt/Blog/Artikel/Ideen für die Feen-Party.md": {
-    "iconName": "LiPenTool",
-    "iconColor": "var(--color-blue)"
-  },
-  "Einsatz/Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
-    "iconName": "LiPenTool",
-    "iconColor": "var(--color-blue)"
   },
   "Xtra/Vorlagen/Ausgeklügelt/Vorlage - Blog-Artikel.md": {
     "iconName": "LiPenTool",
@@ -197,10 +177,6 @@
   "Journal/2026-02-07.md": {
     "iconName": "CgKalenderWochentagSamstag",
     "iconColor": "var(--color-yellow)"
-  },
-  "Atlas/Notizen/Familie/Reiten.md": {
-    "iconName": "CgReiten",
-    "iconColor": "var(--color-blue)"
   },
   "Journal/2026-02-08.md": {
     "iconName": "CgKalenderWochentagSonntag",
@@ -217,5 +193,29 @@
   "Journal/2026/02 Februar/2026-02 Februar.md": {
     "iconName": "CgKalenderMonat02",
     "iconColor": "var(--color-yellow)"
+  },
+  "Ausgeklügelt/Blog/Artikel/Behältnisse und Schlösser.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Ausgeklügelt/Blog/Artikel/So kannst du die Spielmaterialien für die Schatzsuchen ausdrucken.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Ausgeklügelt/Blog/Artikel/Ideen für die Feen-Party.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Ausgeklügelt/Blog/Artikel/So kannst du eine aufregende Schatzsuche vorbereiten.md": {
+    "iconName": "LiPenTool",
+    "iconColor": "var(--color-blue)"
+  },
+  "Familie/Reiten.md": {
+    "iconName": "CgReiten",
+    "iconColor": "var(--color-blue)"
+  },
+  "Familie/Urlaub/Orte/Norwegen/Lindesnes Fyr.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
   }
 }
