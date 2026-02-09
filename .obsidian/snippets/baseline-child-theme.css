@@ -102,6 +102,10 @@
 	--list-padding-inline-end: 5px;
 	
 	
+	--image-caption-background-color: transparent;
+	--image-caption-color: rgba(from var(--text-normal) r g b / 0.7);
+	
+	
 	--rainbowcolor1: var(--nord11-rgb);
 	--rainbowcolor2: var(--nord12-rgb);
 	--rainbowcolor3: var(--nord13-rgb);
@@ -180,5 +184,24 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 /* Listen */
 .cm-formatting-list-ul, .cm-formatting-list-ol {
 	padding-inline-end: var(--list-padding-inline-end);
+}
+
+
+/* Image Caption */
+.image-captions-figure, .image-captions-caption {
+    background: var(--image-caption-background-color);
+}
+.markdown-preview-view, .markdown-source-view {
+    color: var(--image-caption-color);
+}
+
+
+/* Image Alignment */
+body:not(.block-width-off) .img-center .cm-content div.image-embed {
+	display: flex;
+	justify-content: center;
+}
+.img-center div.image-embed img {
+	margin: auto;
 }
 

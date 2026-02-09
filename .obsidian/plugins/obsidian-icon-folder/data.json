@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiTent",
+      "LiLandmark",
       "CgKalenderWochentagDonnerstag",
       "LiPenTool",
-      "CgKalenderWochentagMontag",
-      "CgKalenderWochentagSonntag",
-      "CgKalenderMonat02"
+      "CgKalenderWochentagMontag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -217,5 +217,33 @@
   "Familie/Urlaub/Orte/Norwegen/Lindesnes Fyr.md": {
     "iconName": "LiLandmark",
     "iconColor": "var(--color-red)"
+  },
+  "Xtra/Vorlagen/Maps/Camping.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Campingplätze/Frankreich/Huttopia Les Falaises.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Campingplätze/Frankreich/Huttopia Baie du Mont St Michel.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Campingplätze/Frankreich/Huttopia Calvados.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Campingplätze/Frankreich/Huttopia Le Moulin.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Campingplätze/Frankreich/Huttopia Gorges du Tarn.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Orte/Huttopia Gorges du Verdon.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
   }
 }

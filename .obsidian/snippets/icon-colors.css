@@ -8,11 +8,10 @@
 .icon-color-blue {
 	--iconize-color: var(--color-blue);
 }
-
-
-.workspace-tab-header-inner-icon {
-	color: red:
+.icon-color-green {
+	--iconize-color: var(--color-green);
 }
+
 
 body.is-focused .mod-active .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .iconize-title-icon,
