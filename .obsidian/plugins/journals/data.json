@@ -462,8 +462,8 @@
   },
   "commands": [
     {
-      "icon": "calendar-day",
-      "name": "Open today's note",
+      "icon": "lucide-calendar-1",
+      "name": "Heutige Journal-Notiz öffnen",
       "type": "same",
       "writeType": "day",
       "showInRibbon": true,

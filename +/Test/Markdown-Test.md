@@ -37,8 +37,8 @@ Hier ist ein [externer Link](https://obsidian.md/) und ein interner Link zu eine
 
 # Text-Highlights und Zitate
 
-==Das ist ein hervorgehobener Text== (` ==text==`).  
-~~Das ist durchgestrichen~~ (`~~text~~`). 
+==Das ist ein hervorgehobener Text==.  
+~~Das ist durchgestrichen~~. 
 
 > Dies ist ein Blockzitat.  
 > Es kann mehrere Zeilen umfassen.

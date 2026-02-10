@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiTent",
       "CgKalenderWochentagMontag",
+      "CgKalenderWochentagDienstag",
       "CgKalenderMonat02",
-      "CgKalenderMonat01",
-      "CgKalenderWochentagSonntag"
+      "LiTent",
+      "LiLandmark"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -245,5 +245,9 @@
   "Familie/Urlaub/Orte/Huttopia Gorges du Verdon.md": {
     "iconName": "LiTent",
     "iconColor": "var(--color-green)"
+  },
+  "Journal/2026-02-10.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
   }
 }

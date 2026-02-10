@@ -98,11 +98,14 @@
 	--table-header-background: var(--nord7);
 	--table-header-radius: 0;
 	--table-header-border-color: var(--nord4);
+	--table-drag-handle-size: 0 important;
 	
 	--list-padding-inline-end: 5px;
 	
+	--empty-line-height: 1;
+	--p-spacing: 1rem;
 	
-	--image-caption-background-color: transparent;
+
 	--image-caption-color: rgba(from var(--text-normal) r g b / 0.7);
 	
 	
@@ -165,19 +168,42 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 }
 
 
-/* Tabellen-Header */
-.cm-table-widget table>thead>tr>th:not(:last-child),
-.cm-table-widget table>:is(thead,tbody)>tr:last-child>:is(th,td):first-child,
-.cm-table-widget table>:is(thead,tbody)>tr:last-child>:is(th,td):last-child,
-.block-language-dataviewjs table>thead:not(:only-child)>tr>th,
-.block-language-dataviewjs table>:is(thead,tbody)>tr:last-child>:is(th,td):first-child,
-.block-language-dataviewjs table>:is(thead,tbody)>tr:last-child>:is(th,td):last-child {
-	border-radius: var(--table-header-radius);
+/* Tabellen */
+/* Live-Preview */
+.markdown-source-view.mod-cm6 .cm-table-widget {
+	--size-4-4: 0;
 }
-.table-view-table > thead > tr > th {
-	border-left-style: solid;
-	border-left-width: var(--table-border-width);
-	border-left-color: var(--table-header-border-color);
+.cm-table-widget table > thead:not(:only-child) > tr > th,
+.cm-table-widget table > thead > tr:first-child > th:first-child,
+.cm-table-widget table > thead > tr:first-child > th:last-child,
+.cm-table-widget table > tbody > tr:first-child > td:first-child,
+.cm-table-widget table > tbody > tr:first-child > td:last-child {
+	border-radius: 0;
+}
+.cm-table-widget table > thead > tr:first-child > th:first-child {
+	border-top-left-radius: var(--radius-s);	
+}
+.cm-table-widget table > thead > tr:first-child > th:last-child {
+	border-top-right-radius: var(--radius-s);
+}
+
+/* Lesemodus */
+.el-table table > thead:not(:only-child) > tr > th,
+.el-table table > thead > tr:first-child > th:first-child,
+.el-table table > thead > tr:first-child > th:last-child,
+.el-table table > tbody > tr:first-child > td:first-child,
+.el-table table > tbody > tr:first-child > td:last-child {
+	border-radius: 0;
+}
+.el-table table > thead > tr:first-child > th:first-child {
+	border-top-left-radius: var(--radius-s);	
+}
+.el-table table > thead > tr:first-child > th:last-child {
+	border-top-right-radius: var(--radius-s);
+}
+.markdown-rendered table {
+	margin-block-start: 0;
+	margin-block-end: 0;
 }
 
 
@@ -187,13 +213,15 @@ body.layout-cards:not(.is-mobile).hide-vault-switcher-off .mod-sidedock .workspa
 }
 
 
-/* Image Caption */
-.image-captions-figure, .image-captions-caption {
-    background: var(--image-caption-background-color);
+
+/* Leere Zeilen */
+.markdown-source-view.is-live-preview div.cm-line:has(br:only-child), 
+.markdown-reading-view div.cm-line:has(br:only-child) {
+	line-height: var(--empty-line-height);
 }
-.markdown-preview-view, .markdown-source-view {
-    color: var(--image-caption-color);
-}
+
+
+
 
 
 /* Image Alignment */

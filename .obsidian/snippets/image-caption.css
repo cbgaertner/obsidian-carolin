@@ -1,0 +1,34 @@
+
+body {
+	--image-caption-color: black;
+}
+
+
+/* Live-Preview */
+.markdown-source-view.is-live-preview .image-embed[alt],
+/* Leseansicht */
+.markdown-reading-view .image-embed[alt] {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Live-Preview */
+.markdown-source-view.is-live-preview .image-embed[alt]:after,
+/* Leseansicht */
+.markdown-reading-view .image-embed[alt]:after {
+	content: attr(alt);
+	color: var(--image-caption-color);
+	margin: 0.2rem 1rem 1rem 1rem;
+	line-height: 1.4;
+	margin: auto;
+}
+
+
+/* Image-Caption abschalten für das Banner */
+/* Live-Preview */
+.markdown-source-view.is-live-preview .image-embed[alt="banner"]:after,
+/* Leseansicht */
+.markdown-reading-view .image-embed[alt="banner"]:after {
+	content: "";
+}
+
