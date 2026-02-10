@@ -32,3 +32,8 @@ body {
 	content: "";
 }
 
+.markdown-source-view.is-live-preview .image-embed[alt=src]:after,
+/* Leseansicht */
+.markdown-reading-view .image-embed[alt="banner"]:after {
+	content: "";
+}
