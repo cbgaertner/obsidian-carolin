@@ -11,7 +11,6 @@ cssclasses:
   - y85
 banner: "[[HR 4-2.jpg]]"
 ---
-![[HR 4-2.jpg|banner]]
 # **Was du in diesem Video findest:**
 
 - Was kann ein Blog

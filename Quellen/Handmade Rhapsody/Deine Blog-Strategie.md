@@ -11,7 +11,6 @@ cssclasses:
   - y85
 banner: "[[HR 4-3.jpg]]"
 ---
-![[HR 4-3.jpg|banner]]
 > Dein Fokus sollte nicht darin liegen, den perfekten Blogbeitrag für dein Unternehmen zu schreiben. Viel wichtiger ist es, den perfekten Blogbeitrag für deine Leser zu schreiben!
 
 # **1. Wer ist deine Zielgruppe?**

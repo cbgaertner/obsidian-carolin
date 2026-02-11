@@ -50,7 +50,6 @@ banner: "[[BannerMonat02.jpg]]"
 journal: Monate
 journal-date: 2026-02-01
 ---
-![[BannerMonat02.jpg|banner]]
 # Februar 2026
 
 > [!journal-nav] « [[2026-01 Januar|Vorheriger Monat]] | [[2026-Q1|Quartal 1]] | [[2026]] | [[2026-03 März|Nächster Monat]] »

@@ -12,12 +12,12 @@ cssclasses:
   - y85
 banner: "[[HR 4-1.jpg]]"
 ---
-![[HR 4-1.jpg|banner]]
 > [!Zusammenfassung]
 > Ein Blog ist ein unverzichtbares Werkzeug für deinen Online-Shop, das deine Reichweite erheblich vergrößert. Unternehmen mit Blog generieren durchschnittlich 67% mehr Leads pro Monat.
 > 
 > Die wichtigsten Vorteile sind: Verbesserung des SEO durch regelmäßige, keywordoptimierte Inhalte, Aufbau von Expertise und Vertrauen bei potenziellen Kunden, Steigerung des Website-Traffics, effektive Produktbewerbung ohne aufdringliche Werbung, und die Bereitstellung von Mehrwert durch informative Inhalte. Dabei bevorzugen 96% der Leser Inhalte, die informativ und lehrreich statt werblich sind.
-Ein Blog ist ein machtvolles Tool für deinen Online-Shop. Vor allem geht es darum, deine Reichweite zu vergrößern: Wenn du regelmäßig bloggst, erreichst du nach und nach immer mehr Leute mit deinen Themen.
+> 
+> Ein Blog ist ein machtvolles Tool für deinen Online-Shop. Vor allem geht es darum, deine Reichweite zu vergrößern: Wenn du regelmäßig bloggst, erreichst du nach und nach immer mehr Leute mit deinen Themen.
 
 Unternehmen mit einem Blog gewinnen im Monat durchschnittlich **67 Prozent mehr Leads** als Unternehmen ohne Blog. Und auch die Verkäufe profitieren: Sechs von zehn Verbrauchern haben angegeben, dass Blogartikel in den ersten Stadien des Kaufprozesses für sie nützlich waren. Dabei bevorzugen 96 Prozent der Leute Inhalte, die informativ oder lehrreich sind, ohne dabei stark werblich zu sein.
 

@@ -27,7 +27,6 @@ Monat: '[[<% month %>]]'
 Quartal: '[[<% quarter %>]]'
 Jahr: '[[<% year %>]]'
 ---
-![[BannerWochentag<% weekday %>.jpg|banner]]
 # <% tp.date.now("dddd, D. MMMM YYYY", 0, tp.file.title) %>
 
 > [!journal-nav] « [[<% previousDay %>|Vorheriger Tag]] | [[<% week %>|KW <% weekNumber %>]] | [[<% month %>|<% monthName %>]] | [[<% quarter %>|Quartal <% quarterNumber %>]] | [[<% year %>]] | [[<% nextDay %>|Nächster Tag]] »

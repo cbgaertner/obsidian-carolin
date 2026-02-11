@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgKalenderWochentagFreitag",
+      "CgKalenderMonat01",
+      "CgKalenderWochentagMontag",
       "CgKalenderWochentagDienstag",
-      "LiBinoculars",
-      "CgHoehle",
-      "LiLandmark",
-      "LiTent"
+      "CgKalenderWochentagMittwoch"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,12 +26,12 @@
     "iconInFrontmatterEnabled": true,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconize-color-css",
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": true,
+    "debugMode": false,
     "useInternalPlugins": false
   },
   "Journal/2026/02 Februar/2026-02-01.md": {
