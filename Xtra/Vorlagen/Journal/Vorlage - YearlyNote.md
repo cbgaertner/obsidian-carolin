@@ -41,6 +41,6 @@ Bis: '[[<% yearEnd %>]]'
 Monate: <% monthList %>
 Quartale: <% quarterList %>
 ---
-![[BannerJahr<% year %>.jpg]]
+![[BannerJahr<% year %>.jpg|banner]]
 # <% year %>
 « [[<% previousYear %>|Vorheriges Jahr]] | [[<% nextYear %>|Nächstes Jahr]] »

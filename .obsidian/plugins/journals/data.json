@@ -22,7 +22,7 @@
       "confirmCreation": true,
       "nameTemplate": "{{date}}",
       "dateFormat": "YYYY-[KW]ww",
-      "folder": "Journal",
+      "folder": "Journal/{{date:YYYY}}/KW",
       "templates": [
         "Xtra/Vorlagen/Journal/Vorlage - WeeklyNote.md"
       ],
@@ -157,7 +157,7 @@
       "confirmCreation": true,
       "nameTemplate": "{{date}}",
       "dateFormat": "YYYY-MM-DD",
-      "folder": "Journal",
+      "folder": "Journal/{{date:YYYY}}/{{date:MM MMMM}}",
       "templates": [
         "Xtra/Vorlagen/Journal/Vorlage - DailyNote.md"
       ],
@@ -340,7 +340,7 @@
       "confirmCreation": true,
       "nameTemplate": "{{date}}",
       "dateFormat": "YYYY-MM MMMM",
-      "folder": "Journal/{{datee:YYYY}}/{{date:MM MMMM}",
+      "folder": "Journal/{{date:YYYY}}/{{date:MM MMMM}}",
       "templates": [
         "Xtra/Vorlagen/Journal/Vorlage - MonthlyNote.md"
       ],
@@ -447,6 +447,228 @@
         "endDateField": "",
         "indexField": ""
       }
+    },
+    "Quartale": {
+      "name": "Quartale",
+      "shelves": [
+        "Journal"
+      ],
+      "write": {
+        "type": "quarter"
+      },
+      "confirmCreation": true,
+      "nameTemplate": "{{date}}",
+      "dateFormat": "YYYY-[Q]Q",
+      "folder": "Journal/{{date:YYYY}}",
+      "templates": [
+        "Xtra/Vorlagen/Journal/Vorlage - QuarterlyNote.md"
+      ],
+      "start": "2025-09-26",
+      "end": {
+        "type": "never"
+      },
+      "index": {
+        "enabled": false,
+        "anchorDate": "2025-09-26",
+        "anchorIndex": 1,
+        "allowBefore": false,
+        "type": "increment",
+        "resetAfter": 2
+      },
+      "autoCreate": false,
+      "commands": [],
+      "decorations": [
+        {
+          "mode": "and",
+          "conditions": [
+            {
+              "type": "has-note"
+            }
+          ],
+          "styles": [
+            {
+              "type": "shape",
+              "size": 0.4,
+              "shape": "circle",
+              "color": {
+                "type": "theme",
+                "name": "interactive-accent"
+              },
+              "placement_x": "center",
+              "placement_y": "bottom"
+            }
+          ]
+        }
+      ],
+      "navBlock": {
+        "type": "create",
+        "decorateWholeBlock": false,
+        "rows": [
+          {
+            "template": "{{date:[Q]Q}}",
+            "fontSize": 3,
+            "bold": true,
+            "italic": false,
+            "link": "self",
+            "journal": "",
+            "color": {
+              "type": "theme",
+              "name": "text-normal"
+            },
+            "background": {
+              "type": "transparent"
+            },
+            "addDecorations": true
+          },
+          {
+            "template": "{{relative_date}}",
+            "fontSize": 0.7,
+            "bold": false,
+            "italic": false,
+            "link": "none",
+            "journal": "",
+            "color": {
+              "type": "theme",
+              "name": "text-normal"
+            },
+            "background": {
+              "type": "transparent"
+            },
+            "addDecorations": false
+          },
+          {
+            "template": "{{date:YYYY}}",
+            "fontSize": 1,
+            "bold": false,
+            "italic": false,
+            "link": "year",
+            "journal": "",
+            "color": {
+              "type": "theme",
+              "name": "text-normal"
+            },
+            "background": {
+              "type": "transparent"
+            },
+            "addDecorations": false
+          }
+        ]
+      },
+      "calendarViewBlock": {
+        "rows": [],
+        "decorateWholeBlock": false
+      },
+      "frontmatter": {
+        "dateField": "",
+        "addStartDate": false,
+        "startDateField": "",
+        "addEndDate": false,
+        "endDateField": "",
+        "indexField": ""
+      }
+    },
+    "Jahre": {
+      "name": "Jahre",
+      "shelves": [
+        "Journal"
+      ],
+      "write": {
+        "type": "year"
+      },
+      "confirmCreation": true,
+      "nameTemplate": "{{date}}",
+      "dateFormat": "YYYY",
+      "folder": "Journal/{{date:YYYY}}",
+      "templates": [
+        "Xtra/Vorlagen/Journal/Vorlage - YearlyNote.md"
+      ],
+      "start": "2025-09-26",
+      "end": {
+        "type": "never"
+      },
+      "index": {
+        "enabled": false,
+        "anchorDate": "2025-09-26",
+        "anchorIndex": 1,
+        "allowBefore": false,
+        "type": "increment",
+        "resetAfter": 2
+      },
+      "autoCreate": false,
+      "commands": [],
+      "decorations": [
+        {
+          "mode": "and",
+          "conditions": [
+            {
+              "type": "has-note"
+            }
+          ],
+          "styles": [
+            {
+              "type": "shape",
+              "size": 0.4,
+              "shape": "circle",
+              "color": {
+                "type": "theme",
+                "name": "interactive-accent"
+              },
+              "placement_x": "center",
+              "placement_y": "bottom"
+            }
+          ]
+        }
+      ],
+      "navBlock": {
+        "type": "create",
+        "decorateWholeBlock": false,
+        "rows": [
+          {
+            "template": "{{date:YYYY}}",
+            "fontSize": 3,
+            "bold": true,
+            "italic": false,
+            "link": "self",
+            "journal": "",
+            "color": {
+              "type": "theme",
+              "name": "text-normal"
+            },
+            "background": {
+              "type": "transparent"
+            },
+            "addDecorations": true
+          },
+          {
+            "template": "{{relative_date}}",
+            "fontSize": 0.7,
+            "bold": false,
+            "italic": false,
+            "link": "none",
+            "journal": "",
+            "color": {
+              "type": "theme",
+              "name": "text-normal"
+            },
+            "background": {
+              "type": "transparent"
+            },
+            "addDecorations": false
+          }
+        ]
+      },
+      "calendarViewBlock": {
+        "rows": [],
+        "decorateWholeBlock": false
+      },
+      "frontmatter": {
+        "dateField": "",
+        "addStartDate": false,
+        "startDateField": "",
+        "addEndDate": false,
+        "endDateField": "",
+        "indexField": ""
+      }
     }
   },
   "shelves": {
@@ -455,7 +677,9 @@
       "journals": [
         "Tage",
         "Wochen",
-        "Monate"
+        "Monate",
+        "Quartale",
+        "Jahre"
       ],
       "commands": []
     }

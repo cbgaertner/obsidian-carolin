@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgKalenderWochentagDienstag",
-      "LiMountain",
-      "LiLandmark",
-      "LiBinoculars",
-      "LiTent"
+      "CgKalenderWoche",
+      "CgKalenderWochentagMontag",
+      "CgKalenderJahr",
+      "CgKalenderQuartal1",
+      "CgKalenderWochentagMittwoch"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,22 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": true,
     "useInternalPlugins": false
-  },
-  "Journal/2026-02-05.md": {
-    "iconName": "CgKalenderWochentagDonnerstag",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02-04.md": {
-    "iconName": "CgKalenderWochentagMittwoch",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02-03.md": {
-    "iconName": "CgKalenderWochentagDienstag",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02-02.md": {
-    "iconName": "CgKalenderWochentagMontag",
-    "iconColor": "var(--color-yellow)"
   },
   "Journal/2026/02 Februar/2026-02-01.md": {
     "iconName": "CgKalenderWochentagSonntag",
@@ -100,10 +84,6 @@
   },
   "Journal/2026-Q1.md": {
     "iconName": "CgKalenderQuartal1",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-KW06.md": {
-    "iconName": "CgKalenderWoche",
     "iconColor": "var(--color-yellow)"
   },
   "Journal/2026/KW/2026-KW05.md": {
@@ -166,25 +146,9 @@
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
   },
-  "Journal/2026-02-06.md": {
-    "iconName": "CgKalenderWochentagFreitag",
-    "iconColor": "var(--color-yellow)"
-  },
   "Xtra/Vorlagen/Ausgeklügelt/Vorlage - Blog-Artikel.md": {
     "iconName": "LiPenTool",
     "iconColor": "var(--color-blue)"
-  },
-  "Journal/2026-02-07.md": {
-    "iconName": "CgKalenderWochentagSamstag",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02-08.md": {
-    "iconName": "CgKalenderWochentagSonntag",
-    "iconColor": "var(--color-yellow)"
-  },
-  "Journal/2026-02-09.md": {
-    "iconName": "CgKalenderWochentagMontag",
-    "iconColor": "var(--color-yellow)"
   },
   "Journal/2026/01 Januar/2026-01 Januar.md": {
     "iconName": "CgKalenderMonat01",
@@ -217,10 +181,6 @@
   "Xtra/Vorlagen/Maps/Camping.md": {
     "iconName": "LiTent",
     "iconColor": "var(--color-green)"
-  },
-  "Journal/2026-02-10.md": {
-    "iconName": "CgKalenderWochentagDienstag",
-    "iconColor": "var(--color-yellow)"
   },
   "Ausgeklügelt/Blog/Artikel/Tolle Ideen für einen zauberhaften Feen-Kindergeburtstag.md": {
     "iconName": "LiPenTool",
@@ -273,5 +233,53 @@
   "Familie/Urlaub/Orte/Chaos de Montpellier-le-Vieux.md": {
     "iconName": "LiMountain",
     "iconColor": "var(--color-blue)"
+  },
+  "Journal/2026/02 Februar/2026-02-10.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-02.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-03.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-04.md": {
+    "iconName": "CgKalenderWochentagMittwoch",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-05.md": {
+    "iconName": "CgKalenderWochentagDonnerstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-06.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-07.md": {
+    "iconName": "CgKalenderWochentagSamstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-08.md": {
+    "iconName": "CgKalenderWochentagSonntag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-09.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-11.md": {
+    "iconName": "CgKalenderWochentagMittwoch",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/KW/2026-KW06.md": {
+    "iconName": "CgKalenderWoche",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/KW/2026-KW07.md": {
+    "iconName": "CgKalenderWoche",
+    "iconColor": "var(--color-yellow)"
   }
 }
