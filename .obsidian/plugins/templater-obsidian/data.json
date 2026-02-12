@@ -25,11 +25,11 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Xtra/Vorlagen/TestUserScript.md",
-    "Xtra/Vorlagen/PeriodicNotes/Vorlage - DailyNote.md",
-    "Xtra/Vorlagen/PeriodicNotes/Vorlage - WeeklyNote.md",
-    "Xtra/Vorlagen/PeriodicNotes/Vorlage - MonthlyNote.md",
-    "Xtra/Vorlagen/PeriodicNotes/Vorlage - QuarterlyNote.md",
-    "Xtra/Vorlagen/PeriodicNotes/Vorlage - YearlyNote.md",
+    "Xtra/Vorlagen/Journal/Vorlage - DailyNote.md",
+    "Xtra/Vorlagen/Journal/Vorlage - WeeklyNote.md",
+    "Xtra/Vorlagen/Journal/Vorlage - MonthlyNote.md",
+    "Xtra/Vorlagen/Journal/Vorlage - QuarterlyNote.md",
+    "Xtra/Vorlagen/Journal/Vorlage - YearlyNote.md",
     "Xtra/Vorlagen/Snippets/Vorlage - iFrame für Video.md"
   ],
   "startup_templates": [

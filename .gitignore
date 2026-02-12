@@ -6,7 +6,7 @@
 
 # Einzelne Plugins ausschliessen
 .obsidian/plugins/recent-files-obsidian
-.obsidian/plugins/obsidian-icon-folder/date.json
+.obsidian/plugins/obsidian-icon-folder/data.json
 
 # Backup-Dateien von Plugins ausschliessen
 .obsidian/plugins/iconic/data.json.backup*
