@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgKalenderWochentagSonntag",
-      "CgKalenderWochentagSamstag",
-      "CgKalenderWochentagMontag",
-      "CgKalenderWochentagMittwoch",
-      "CgKalenderWochentagFreitag"
+      "CgKalenderWochentagFreitag",
+      "CgKalenderMonat02",
+      "LiTent",
+      "LiPenTool",
+      "LiLandmark"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -285,5 +285,9 @@
   "Familie/Urlaub/Orte/Frankreich/Castelbouc.md": {
     "iconName": "LiLandmark",
     "iconColor": "var(--color-red)"
+  },
+  "Journal/2026/02 Februar/2026-02-13.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
   }
 }

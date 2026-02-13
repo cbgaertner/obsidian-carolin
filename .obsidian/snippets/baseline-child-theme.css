@@ -233,3 +233,14 @@ body:not(.block-width-off) .img-center .cm-content div.image-embed {
 	margin: auto;
 }
 
+
+
+/* Fügt die Klasse "object-fit-contain" hinzu, die Bilder im img-grid nicht als Cover,
+   sondern im Original-Format anzeigt */
+.img-grid.object-fit-contain .markdown-preview-section .el-p>p:has(>.image-embed,>.image-embed):has(span:last-child) img {
+	object-fit: contain;
+}
+
+
+
+

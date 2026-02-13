@@ -1,16 +1,18 @@
 ---
 Marke: Outwell
 Modell: Mountain Lake 5ATC
-Kategorie: Zelt
-Gewicht (kg): 48,3
+Gewicht (kg): 48.3
 B (cm): 490
 L/T/ø (cm): 730
 H (cm): 220
 Pack B (cm): 80
 Pack L/T/ø (cm): 60
 Pack H (cm): 60
-Preis: 1587,95
-vorhanden: "1"
+Preis: 1587.95
+Anzahl: 1
+vorhanden: 1
+tags:
+  - Camping/Ausrüstung/Zelt
 ---
 ![[Outwell Mountain Lake 5ATC.jpg|]]
 
