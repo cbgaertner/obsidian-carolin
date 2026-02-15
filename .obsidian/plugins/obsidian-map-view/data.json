@@ -102,6 +102,17 @@
       },
       "badgeOptions": {},
       "pathOptions": {}
+    },
+    {
+      "query": "tag:#Ort/Wasserfall ",
+      "preset": false,
+      "iconDetails": {
+        "icon": "fa-water",
+        "markerColor": "blue",
+        "opacity": 1
+      },
+      "badgeOptions": {},
+      "pathOptions": {}
     }
   ],
   "zoomOnGoFromNote": 15,
@@ -151,7 +162,7 @@
   ],
   "mapControlsSections": {
     "filtersDisplayed": false,
-    "viewDisplayed": false,
+    "viewDisplayed": true,
     "linksDisplayed": false,
     "presetsDisplayed": false,
     "editDisplayed": false

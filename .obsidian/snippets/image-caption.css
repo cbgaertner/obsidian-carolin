@@ -32,6 +32,19 @@ body {
 	content: "";
 }
 
+/* Image-Caption abschalten für Dateinamen */
+/* Live-Preview */
+.markdown-source-view.is-live-preview .image-embed[alt$=".jpg"]:after,
+.markdown-source-view.is-live-preview .image-embed[alt$=".webp"]:after,
+.markdown-source-view.is-live-preview .image-embed[alt$=".gif"]:after,
+/* Leseansicht */
+.markdown-reading-view .image-embed[alt$=".jpg"]:after,
+.markdown-reading-view .image-embed[alt$=".webp"]:after,
+.markdown-reading-view .image-embed[alt$=".gif"]:after {
+	content: "";
+}
+
+
 .markdown-source-view.is-live-preview .image-embed[alt=src]:after,
 /* Leseansicht */
 .markdown-reading-view .image-embed[alt="banner"]:after {

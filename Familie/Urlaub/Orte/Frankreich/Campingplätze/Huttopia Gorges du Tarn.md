@@ -11,7 +11,6 @@ tags:
 locations: ""
 ---
 ![[plan-huttopia-camping-gorges-du-tarn.jpg|Platzplan|400]]
-
 ![[camping-huttopia-gorges-du-tarn-activites-baignade-3.jpg|Schwimmbad|400]]
 # Umgebung
 - Spaziergang über die Grands Causses
@@ -35,6 +34,5 @@ locations: ""
 - The French Buffalos Ranch:
 	- Die natürliche, raue Schönheit und endlose Weite der Hochebene Causse-Noir erinnert an den Wilden Westen und nicht nur sie… entdecken Sie eine Ranch mit Bisonzucht und kommen Sie den legendären amerikanischen Tieren während einer geführten Tour inmitten der Herde so nahe wie noch nie.
 
-```mapview
-{"name":"Default","mapZoom":10,"centerLat":44.262904233655384,"centerLng":3.3206176757812504,"query":"","chosenMapSource":0,"autoFit":false,"lock":false,"showLinks":false,"linkColor":"red","markerLabels":"off","embeddedHeight":300}
-```
+![[Cevennen - Canyoning 1.jpg|]]
+![[Cevennen - Canyoning 2.jpg|]]

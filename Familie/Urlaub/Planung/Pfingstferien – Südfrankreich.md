@@ -2,7 +2,7 @@
 locations: ""
 ---
 - Reiseführer: [Naturzeit mit Kindern: Tal der Ardèche und Cevennen](https://naturzeit-verlag.de/produkt/tal-der-ardeche-und-cevennen/)
-# Cevennes
+# Cévennes
 - [[Huttopia Gorges du Tarn]] → Cevennen ([Website](https://europe.huttopia.com/de/site/gorges-du-tarn/)) 
 
 # Ardèche

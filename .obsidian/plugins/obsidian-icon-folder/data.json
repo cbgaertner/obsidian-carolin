@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgKalenderWochentagFreitag",
-      "CgKalenderMonat02",
-      "LiTent",
-      "LiPenTool",
-      "LiLandmark"
+      "CgWasserfall",
+      "LiLandmark",
+      "CgHoehle",
+      "LiMountain",
+      "CgKalenderWochentagFreitag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -289,5 +289,37 @@
   "Journal/2026/02 Februar/2026-02-13.md": {
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Pont d'Arc.md": {
+    "iconName": "LiMountain",
+    "iconColor": "var(--color-mountain)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte Aven Forestière.md": {
+    "iconName": "CgHoehle",
+    "iconColor": "var(--color-blue)"
+  },
+  "Xtra/Vorlagen/Maps/Höhle.md": {
+    "iconName": "CgHoehle",
+    "iconColor": "var(--color-blue)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte Chauvet 2.md": {
+    "iconName": "CgHoehle",
+    "iconColor": "var(--color-blue)"
+  },
+  "Xtra/Vorlagen/Maps/Ortschaft.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Aiguèze.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
+  },
+  "Xtra/Vorlagen/Maps/Wasserfall.md": {
+    "iconName": "CgWasserfall",
+    "iconColor": "var(--color-blue)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Cascades du Sautadet.md": {
+    "iconName": "CgWasserfall",
+    "iconColor": "var(--color-blue)"
   }
 }

@@ -17,7 +17,8 @@
     "datum",
     "icon-color",
     "journal-date",
-    "journal"
+    "journal",
+    "obsidianuimode"
   ],
   "propertyPillColors": {
     "Fertig": {
@@ -129,7 +130,7 @@
   "enableCustomDateFormat": false,
   "enableCustomDateFormatInBases": false,
   "enableRelativeDateColors": false,
-  "settingsTab": "BANNERS",
+  "settingsTab": "ICONS",
   "enableTaskNotesCount": false,
   "allTNTasksCount": "tn_tasks",
   "completedTNTasksCount": "tn_tasks_completed",
