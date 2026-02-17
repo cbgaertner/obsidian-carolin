@@ -1,6 +1,6 @@
 ---
 Koordinaten: 44.30152283610124,3.32058301104986
-icon: LiLandmark
+icon: CgOrtschaft
 icon-color: red
 iconize-color-css: var(--color-red)
 cssclasses:

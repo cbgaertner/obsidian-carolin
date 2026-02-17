@@ -4,7 +4,7 @@ tags:
   - Ort/Berg
 icon: LiMountain
 icon-color: blue
-iconize-color-css: var(--color-mountain)
+iconize-color-css: var(--color-blue)
 cssclasses:
   - icon-color-blue
 ---

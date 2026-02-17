@@ -34,11 +34,11 @@ Die Ardèche bietet alles, was Naturliebhaberherzen höher schlagen lässt: unbe
 
 ![[Ardèche - Cirque de Madeleine.jpg|Cirque de Madeleine]]
 
-### [[Pont d'Arc]]
+### Pont d'Arc
 
 ***35 km***
 
-Dieser natürliche, fast 500.000 Jahre alte Felsbogen ist das Wahrzeichen der Ardèche. Er bietet ein einzigartiges Naturschauspiel und markiert den Eingang zur Ardèche-Schlucht. Entdecken kann man ihn auf verschiedenste Art: Sie können mit dem Kanu unter dem 50 Meter hohen Bogen hindurchfahren, oder ihn von einem der Strände aus bei einem nachmittäglichen Schwimmausflug bewundern oder ihn von einem der Wanderwege der Umgebung von oben betrachten…
+Der [[Pont d'Arc]] ist ein natürlicher, fast 500.000 Jahre alter Felsbogen und das Wahrzeichen der Ardèche. Er bietet ein einzigartiges Naturschauspiel und markiert den Eingang zur Ardèche-Schlucht. Entdecken kann man ihn auf verschiedenste Art: Sie können mit dem Kanu unter dem 50 Meter hohen Bogen hindurchfahren, oder ihn von einem der Strände aus bei einem nachmittäglichen Schwimmausflug bewundern oder ihn von einem der Wanderwege der Umgebung von oben betrachten…
 
 ![[Ardèche - Pont d'Arc.jpg|Pont d'Arc]]
 
@@ -69,18 +69,18 @@ Die noch berühmtere Nachbildung der [[Grotte Chauvet 2]] (30 km entfernt) mit i
 
 Wer auf den Geschmack gekommen ist, dem empfehlen wir weiters die Höhlen von La Salamandre (36 km), La Madeleine (18 km) und Saint-Marcel (8 km).
 
-### [[Cascades du Sautadet|Die Sautadet-Wasserfälle]]
+### Die Sautadet-Wasserfälle
 
 **20 km**
 
-Lassen Sie sich überraschen von diesen außergewöhnlichen Felsformationen des Flusses Cèzer. Entdecken Sie eine einzigartige Kette von sich aneinanderreihenden Wasserfällen und Schluchten. Nicht weit davon entfernt gibt es einen Badestrand, ideal zum Faulenzen und Schwimmen. Machen Sie unbedingt einen Zwischenstopp in La-Roque-sur-Cèze, einem Dorf in Hanglage, das zu den schönsten Dörfern Frankreichs zählt!
+Lassen Sie sich an den [[Cascades du Sautadet]] überraschen von diesen außergewöhnlichen Felsformationen des Flusses Cèzer. Entdecken Sie eine einzigartige Kette von sich aneinanderreihenden Wasserfällen und Schluchten. Nicht weit davon entfernt gibt es einen Badestrand, ideal zum Faulenzen und Schwimmen. Machen Sie unbedingt einen Zwischenstopp in La-Roque-sur-Cèze, einem Dorf in Hanglage, das zu den schönsten Dörfern Frankreichs zählt!
 
 ![[Cascades du Sautadet.webp]]
 
-## [[Aiguèze]]
+## Aiguèze
 
 ***2 km***
 
-Machen Sie direkt vom Campingplatz aus zu Fuß eine Zeitreise ins unmittelbar benachbarte Aiguèze, eines der offiziell schönsten Dörfer Frankreichs! Das malerische, auf einem Felsen am Ufer der Ardèche erbaute kleine Dorf wird Sie mit seinen mittelalterlichen Überresten (Bergfried, Sarazenenturm) und seinem südfranzösischen Flair aus mit Steinen gepflasterten Gassen und hellen Dachziegeln verzaubern. Und nicht nur das: freuen Sie sich auf nette Begegnungen mit den Kunsthandwerkern des Dorfes.
+Machen Sie direkt vom Campingplatz aus zu Fuß eine Zeitreise ins unmittelbar benachbarte [[Aiguèze]], eines der offiziell schönsten Dörfer Frankreichs! Das malerische, auf einem Felsen am Ufer der Ardèche erbaute kleine Dorf wird Sie mit seinen mittelalterlichen Überresten (Bergfried, Sarazenenturm) und seinem südfranzösischen Flair aus mit Steinen gepflasterten Gassen und hellen Dachziegeln verzaubern. Und nicht nur das: freuen Sie sich auf nette Begegnungen mit den Kunsthandwerkern des Dorfes.
 
 ![[Aigueze.jpg]]

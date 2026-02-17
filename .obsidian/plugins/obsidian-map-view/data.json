@@ -39,10 +39,21 @@
       "badgeOptions": {}
     },
     {
-      "query": "tag:#Ort/Ortschaft ",
+      "query": "tag:#Ort/Campingplatz ",
       "preset": false,
       "iconDetails": {
-        "icon": "fa-landmark",
+        "icon": "fa-campground",
+        "markerColor": "green",
+        "opacity": 1
+      },
+      "badgeOptions": {},
+      "pathOptions": {}
+    },
+    {
+      "query": "tag:#Ort/Ortschaft",
+      "preset": false,
+      "iconDetails": {
+        "icon": "fa-house",
         "markerColor": "red",
         "opacity": 1
       },
@@ -50,11 +61,11 @@
       "pathOptions": {}
     },
     {
-      "query": "tag:#Ort/Campingplatz ",
+      "query": "tag:#Ort/Museum",
       "preset": false,
       "iconDetails": {
-        "icon": "fa-campground",
-        "markerColor": "green",
+        "icon": "fa-landmark",
+        "markerColor": "red",
         "opacity": 1
       },
       "badgeOptions": {},
@@ -162,7 +173,7 @@
   ],
   "mapControlsSections": {
     "filtersDisplayed": false,
-    "viewDisplayed": true,
+    "viewDisplayed": false,
     "linksDisplayed": false,
     "presetsDisplayed": false,
     "editDisplayed": false

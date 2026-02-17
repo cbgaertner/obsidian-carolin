@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CgWasserfall",
-      "LiLandmark",
-      "CgHoehle",
+      "CgWandern",
+      "LiTent",
       "LiMountain",
-      "CgKalenderWochentagFreitag"
+      "CgOrtschaft",
+      "LiLandmark"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -219,7 +219,7 @@
     "iconColor": "var(--color-green)"
   },
   "Familie/Urlaub/Orte/Frankreich/Sainte-Enimie.md": {
-    "iconName": "LiLandmark",
+    "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
   "Journal/2026/02 Februar/2026-02-10.md": {
@@ -279,11 +279,11 @@
     "iconColor": "var(--color-blue)"
   },
   "Familie/Urlaub/Orte/Frankreich/La Malène.md": {
-    "iconName": "LiLandmark",
+    "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
   "Familie/Urlaub/Orte/Frankreich/Castelbouc.md": {
-    "iconName": "LiLandmark",
+    "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
   "Journal/2026/02 Februar/2026-02-13.md": {
@@ -292,7 +292,7 @@
   },
   "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Pont d'Arc.md": {
     "iconName": "LiMountain",
-    "iconColor": "var(--color-mountain)"
+    "iconColor": "var(--color-blue)"
   },
   "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte Aven Forestière.md": {
     "iconName": "CgHoehle",
@@ -307,11 +307,11 @@
     "iconColor": "var(--color-blue)"
   },
   "Xtra/Vorlagen/Maps/Ortschaft.md": {
-    "iconName": "LiLandmark",
+    "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
   "Familie/Urlaub/Orte/Frankreich/Aiguèze.md": {
-    "iconName": "LiLandmark",
+    "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
   "Xtra/Vorlagen/Maps/Wasserfall.md": {
@@ -321,5 +321,29 @@
   "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Cascades du Sautadet.md": {
     "iconName": "CgWasserfall",
     "iconColor": "var(--color-blue)"
+  },
+  "Journal/2026/02 Februar/2026-02-14.md": {
+    "iconName": "CgKalenderWochentagSamstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/La Maison des Vautours.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
+  },
+  "Xtra/Vorlagen/Maps/Museum.md": {
+    "iconName": "LiLandmark",
+    "iconColor": "var(--color-red)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Auf dem Tarnuferweg von La Malène nach Hauterives.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Xtra/Vorlagen/Maps/Wanderung.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Arcs de Saint-Pierre.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
   }
 }

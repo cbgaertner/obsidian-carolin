@@ -1,5 +1,5 @@
 ---
-icon: LiLandmark
+icon: CgOrtschaft
 icon-color: red
 iconize-color-css: var(--color-red)
 cssclasses:
