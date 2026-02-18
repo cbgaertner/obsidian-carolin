@@ -16,5 +16,6 @@ für Kinder ab: "8"
 
 Auf dem Tarnuferweg von [[La Malène]] nach Hauterives:
 
-![[Xtra/Tour_29_tarn_hauterive.gpx]]
+![[Xtra/Anhänge/Tour_29_tarn_hauterive.gpx]]
+
 

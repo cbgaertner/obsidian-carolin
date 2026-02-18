@@ -14,6 +14,10 @@ tags:
 
 Ein Geier-Museum und ein Aussichtspunkt, von dem aus man sie beobachten kann, mit einem grandiosen Panoramablick auf die Jonteschlucht.
 
+# Tour 33 Naturzeit: Mit dem Auto durch die Gorges de la Jonte
+
+Auf der D996 von Meyrueis nach Le Rozier zum Maison des Vautours (*17,3 km, 21 min*)
+
 # Preise
 
 * Erwachsene : 7,90 €

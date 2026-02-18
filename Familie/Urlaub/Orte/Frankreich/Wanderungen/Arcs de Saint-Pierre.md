@@ -12,6 +12,7 @@ Gehzeit (h): 1,5
 bergauf (m): "60"
 bergab (m): "60"
 für Kinder ab: "4"
+obsidianUIMode: preview
 ---
 
 # Mystische Felsformationen im stillen Wald

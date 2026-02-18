@@ -52,12 +52,12 @@ Ein [[La Maison des Vautours|Geier-Museum]] und ein Aussichtspunkt, von dem aus 
 
 ### The French Buffalos Ranch
 
-[Randals Bison](geo:44.105254346662946,3.340668183820015) #Ort/Museum  ([Website](https://www.randals-bison.com/))
+Randals Bison ([Website](https://www.randals-bison.com/))
 Die natürliche, raue Schönheit und endlose Weite der Hochebene Causse-Noir erinnert an den Wilden Westen und nicht nur sie… entdecken Sie  eine Ranch mit Bisonzucht und kommen Sie den legendären amerikanischen Tieren während einer geführten Tour inmitten der Herde so nahe wie noch nie.
 
 ### Wassersport und Aqua-Trekking
 
-***1,5 km*** [B&ABA](geo:44.27999520380203,3.228880141994654) #Ort/Sport ([Website](https://www.sportsnature-millau-gorgesdutarn.com/en-gb/))
+***1,5 km*** ([Website](https://www.sportsnature-millau-gorgesdutarn.com/en-gb/))
 
 Erleben Sie ein unvergessliches Erlebnis, wenn Sie die Gorges du Tarn im Kajak, Kanu oder Paddelboot (Paddel können auf dem Campingplatz gemietet werden) hinabfahren. Gehen Sie zu unserem Partner B&ABA (1,5 km), um einen betreuten Ausflug zu buchen: Mini-Familien-Rafting, Riesenpaddel, privatisiertes Zweier-Kajak…
 
