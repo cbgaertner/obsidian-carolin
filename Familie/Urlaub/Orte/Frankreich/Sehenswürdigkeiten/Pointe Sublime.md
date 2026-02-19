@@ -1,5 +1,5 @@
 ---
-Koordinaten: 44.32201153644264,3.245105406692683
+Koordinaten: 44.31380024017798, 3.2427730644002986
 icon: LiBinoculars
 icon-color: green
 iconize-color-css: var(--color-green)
@@ -9,3 +9,4 @@ tags:
   - Ort/Aussichtspunkt
 ---
 
+![[Point Sublime.jpg]]

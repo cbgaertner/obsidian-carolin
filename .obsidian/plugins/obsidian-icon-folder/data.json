@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBinoculars",
       "CgWandern",
       "LiTent",
       "LiMountain",
-      "CgOrtschaft",
-      "LiLandmark"
+      "CgOrtschaft"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -343,6 +343,18 @@
     "iconColor": "var(--color-green)"
   },
   "Familie/Urlaub/Orte/Frankreich/Wanderungen/Arcs de Saint-Pierre.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Der Uferweg von Sauze.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Planung/Abstieg zum Badestrand - Wanderrunde auf dem Sentier des Grottes.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Planung/Cirque de Gaud - Abstieg ins Herz der Ardèche-Schlucht.md": {
     "iconName": "CgWandern",
     "iconColor": "var(--color-green)"
   }

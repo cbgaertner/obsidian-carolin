@@ -6,5 +6,10 @@ cssclasses:
   - icon-color-green
 tags:
   - Route/Wanderung
+Länge (km):
+Gehzeit (h):
+bergauf (m):
+bergab (m):
+für Kinder ab:
 ---
 
