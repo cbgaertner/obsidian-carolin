@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBinoculars",
-      "CgWandern",
-      "LiTent",
-      "LiMountain",
-      "CgOrtschaft"
+      "CgKalenderWochentagDonnerstag",
+      "CgKalenderWochentagMittwoch",
+      "CgKalenderWochentagDienstag",
+      "CgKalenderWochentagMontag",
+      "CgKalenderWochentagSonntag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -365,5 +365,29 @@
   "Familie/Urlaub/Planung/Camping Alsace Les Castors.md": {
     "iconName": "LiTent",
     "iconColor": "var(--color-green)"
+  },
+  "Journal/2026/02 Februar/2026-02-20.md": {
+    "iconName": "CgKalenderWochentagFreitag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-15.md": {
+    "iconName": "CgKalenderWochentagSonntag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-16.md": {
+    "iconName": "CgKalenderWochentagMontag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-17.md": {
+    "iconName": "CgKalenderWochentagDienstag",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-18.md": {
+    "iconName": "CgKalenderWochentagMittwoch",
+    "iconColor": "var(--color-yellow)"
+  },
+  "Journal/2026/02 Februar/2026-02-19.md": {
+    "iconName": "CgKalenderWochentagDonnerstag",
+    "iconColor": "var(--color-yellow)"
   }
 }
