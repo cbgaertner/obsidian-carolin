@@ -28,6 +28,6 @@ obsidianUIMode: preview
 
 Auf dem Tarnuferweg von [[La Malène]] nach Hauterives:
 
-![[Xtra/Anhänge/Tour_29_tarn_hauterive.gpx]]
+![[Tour_29_tarn_hauterive.gpx]]
 
 

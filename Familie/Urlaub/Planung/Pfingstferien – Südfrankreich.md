@@ -1,14 +1,21 @@
 ---
-locations: ""
+Von: 2026-05-22
+Bis: 2026-06-06
 ---
 - Reiseführer: [Naturzeit mit Kindern: Tal der Ardèche und Cevennen](https://naturzeit-verlag.de/produkt/tal-der-ardeche-und-cevennen/)
+
+# Hinweg
+
+- [[Camping Alsace Les Castors]] (vom 22. bis zum 23. Mai → 1 Nacht)
+
 # Cévennes
-- [[Huttopia Gorges du Tarn]] → Cevennen ([Website](https://europe.huttopia.com/de/site/gorges-du-tarn/)) 
+- [[Huttopia Gorges du Tarn]] → Cevennen ([Website](https://europe.huttopia.com/de/site/gorges-du-tarn/)) (vom 23. bis zum 30. Mai → 7 Nächte) 
 
 ## Wandern
 
 - [[Auf dem Tarnuferweg von La Malène nach Hauterives]] (Entfernung vom Campingplatz: 10,4 km, 16 min)
 - [[Arcs de Saint-Pierre]] (Entfernung vom Campingplatz: 16,1 km, 27 min)
+- [[Die Cité de Pierres im Chaos de Montpellier-le-Vieux]] (Entfernung vom Campingplatz: 23,5 km, 35 min) → Wanderung in einem Freizeitpark mit Spielplätzen und Schatzsuche
 
 ## Ausflüge
 
@@ -21,7 +28,7 @@ locations: ""
 - evtl. Canyoning oder Klettern in der Nähe des Campingplatzes
 
 # Ardèche
-- [[Huttopia Le Moulin]] → Ardèche ([Website](https://europe.huttopia.com/de/site/camping-le-moulin-ardeche/))
+- [[Huttopia Le Moulin]] → Ardèche ([Website](https://europe.huttopia.com/de/site/camping-le-moulin-ardeche/)) (vom 30. Mai bis zum 6. Juni → 7 Nächte)
 
 ## Wandern
 - [[Der Uferweg von Sauze]] (Wanderung direkt vom Campingplatz)
@@ -30,6 +37,7 @@ locations: ""
 
 ## Ausflüge
 
+- [[Aiguèze]] (Entfernung vom Campingplatz: 1,9 km, 6 min)
 - [[Grotte Chauvet 2]] (Entfernung vom Campingplatz: 29,9 km, 32 min) → etwa 2 bis 3 Stunden
 - [[Pont d'Arc]] (Entfernung vom Campingplatz: 33,9 km, 41 min), kombinierbar mit:
 	- [[Grotte Chauvet 2]] → Entfernung: 9,1 km, 12 min

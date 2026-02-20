@@ -9,6 +9,7 @@ iconize-color-css: var(--color-green)
 cssclasses:
   - icon-color-green
   - img-grid
+obsidianUIMode: preview
 ---
 
 ![[Huttopia Le Moulin - Platzplan.jpg]]

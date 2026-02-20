@@ -26,4 +26,4 @@ Naturzeit Ardèche/Cevennen – Tour 32
 ![[Cevennen - Tour 32 - Felsbogen.jpg]]
 ![[Cevennen - Tour 32 - Felsenturm.jpg]]
 
-![[Xtra/Tour_32_arcs-saint-pierre.gpx]]
+![[Tour_32_arcs-saint-pierre.gpx]]

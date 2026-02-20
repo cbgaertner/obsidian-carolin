@@ -350,12 +350,20 @@
     "iconName": "CgWandern",
     "iconColor": "var(--color-green)"
   },
-  "Familie/Urlaub/Planung/Abstieg zum Badestrand - Wanderrunde auf dem Sentier des Grottes.md": {
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Die Cité de Pierres im Chaos de Montpellier-le-Vieux.md": {
     "iconName": "CgWandern",
     "iconColor": "var(--color-green)"
   },
-  "Familie/Urlaub/Planung/Cirque de Gaud - Abstieg ins Herz der Ardèche-Schlucht.md": {
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Abstieg zum Badestrand - Wanderrunde auf dem Sentier des Grottes.md": {
     "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Cirque de Gaud - Abstieg ins Herz der Ardèche-Schlucht.md": {
+    "iconName": "CgWandern",
+    "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Planung/Camping Alsace Les Castors.md": {
+    "iconName": "LiTent",
     "iconColor": "var(--color-green)"
   }
 }

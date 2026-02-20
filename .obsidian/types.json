@@ -31,6 +31,8 @@
     "Thema": "multitext",
     "Gewicht (kg)": "number",
     "Preis": "number",
-    "vorhanden": "number"
+    "vorhanden": "number",
+    "Von": "date",
+    "Bis": "date"
   }
 }
