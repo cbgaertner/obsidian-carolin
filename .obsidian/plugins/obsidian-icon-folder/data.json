@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgKalenderWochentagFreitag",
       "CgHoehle",
       "CgKalenderWochentagDonnerstag",
       "CgKalenderWochentagMittwoch",
-      "CgKalenderWochentagDienstag",
-      "CgKalenderWochentagMontag"
+      "CgKalenderWochentagDienstag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -174,10 +174,6 @@
     "iconName": "CgReiten",
     "iconColor": "var(--color-blue)"
   },
-  "Familie/Urlaub/Orte/Norwegen/Lindesnes Fyr.md": {
-    "iconName": "LiLandmark",
-    "iconColor": "var(--color-red)"
-  },
   "Xtra/Vorlagen/Maps/Camping.md": {
     "iconName": "LiTent",
     "iconColor": "var(--color-green)"
@@ -185,42 +181,6 @@
   "Ausgeklügelt/Blog/Artikel/Tolle Ideen für einen zauberhaften Feen-Kindergeburtstag.md": {
     "iconName": "LiPenTool",
     "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Baie du Mont St Michel.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Calvados.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Gorges du Tarn.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Gorges du Verdon.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Le Moulin.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Huttopia Les Falaises.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte de Dargilan.md": {
-    "iconName": "CgHoehle",
-    "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Pointe Sublime.md": {
-    "iconName": "LiBinoculars",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sainte-Enimie.md": {
-    "iconName": "CgOrtschaft",
-    "iconColor": "var(--color-red)"
   },
   "Journal/2026/02 Februar/2026-02-10.md": {
     "iconName": "CgKalenderWochentagDienstag",
@@ -274,35 +234,11 @@
     "iconName": "CgKalenderWochentagDonnerstag",
     "iconColor": "var(--color-yellow)"
   },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Chaos de Montpellier-le-Vieux.md": {
-    "iconName": "LiMountain",
-    "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/La Malène.md": {
-    "iconName": "CgOrtschaft",
-    "iconColor": "var(--color-red)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Castelbouc.md": {
-    "iconName": "CgOrtschaft",
-    "iconColor": "var(--color-red)"
-  },
   "Journal/2026/02 Februar/2026-02-13.md": {
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
   },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Pont d'Arc.md": {
-    "iconName": "LiMountain",
-    "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte Aven Forestière.md": {
-    "iconName": "CgHoehle",
-    "iconColor": "var(--color-blue)"
-  },
   "Xtra/Vorlagen/Maps/Höhle.md": {
-    "iconName": "CgHoehle",
-    "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Grotte Chauvet 2.md": {
     "iconName": "CgHoehle",
     "iconColor": "var(--color-blue)"
   },
@@ -310,15 +246,7 @@
     "iconName": "CgOrtschaft",
     "iconColor": "var(--color-red)"
   },
-  "Familie/Urlaub/Orte/Frankreich/Aiguèze.md": {
-    "iconName": "CgOrtschaft",
-    "iconColor": "var(--color-red)"
-  },
   "Xtra/Vorlagen/Maps/Wasserfall.md": {
-    "iconName": "CgWasserfall",
-    "iconColor": "var(--color-blue)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Cascades du Sautadet.md": {
     "iconName": "CgWasserfall",
     "iconColor": "var(--color-blue)"
   },
@@ -326,39 +254,11 @@
     "iconName": "CgKalenderWochentagSamstag",
     "iconColor": "var(--color-yellow)"
   },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/La Maison des Vautours.md": {
-    "iconName": "LiLandmark",
-    "iconColor": "var(--color-red)"
-  },
   "Xtra/Vorlagen/Maps/Museum.md": {
     "iconName": "LiLandmark",
     "iconColor": "var(--color-red)"
   },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Auf dem Tarnuferweg von La Malène nach Hauterives.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
   "Xtra/Vorlagen/Maps/Wanderung.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Arcs de Saint-Pierre.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Der Uferweg von Sauze.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Die Cité de Pierres im Chaos de Montpellier-le-Vieux.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Abstieg zum Badestrand - Wanderrunde auf dem Sentier des Grottes.md": {
-    "iconName": "CgWandern",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Wanderungen/Cirque de Gaud - Abstieg ins Herz der Ardèche-Schlucht.md": {
     "iconName": "CgWandern",
     "iconColor": "var(--color-green)"
   },
@@ -385,13 +285,5 @@
   "Journal/2026/02 Februar/2026-02-19.md": {
     "iconName": "CgKalenderWochentagDonnerstag",
     "iconColor": "var(--color-yellow)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Camping Alsace Les Castors.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
-  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Aven Armand.md": {
-    "iconName": "CgHoehle",
-    "iconColor": "var(--color-blue)"
   }
 }

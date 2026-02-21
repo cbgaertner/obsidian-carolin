@@ -1,1 +1,0 @@
-![[Camping-Ausrüstung.base]]
