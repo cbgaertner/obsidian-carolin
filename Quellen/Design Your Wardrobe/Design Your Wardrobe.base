@@ -1,0 +1,8 @@
+views:
+  - type: cards
+    name: Tabelle
+    filters:
+      and:
+        - Kurs == link("Design Your Wardrobe")
+        - Modul == link("2. Set a Goal and Make a Mood Board")
+    image: note.cover

@@ -362,10 +362,6 @@
     "iconName": "CgWandern",
     "iconColor": "var(--color-green)"
   },
-  "Familie/Urlaub/Planung/Camping Alsace Les Castors.md": {
-    "iconName": "LiTent",
-    "iconColor": "var(--color-green)"
-  },
   "Journal/2026/02 Februar/2026-02-20.md": {
     "iconName": "CgKalenderWochentagFreitag",
     "iconColor": "var(--color-yellow)"
@@ -389,5 +385,9 @@
   "Journal/2026/02 Februar/2026-02-19.md": {
     "iconName": "CgKalenderWochentagDonnerstag",
     "iconColor": "var(--color-yellow)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Campingplätze/Camping Alsace Les Castors.md": {
+    "iconName": "LiTent",
+    "iconColor": "var(--color-green)"
   }
 }
