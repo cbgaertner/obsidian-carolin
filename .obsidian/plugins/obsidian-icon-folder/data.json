@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CgHoehle",
       "CgKalenderWochentagDonnerstag",
       "CgKalenderWochentagMittwoch",
       "CgKalenderWochentagDienstag",
-      "CgKalenderWochentagMontag",
-      "CgKalenderWochentagSonntag"
+      "CgKalenderWochentagMontag"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -389,5 +389,9 @@
   "Familie/Urlaub/Orte/Frankreich/Campingplätze/Camping Alsace Les Castors.md": {
     "iconName": "LiTent",
     "iconColor": "var(--color-green)"
+  },
+  "Familie/Urlaub/Orte/Frankreich/Sehenswürdigkeiten/Aven Armand.md": {
+    "iconName": "CgHoehle",
+    "iconColor": "var(--color-blue)"
   }
 }

@@ -20,9 +20,11 @@ Bis: 2026-06-06
 ## Ausflüge
 
 - [[Sainte-Enimie]] (Entfernung vom Campingplatz: 23,8 km, 35 min) und [[Castelbouc]] (Entfernung vom Campingplatz: 32 km, 47 min)
-- [[Pointe Sublime]] (Entfernung vom Campingplatz: )
+- [[Pointe Sublime]] (Entfernung vom Campingplatz: 13,8 km, 20)
+- [[Aven Armand]] (Entfernung vom Campingplatz: 29,2 km, 36 min)
 - [[Grotte de Dargilan]] (Entfernung vom Campingplatz: 34,6 km, 48 min)
 - [[La Maison des Vautours]] (Entfernung vom Campingplatz: 15,9 km, 21 min), kombinierbar mit:
+	- [[Aven Armand]] -> Entfernung: 18 km, 23 min
 	- [[Grotte de Dargilan]] → Entfernung: 18,7 km, 31 min
 	- [[Arcs de Saint-Pierre]] → Entfernung: 5,2 km, 12 min
 - evtl. Canyoning oder Klettern in der Nähe des Campingplatzes
